@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N. S. Zdanova | TESLa@CU</title>
+    <link>/author/n.-s.-zdanova/</link>
+      <atom:link href="/author/n.-s.-zdanova/index.xml" rel="self" type="application/rss+xml" />
+    <description>N. S. Zdanova</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>N. S. Zdanova</title>
+      <link>/author/n.-s.-zdanova/</link>
+    </image>
+    
+    <item>
+      <title>Numerical simulation of acoustic waves scattering by isolated vortex structures</title>
+      <link>/author/numerical-simulation-of-acoustic-waves-scattering-by-isolated-vortex-structures/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>/author/numerical-simulation-of-acoustic-waves-scattering-by-isolated-vortex-structures/</guid>
+      <description>&lt;p&gt;We consider a linear sound scattering by an isolated vortex as one of the fundamental problems in order to investigate an interaction of the vortex flow and acoustic waves. We present numerical simulation results for a planar wave scattered by a Gaussian-core vortex and a cylindrical point source acoustic wave scattered by a Rankine vortex. For numerical simulation we use the EBR scheme on meshes of different types. We compare results to the benchmark solution and we also compare different approaches to numerical simulation of the problem.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

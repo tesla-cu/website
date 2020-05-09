@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Werner Dahm | TESLa@CU</title>
+    <link>/author/werner-dahm/</link>
+      <atom:link href="/author/werner-dahm/index.xml" rel="self" type="application/rss+xml" />
+    <description>Werner Dahm</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Werner Dahm</title>
+      <link>/author/werner-dahm/</link>
+    </image>
+    
+    <item>
+      <title>Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation</title>
+      <link>/author/autonomic-closure-for-turbulent-flows-using-approximate-bayesian-computation/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/author/autonomic-closure-for-turbulent-flows-using-approximate-bayesian-computation/</guid>
+      <description>&lt;p&gt;Autonomic closure is a new technique for achieving physically accurate adaptive closure
+of coarse-grained turbulent flow governing equations, such as those solved in large eddy simulations (LES). Although autonomic closure has been shown in recent a priori tests to more
+accurately represent unclosed terms than do dynamic versions of traditional LES models, the
+optimization step used in the approach introduces large matrices that must be inverted, resulting in high memory usage. In order to reduce memory requirements, here we propose the use
+of approximate Bayesian computation (ABC) in place of the optimization step, thereby yielding
+an autonomic closure implementation that trades memory-intensive for processor-intensive
+computations. These computations can be handled by co-processors such as general purpose
+graphical processing units that are becoming increasingly available on petascale supercomputers. In this paper, we outline the formulation of ABC-enabled autonomic closure and present
+initial results demonstrating the accuracy of the approach.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation</title>
+      <link>/publication/2018_autonomic_abc/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018_autonomic_abc/</guid>
+      <description>&lt;p&gt;Autonomic closure is a new technique for achieving physically accurate adaptive closure
+of coarse-grained turbulent flow governing equations, such as those solved in large eddy simulations (LES). Although autonomic closure has been shown in recent a priori tests to more
+accurately represent unclosed terms than do dynamic versions of traditional LES models, the
+optimization step used in the approach introduces large matrices that must be inverted, resulting in high memory usage. In order to reduce memory requirements, here we propose the use
+of approximate Bayesian computation (ABC) in place of the optimization step, thereby yielding
+an autonomic closure implementation that trades memory-intensive for processor-intensive
+computations. These computations can be handled by co-processors such as general purpose
+graphical processing units that are becoming increasingly available on petascale supercomputers. In this paper, we outline the formulation of ABC-enabled autonomic closure and present
+initial results demonstrating the accuracy of the approach.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

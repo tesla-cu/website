@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Christopher | TESLa@CU</title>
+    <link>/author/jason-christopher/</link>
+      <atom:link href="/author/jason-christopher/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jason Christopher</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jason Christopher</title>
+      <link>/author/jason-christopher/</link>
+    </image>
+    
+    <item>
+      <title>Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation</title>
+      <link>/publication/2019_abc_rans/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019_abc_rans/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation</title>
+      <link>/author/turbulence-model-development-using-markov-chain-monte-carlo-approximate-bayesian-computation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/author/turbulence-model-development-using-markov-chain-monte-carlo-approximate-bayesian-computation/</guid>
+      <description>&lt;p&gt;Approximate Bayesian computation (ABC) is used in this study to estimate unknown model parameter values, as well as uncertainties, in a nonequilibrium anisotropy closure for Reynolds averaged Navier-Stokes (RANS) simulations. The ABC approach does not require the direct computation of a likelihood function, thereby enabling substantially faster estimation of un-known parameters as compared to full Bayesian analyses. The approach also naturally provides uncertainties in parameter estimates, avoiding the artificial certainty implied by optimization methods for determining unknown parameters. Details of the ABC approach are described, including the use of a Markov chain Monte Carlo technique to accelerate the parameter estimation, and unknown model parameters are estimated based on turbulence kinetic energy reference data for four impulsively sheared homogeneous turbulence test cases, as well as periodically sheared homogeneous turbulence for five different shearing frequencies. The ABC method is shown to yield parameter values for the nonequilibrium anisotropy closure that  provide good agreement between model results and the reference data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation</title>
+      <link>/author/autonomic-closure-for-turbulent-flows-using-approximate-bayesian-computation/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/author/autonomic-closure-for-turbulent-flows-using-approximate-bayesian-computation/</guid>
+      <description>&lt;p&gt;Autonomic closure is a new technique for achieving physically accurate adaptive closure
+of coarse-grained turbulent flow governing equations, such as those solved in large eddy simulations (LES). Although autonomic closure has been shown in recent a priori tests to more
+accurately represent unclosed terms than do dynamic versions of traditional LES models, the
+optimization step used in the approach introduces large matrices that must be inverted, resulting in high memory usage. In order to reduce memory requirements, here we propose the use
+of approximate Bayesian computation (ABC) in place of the optimization step, thereby yielding
+an autonomic closure implementation that trades memory-intensive for processor-intensive
+computations. These computations can be handled by co-processors such as general purpose
+graphical processing units that are becoming increasingly available on petascale supercomputers. In this paper, we outline the formulation of ABC-enabled autonomic closure and present
+initial results demonstrating the accuracy of the approach.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation</title>
+      <link>/publication/2018_autonomic_abc/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018_autonomic_abc/</guid>
+      <description>&lt;p&gt;Autonomic closure is a new technique for achieving physically accurate adaptive closure
+of coarse-grained turbulent flow governing equations, such as those solved in large eddy simulations (LES). Although autonomic closure has been shown in recent a priori tests to more
+accurately represent unclosed terms than do dynamic versions of traditional LES models, the
+optimization step used in the approach introduces large matrices that must be inverted, resulting in high memory usage. In order to reduce memory requirements, here we propose the use
+of approximate Bayesian computation (ABC) in place of the optimization step, thereby yielding
+an autonomic closure implementation that trades memory-intensive for processor-intensive
+computations. These computations can be handled by co-processors such as general purpose
+graphical processing units that are becoming increasingly available on petascale supercomputers. In this paper, we outline the formulation of ABC-enabled autonomic closure and present
+initial results demonstrating the accuracy of the approach.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
