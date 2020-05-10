@@ -1,149 +1,83 @@
 
 # TESLa - Turbulence Energy Systems Laboratory at the University of Colorado
 
+Welcome to the source code based on the [Hugo](https://gohugo.io) [Academic](https://sourcethemes.com/academic/) theme that builds the [TESLa website](teslacu.org). The purpose of this `README.md` is to briefly describe how to add new content and modify the website. We assume some prior knowledge of how [github works](https://www.atlassian.com/git/tutorials/syncing/git-push) and basic terminal usage. See [Academic](https://sourcethemes.com/academic/) for a thorough description of all functionality.
+
+# Adding New Content
+
+New to the lab? Just published an article? Congratulations! You probably want to show off to all your friends right? You came to the right place.
+
+Note, if you already have a fork, be sure to follow instructions under "Conflicts" _first_. You want to be working from up to date code before commiting new code so conflicts do not arise.
+
+## Configuring your github account
+
+We follow the convention of forking the repository, modifying your source code, then submitting a pull request where other members of the lab can inspect you new content. Note that there are probably an infinite number of ways of doing the same thing, we just describe one way.
+
+At the [website source code](https://github.com/tesla-cu/website), click "Fork" in the top right and create a repository in your personal github account. Now go to your personal github page and clock "Clone or download." Copy that link. Open a terminal up (assuming unix based system) and go a folder where you would like to place the source code. Execute `git clone [URL]`. You should now see the folder containing the website source code. One last critical step is to follow [these directions](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) to configure a remote to point at the website hosted by [tesla-cu](https://github.com/tesla-cu/website). This will allow you to get stay up-to-update with the upstream repository.
+
+## Building the website locally
+
+[Hugo](https://gohugo.io) provides functionality to build the website locally and very simply. Follow the instructions [here](https://gohugo.io/getting-started/installing/#quick-install). Once you have hugo installed, open a terminal in the website directory and execute `hugo server`. There are a bunch of optional arguments you can choose to add after `server` (i.e., `-D`) to test various things, but are not necessary. In a web browser, go to http://localhost:1313/ . You should now see the website built from the local source code! As you add and edit files, save the files and the website will update automatically. 
+
+## Actually adding the content
+
+You are now set to add new content. Go under `content/` and start adding! The key thing that you should be aware of is that much of the source code is based on patterns, so don't go deviating from the norm. Here are a brief set of instructions on how to add a few key items:
+- **People:** go to `content/authors/`, copy a folder of a person (`cp -r old_author new_author` should do the trick), change the new folder name and modify the content inside the new folder
+- **TESLa Publications:** go to `content/publication/`, copy a folder of a publication , change the new folder name and modify the content inside the new folder
+- **Personal Publications:** these would be publications that you did without any affiliation at all with TESLa. Create a `.md` file in your personal author folder and format it similarly to a publication `index.md` file except with a different name. See `content/authors/michael_meehan/` for an example.
+
+A more complete set of convensions **you should follow** are in the files:
+- FILE
+- FILE
+
+Feel free to use these as a basis as well.
+
+## Merging new information
+
+Now that you have added all the content you wanted, it's time to get onto the website! 
+
+### Add and commit
+First, execute
+- `git add file`
+- `git commit -m "message"`
+
+Please, **do not use `add *` or `add .`**. Be cognizant of what you are adding. There can be strange files that appears and conflicts with building the website. We also recommended breaking down the commits to be specific (i.e., "added buoyant jet publication" not "added stuff"). If you are adding a lot, add files in groups and commit each group with your specific message.
+
+### Conflicts
+Next, we need to check that you don't conflict with your fork or the tesla-cu repo. You can/should do this before adding new code (as stated above) so conflicts _do not_ arise. Execute
+- `git fetch`
+- `git pull`
+- `git fetch upstream`
+- `git pull upstream`
+
+If you don't have any conflicts, you are good to go! If you do, you will need to [resolve them](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line). 
+
+### Push and pull
+Finally, execute `git push` from your the website directory. This will update the code on your personal repository. Go online to your github profile. Under your fork, click the "Pull Request" tab then "New Pull Request." Review all the updates, provide a clear message, and submit the PR. Another contributor will take a look at your code to make sure it is good to go before merging into the master branch.
+
+### Review process
+If the reviewer(s) of the code want(s) a modification (i.e., missing data, typos, etc.), simply repeat the above processes. Once you finally push an updated version of the code to your personal fork, this will update the PR, and the reviewer(s) can see the modifications you have made. This can be repeated until the reviewer(s) is satisfied.
+
+# Modifying the Website Format
+
+So you want to be a website developer eh? You came to the right place. We will outline some of the basic information you need to make structural changes to the website pages.
+
+## Editing the homepage
+
+The homepage is comprised of menus found at `config/_default/menus.toml` and widgets at `content/home/`. In `menus.toml`, a trailing `/` in the `url = ` field creates a new page for it while a leading `#` links the widget in `content/home/` with the same name, so clicking that menu option just scrolls you down to where that widget is located on the homepage. If a `/` is used, the `_index.md` file in the corresponding directory is guide to designing that page.
+
+The widgets in `content/home/` are simply the markdown files located in the folder. You can simply add new widgets by creating a new markdown file in that folder and making it visible (a setting in the `.md` file). There are a bunch examples there already that are not visible and all of the widgets to choose from can be found in `layouts/partials/widgets/` with the corresponding `.html` file extension. Note that the `content/people/` directory created a new widget page to filter groups of people simply by adding a `index.md` file to the folder.
+
+## Modifying source code
+
+Modifying the source code is a good way to adjust and manipulate pages slightly. We did this with the author homepages to include personal publications. This code is found in `layouts/` and the corresponding folder name. To be honest, you are just going to need to play with the codes from here to really understand how they work (i.e., delete some things and see how the website is updated). 
+
+# Tips and Tricks
+
+A number of times I have broken the website where it won't compile. I then perform a standard Ctrl + z to get back to the original code before it broke, and localhost still shows an error. **Don't panic.** Open `config/_default/config.toml` and resave that file and you should be good to go. There is probably an option in `hugo server` to avoid this but I haven't cared enough to investigate. - MAM
 
 
-<p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
-
-# [Academic](https://sourcethemes.com/academic/): the website builder for [Hugo](https://gohugo.io)
-
-Hi Olga :) now please allow!!
-
-### The Page Builder to Easily Create Professional Websites :pencil2: :newspaper: :rocket:
-
-**Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 50 _widgets_, _themes_, and _language packs_ included!**
-
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://sourcethemes.com/academic/#expo) of personal, project, and business sites.
-
-- 👉 [**Get Started**](https://sourcethemes.com/academic/docs/install/)
-- 📚 [View the **documentation**](https://sourcethemes.com/academic/docs/)
-- 💬 [Chat with the **Academic community**](https://spectrum.chat/academic) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@source_themes](https://twitter.com/source_themes) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithAcademic](https://twitter.com/search?q=%23MadeWithAcademic&src=typd)
-- 💡 [Request a **feature** or report a **bug**](https://github.com/gcushen/hugo-academic/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- :heart: **Support development** of Academic:
-  - ☕️ [**Donate a coffee**](https://paypal.me/cushen)
-  - 💵 [Become a backer on **Patreon**](https://www.patreon.com/cushen)
-  - 🖼️ [Decorate your laptop or journal with an Academic **sticker**](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - 👕 [Wear the **T-shirt**](https://academic.threadless.com/)
-  - :woman_technologist: [**Contribute**](https://sourcethemes.com/academic/docs/contribute/)
-
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
-
-**Key features:**
-
-- **Page builder** - Create *anything* with [**widgets**](https://sourcethemes.com/academic/docs/page-builder/) and [**elements**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://sourcethemes.com/academic/docs/writing-markdown-latex/), [**Jupyter**](https://sourcethemes.com/academic/docs/jupyter/), or [**RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://sourcethemes.com/academic/themes/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 15+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-## Themes
-
-Academic comes with **automatic day (light) and night (dark) mode** built-in. Alternatively, click the sun/moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to set your preferred mode!
-
-Choose a stunning theme for your site and [customize it](https://sourcethemes.com/academic/docs/customization/#custom-theme) to your liking:
-
-[![Themes](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/themes.png)](https://sourcethemes.com/academic/themes/)
-
-[Browse more themes...](https://sourcethemes.com/academic/themes/)
-
-## The Future of Technical Content Writing
-
-[![Writing technical content](https://sourcethemes.com/academic/img/docs/writing-technical-content.gif)](https://academic-demo.netlify.com/post/writing-technical-content/)
-
-## Ecosystem
-
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
-
-## Install
-
-You can choose from one of the following four methods to install:
-
-* **one-click install using your web browser (recommended)**
-* install on your computer using Git with the Command Prompt/Terminal app
-* install on your computer by downloading the ZIP files
-* install on your computer with RStudio
-
-### Install with web browser
-
-[Install Academic with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
-  * One-click install of Academic creates an `academic-kickstart` repository in your GitHub or GitLab account
-  * Netlify will provide you with a customizable URL to access your new site, [or get your own domain](https://sourcethemes.com/academic/docs/domain/)
-  * Shortly after editing content in your repository, your site will automatically update
-  * Optionally, to edit your site in a [Markdown editor](https://www.typora.io) on your computer, perform the steps in the [*Install with Git*](#install-with-git) section below
-
-### Install with Git
-
-Prerequisites:
-
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo Extended v0.63.1+](https://gohugo.io/getting-started/installing/#quick-install)
-
-Install:
-
-1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository to create a new website
-   * If you already created your site with **Netlify**, then skip this step
-2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username:
-
-    ```bash
-    git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    ```
-
-3. Initialize the theme:
-
-    ```bash
-    cd My_Website
-    git submodule update --init --recursive
-    ```
-
-### Install with ZIP
-
-Prerequisites:
-
-* [Download and install Hugo Extended v0.63.1+](https://gohugo.io/getting-started/installing/#quick-install)
-
-Install:
-
-1. [Download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip) and extract *Academic Kickstart*
-2. [Download](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract the *Academic theme* files from the `hugo-academic-master` folder to the `themes/academic/` folder in *Academic Kickstart*
-
-### Install with RStudio
-
-[Install Academic with RStudio](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
-
-## Demo content
-
-For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://academic-demo.netlify.com/).
-
-If you wish to initialise your site with the demo content, copy the contents of the `themes/academic/exampleSite/` folder to your website root folder, overwriting existing files if necessary. The `exampleSite` folder contains an example config file and content to help you get started. The following command can be used to accomplish this:
-
-```bash
-cp -av themes/academic/exampleSite/* .
-```
-
-## Get Started
-
-[View the guide to Personalize and Deploy your new site](https://sourcethemes.com/academic/docs/get-started/).
-
-## Updating
-
-[View the Update Guide](https://sourcethemes.com/academic/docs/update/).
-
-Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) and follow [@source_themes](https://twitter.com/source_themes) on Twitter to help keep track of [updates](https://sourcethemes.com/academic/updates).
-
-## License
+# License
 
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
