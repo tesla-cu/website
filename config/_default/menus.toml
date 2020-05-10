@@ -23,6 +23,11 @@
   url = "software/"
   weight = 45
 
+[[main]]
+  name = "Posts"
+  url = "post/"
+  weight = 45
+
 # [[main]]
 #  name = "Courses"
 #  url = "courses/"
