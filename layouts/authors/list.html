@@ -55,7 +55,7 @@
         {{ end }}
         {{ if $.Scratch.Get "has_pub" }}
           <div class="article-widget content-widget-hr">
-            <h3>{{ i18n "publications" | default "Publications" }}</h3>
+            <h3>{{ i18n "publications" | default "TESLa Publications" }}</h3>
             {{ range $pubs }}
               {{ if eq (index .Params.publication_types 0) "2" }}
                 {{ if (eq site.Params.projects.publication_view 1) }}
@@ -87,7 +87,72 @@
         {{ end }}
         {{ if $.Scratch.Get "has_conf" }}
           <div class="article-widget content-widget-hr">
-            <h3>{{ "Conference Proceedings" }}</h3>
+            <h3>{{ "TESLa Conference Proceedings" }}</h3>
+            {{ range $confs }}
+              {{ if eq (index .Params.publication_types 0) "1" }}
+                {{ if (eq site.Params.projects.publication_view 1) }}
+                  {{ partial "li_list" . }}
+                {{ else if eq site.Params.projects.publication_view 3 }}
+                  {{ partial "li_card" . }}
+                {{ else if eq site.Params.projects.publication_view 4 }}
+                  {{ partial "li_citation" . }}
+                {{ else }}
+                  {{ partial "li_compact" . }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+        {{ .Scratch.Delete "has_conf" }}
+    {{ end }}
+  </div>
+
+
+    <div class="container">
+      {{ $pubs := where (where site.RegularPages "Type" "authors") ".Params.authors" "intersect" (slice $username) }}
+      {{ $count := len $pubs }}
+      {{ if $count }}
+          {{ .Scratch.Add "has_pub" false }}
+          {{ range $pubs }}
+              {{ if eq (index .Params.publication_types 0) "2"}}
+                  {{ $.Scratch.Set "has_pub" true }}
+              {{ end }}
+          {{ end }}
+          {{ if $.Scratch.Get "has_pub" }}
+            <div class="article-widget content-widget-hr">
+              <h3>{{ i18n "Personal Publications" | default "Personal Publications" }}</h3>
+              {{ range $pubs }}
+                {{ if eq (index .Params.publication_types 0) "2" }}
+                  {{ if (eq site.Params.projects.publication_view 1) }}
+                    {{ partial "li_list" . }}
+                  {{ else if eq site.Params.projects.publication_view 3 }}
+                    {{ partial "li_card" . }}
+                  {{ else if eq site.Params.projects.publication_view 4 }}
+                    {{ partial "li_citation" . }}
+                  {{ else }}
+                    {{ partial "li_compact" . }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </div>
+          {{ end }}
+          {{ .Scratch.Delete "has_pub" }}
+      {{ end }}
+    </div>
+
+  <div class="container">
+    {{ $confs := where (where site.RegularPages "Type" "authors") ".Params.authors" "intersect" (slice $username) }}
+    {{ $count := len $confs }}
+    {{ if $count }}
+        {{ .Scratch.Add "has_conf" false }}
+        {{ range $confs }}
+            {{ if eq (index .Params.publication_types 0) "1"}}
+                {{ $.Scratch.Set "has_conf" true }}
+            {{ end }}
+        {{ end }}
+        {{ if $.Scratch.Get "has_conf" }}
+          <div class="article-widget content-widget-hr">
+            <h3>{{ "Personal Conference Proceedings" }}</h3>
             {{ range $confs }}
               {{ if eq (index .Params.publication_types 0) "1" }}
                 {{ if (eq site.Params.projects.publication_view 1) }}
