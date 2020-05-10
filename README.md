@@ -1,3 +1,8 @@
+
+# TESLa - Turbulence Energy Systems Laboratory at the University of Colorado
+
+
+
 <p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
 
 # [Academic](https://sourcethemes.com/academic/): the website builder for [Hugo](https://gohugo.io)
@@ -90,12 +95,12 @@ Install:
 
 1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository to create a new website
    * If you already created your site with **Netlify**, then skip this step
-2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username: 
+2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username:
 
     ```bash
     git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
     ```
-    
+
 3. Initialize the theme:
 
     ```bash
