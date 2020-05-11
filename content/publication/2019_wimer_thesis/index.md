@@ -1,16 +1,12 @@
 ---
-title: Identifying Complex Dynamics of Interacting Turbulent Jets through Modal Decompositions
+title: Nick's Dissertation
 
 # Date first published.
 date: "2019-06-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
-  - michael_meehan
   - nick_wimer
-  - Ankit Tyagi
-  - Jacqueline O'Connor
-  - peter_hamlington
 
 # Publication type.
 # Legend:
@@ -21,11 +17,11 @@ authors:
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types: ["1"]
+publication_types: ["7"]
 
 # Publication name and optional abbreviated version.
-publication: "AIAA Scitech 2019 Forum"
-publication_short: "AIAA SciTech 2019"
+publication: "CU Boulder Dissertation"
+publication_short: "CU Dissertation"
 
 # Abstract and optional shortened version.
 abstract: ""
