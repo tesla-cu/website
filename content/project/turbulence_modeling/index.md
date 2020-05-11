@@ -12,7 +12,7 @@ tags:
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
-image: 
+image:
     caption: Photo by rawpixel on Unsplash
     focal_point: Smart
 
@@ -35,13 +35,14 @@ url_code: "https://github.com/olgadoronina/ABC_MCMC"
 
 authors:
     - olga_doronina
+
 collaborators:
     - "Collaborator 1"
     - "Collaborator 1"
 
 funding:
-    - "sourse 1"
-    - "sourse 2"
+    - "source 1"
+    - "source 2"
 
 ---
 
@@ -55,11 +56,11 @@ Real-world turbulent flows are challenging to simulate due to the high computati
 
 However, there is no universally accurate turbulence model in either of these approaches. Besides that, all models rely on empirical coefficients that we must calibrate for different flows and geometries.
 
-We suggest using the [Approximate Bayesian Computation (ABC)](https://en.wikipedia.org/wiki/Approximate_Bayesian_computation) methods, also known as likelihood-free methods. ABC is a data-driven approach, which uses experimental or higher fidelity data to approximate the probability distribution of model parameters. As a result, we can choose model parameters and quantify their uncertainty based on (or even sample from) this estimated probability distribution. 
+We suggest using the [Approximate Bayesian Computation (ABC)](https://en.wikipedia.org/wiki/Approximate_Bayesian_computation) methods, also known as likelihood-free methods. ABC is a data-driven approach, which uses experimental or higher fidelity data to approximate the probability distribution of model parameters. As a result, we can choose model parameters and quantify their uncertainty based on (or even sample from) this estimated probability distribution.
 
-ABC is based on the Bayesian approach but does not require knowing the analytical expression for a likelihood function. The primary advantages of ABC are its lower cost relative to full Bayesian methods and its flexibility in parameter estimation for complex models, e.g., turbulence models, which consist of partial differential equations. 
+ABC is based on the Bayesian approach but does not require knowing the analytical expression for a likelihood function. The primary advantages of ABC are its lower cost relative to full Bayesian methods and its flexibility in parameter estimation for complex models, e.g., turbulence models, which consist of partial differential equations.
 
-We created a framework called [TurbABC](https://github.com/olgadoronina/ABC_MCMC) for turbulent model parameters estimation.  TurbABC combines ABC with Markov chain Monte Carlo (MCMC) sampling, an adaptive proposal, and calibration steps to accelerate the parameter estimation process. We demonstrate the efficiency and effectiveness of TurbABC by estimating parameters of: 
+We created a framework called [TurbABC](https://github.com/olgadoronina/ABC_MCMC) for turbulent model parameters estimation.  TurbABC combines ABC with Markov chain Monte Carlo (MCMC) sampling, an adaptive proposal, and calibration steps to accelerate the parameter estimation process. We demonstrate the efficiency and effectiveness of TurbABC by estimating parameters of:
 
 - nonlinear SGS closures using reference data from direct numerical simulations of homogeneous isotropic turbulence
 
