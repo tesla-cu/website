@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nick Wimer
+title: Nicholas Wimer
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Short bio (displayed in user profile at end of posts)
-bio: Caelan’s research is motivated by complex fire phenomena with a focus on industrial and environmental applications.
+bio: NICK IS ALUMNI
 
 interests:
 #- OpenSource CFD

@@ -47,6 +47,30 @@
     {{ $pubs := where (where site.RegularPages "Type" "publication") ".Params.authors" "intersect" (slice $username) }}
     {{ $count := len $pubs }}
     {{ if $count }}
+        {{ .Scratch.Add "has_thesis" false }}
+        {{ range $pubs }}
+            {{ if eq (index .Params.publication_types 0) "7"}}
+                {{ $.Scratch.Set "has_thesis" true }}
+            {{ end }}
+        {{ end }}
+        {{ if $.Scratch.Get "has_thesis" }}
+          <div class="article-widget content-widget-hr">
+            <h3>{{ i18n "dissertation" | default "Dissertation" }}</h3>
+            {{ range $pubs }}
+              {{ if eq (index .Params.publication_types 0) "7" }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+        {{ .Scratch.Delete "has_thesis" }}
+    {{ end }}
+  </div>
+
+  <div class="container">
+    {{ $pubs := where (where site.RegularPages "Type" "publication") ".Params.authors" "intersect" (slice $username) }}
+    {{ $count := len $pubs }}
+    {{ if $count }}
         {{ .Scratch.Add "has_pub" false }}
         {{ range $pubs }}
             {{ if eq (index .Params.publication_types 0) "2"}}
