@@ -47,9 +47,9 @@ social:
   link: https://github.com/mameehan5
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/michael_meehan_cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "michael.a.meehan@colorado.edu"
@@ -59,17 +59,4 @@ email: "michael.a.meehan@colorado.edu"
 user_groups:
 - Researchers
 ---
-Mike’s research focuses on two main area: highly buoyancy driven flows with applications to industrial burners and large scale fires, and highly turbulent interacting flame configurations with applications to Air Force relevant problems. In both situations, adaptive mesh refinement (AMR) can be used to help reduce computational cost when dealing with the large separation of temporal and spatial scales. Additionally, Mike explores the dynamics using modal decompositions, such as proper orthogonal decomposition (POD) and dynamic mode decomposition (DMD). Future work is to develop reduced order models from large scale simulations from the Pele code suite (PeleLM and PeleC) using some of these modal decomposition techniques.
-
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
-  Here is a mermaid diagram:
-  <div class="mermaid">
-    graph TD
-    A[Client] --> B[Load Balancer]
-    B --> C[Server01]
-    B --> D[Server02]
-  </div>
-</body>
-
-Mike is funded by the National Science Foundation Graduate Research Fellowship under Grant No. DGE 1650115.
+Mike’s research focuses on two main area: highly buoyancy driven flows with applications to industrial burners and large scale fires, and highly turbulent interacting flame configurations with applications to Air Force relevant problems. In both situations, adaptive mesh refinement (AMR) can be used to help reduce computational cost when dealing with the large separation of temporal and spatial scales. Additionally, Mike explores the dynamics using modal decompositions, such as proper orthogonal decomposition (POD) and dynamic mode decomposition (DMD). Future work is to develop reduced order models from large scale simulations from the Pele code suite (PeleLM and PeleC) using some of these modal decomposition techniques. Mike is funded by the National Science Foundation Graduate Research Fellowship under Grant No. DGE 1650115.
