@@ -18,16 +18,16 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Git checkout
-    - uses: actions/checkout@v2
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Git checkout
+        uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: Setup hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
+      # Runs a single command using the runners shell
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
 
-    # Runs a set of commands using the runners shell
-    - name: Build
-      run: hugo --minify
+      # Runs a set of commands using the runners shell
+      - name: Build
+        run: hugo --minify
