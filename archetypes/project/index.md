@@ -1,12 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .Name "_" " " | title }}"
 summary: ""
 authors: []
 tags: []
 categories: []
-date: {{ .Date }}
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -39,9 +38,13 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 
-#"participant username (matches the author directory name)"
+# participant usernames (matches the author directory name)
 authors: [] 
 
+# Collaborator names (e.g. - John Smith) 
+collaborators: []
+
+# funding sourse
 funding: []
 
 ---

@@ -29,7 +29,7 @@
   </div>
   {{end}}
 
-  {{ range $query }}
+  {{ range $query.ByTitle }}
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}

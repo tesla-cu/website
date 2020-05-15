@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .Name "_" " " | title }}"
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -9,8 +9,9 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
-# Role/position (e.g., Professor of Artificial Intelligence)
+# Role/position (e.g., PhD student)
 role:
+- PhD student
 
 # Organizations/Affiliations
 organizations:
@@ -34,6 +35,10 @@ education:
     institution: Name of Institution
     year: 2012
 
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -62,7 +67,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Group 1
-- Group 2
+user_groups: 
+- Researchers
+- Alumni
 ---
+
+# Can add any text here to appear on your personal page
