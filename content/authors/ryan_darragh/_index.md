@@ -6,9 +6,6 @@ title: Ryan Darragh
 authors:
 - ryan_darragh
 
-# Is this the primary user of the site?
-superuser: false
-
 # Role/position
 role: PhD student
 
@@ -19,7 +16,6 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mathematics and a concentration in Scientific Computing. As an undergrad he conducted computational physics research in astrophysics and cosmology. He started his Ph.D. studying reduced order models and then switched to studying turbulence-flame interactions in high-speed combusting flows. Ryan received a National Defense Science & Engineering Graduate Fellowship (NDSEG) in 2016.
-
 
 interests:
 - Turbulence
@@ -40,7 +36,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:ryan.darragh@colorado.edu".
+  link: 'mailto:ryan.darragh@colorado.edu'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&authuser=1&user=KI1FZOcAAAAJ
@@ -50,11 +46,10 @@ social:
 #   icon_pack: ai
 #   link: files/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "ryan.darragh@colorado.edu"
-
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Researchers
 ---
+
+Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mathematics and a concentration in Scientific Computing. As an undergrad he conducted computational physics research in astrophysics and cosmology. He started his Ph.D. studying reduced order models and then switched to studying turbulence-flame interactions in high-speed combusting flows. Ryan received a National Defense Science & Engineering Graduate Fellowship (NDSEG) in 2016.
