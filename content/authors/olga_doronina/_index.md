@@ -73,7 +73,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: /files/olga_doronina_resume.pdf
+  link: /files/authors_cv/olga_doronina_cv.pdf
 
 ---
 Olga graduated from the Moscow Institute of Physics and Technology (MIPT) in 2012 with a B.S. in Applied Mathematics and Physics. She then continued her study and worked on her masters thesis at the Computational Aeroacoustic Laboratory in the Keldysh Institute of Applied Mathematics (RAS). Her thesis was on numerically simulating a Rankine vortex and measuring the acoustical radiation to determine how well different numerical schemes perform. She graduated with a Masters degree in 2014 and continued working at the same laboratory on dynamical mesh adaptation for unstructured meshes (moving meshes). She joined TESLa in Fall of 2016. Currently she is working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
