@@ -3,33 +3,33 @@
 title: Prakriti Sardana
 
 # Username (this should match the folder name)
-authors:
+authors: 
 - prakriti_sardana
 
-# Is this the primary user of the site?
-superuser: false
-
 # Role/position
-role: PhD Student
+role: PhD student
 
 # Organizations/Affiliations
 organizations:
 - name: University of Colorado Boulder
-  url: ""
+  url: "https://www.colorado.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mike is a graduate student using computation fluid dynamics to understand fundamental physics in turbulent combustion problems.
+bio: My research interests include computational fluid dynamics as applied to combustion and propulsion systems. 
 
 interests:
 - Computational Fluid Dynamics
-- Adaptive Mesh Refinement
-- Modal Decompositions
+- Combustion
+- Propulsion
 
 education:
   courses:
+  - course: PhD in Mechanical Engineering
+    institution: University of Colorado, Boulder, CO, USA
+    (expected) year: 2024
   - course: BS in Mechanical Engineering
-    institution: The Pennsylvania State University
-    year: 2017
+    institution: SRM Institute of Science and Technology, Chennai, India
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -38,38 +38,27 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:michael.a.meehan@colorado.edu'  # For a direct email link, use "mailto:mime5507@colorado.edu".
+  link: 'mailto:prakriti.sardana@colorado.edu'  # For a direct email link, use "mailto:test@example.org".
+- icon: twitter
+  icon_pack: fab
+  link: 
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?authuser=1&user=Owl_WsQAAAAJ
+  link: 
 - icon: github
   icon_pack: fab
-  link: https://github.com/mameehan5
+  link: https://github.com/PrakritiSardana
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "michael.a.meehan@colorado.edu"
-
+  
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
+ - Researchers
 ---
-Mike’s research focuses on two main area: highly buoyancy driven flows with applications to industrial burners and large scale fires, and highly turbulent interacting flame configurations with applications to Air Force relevant problems. In both situations, adaptive mesh refinement (AMR) can be used to help reduce computational cost when dealing with the large separation of temporal and spatial scales. Additionally, Mike explores the dynamics using modal decompositions, such as proper orthogonal decomposition (POD) and dynamic mode decomposition (DMD). Future work is to develop reduced order models from large scale simulations from the Pele code suite (PeleLM and PeleC) using some of these modal decomposition techniques.
 
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
-  Here is a mermaid diagram:
-  <div class="mermaid">
-    graph TD
-    A[Client] --> B[Load Balancer]
-    B --> C[Server01]
-    B --> D[Server02]
-  </div>
-</body>
+Non Frustra Signorum Obitus Speculamur et Ortus
 
-Mike is funded by the National Science Foundation Graduate Research Fellowship under Grant No. DGE 1650115.

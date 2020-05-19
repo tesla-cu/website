@@ -10,10 +10,10 @@ Assuming `git` and `hugo` installed:
 
 ```bash
 $ git clone git@github.com:tesla-cu/website.git
-$ cd webcite
+$ cd website
 $ hugo server
 ```
-Open localhost:1313 in your website should appear.
+Open localhost:1313 and your website should appear.
 
 ## Contributing: 
 We follow the convention of forking the repository, modifying your source code, then submitting a pull request where other members of the lab can inspect your new content. Check [Configuring your Github account](https://github.com/tesla-cu/website/wiki/Configuring-your-Github-account) wiki page to help you with this procedure.

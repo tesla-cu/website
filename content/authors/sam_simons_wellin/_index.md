@@ -36,9 +36,12 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+ - icon: envelope
+   icon_pack: fas
+   link: 'mailto:sam.simonswellin@colorado.edu'  # For a direct email link, use "mailto:test@example.org".
+ - icon: cv
+   icon_pack: ai
+   link: files/authors_cv/sam_simons_wellin_cv.pdf
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
@@ -49,18 +52,7 @@ social:
 #  icon_pack: fab
 #  link: https://github.com/gcushen
 
-
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
- - icon: cv
-   icon_pack: ai
-   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "sam.simonswellin@colorado.edu"
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Researchers
 ---
+Sam’s research focuses on developing fast algorithms to perform proper orthogonal decomposition (POD) on simulation data that uses block-structured adaptive mesh refinement (AMR). This work will be critical in the efficient computation of POD to understand coherent flow structures within larger scale problems, and in the implementation of POD within iterative techniques such as optimization. Future work will explore the applications of reduced order modeling techniques in the design and optimization of real world thermo-fluid engineering systems. Sam is currently funded by the CU Boulder Summer Program for Undergraduate Research (SPUR) and will be funded beginning Fall 2019 as a research assistant through gift support from the 3M corporation.
