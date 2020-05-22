@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Jeff is Jeff
+bio: Jeff is Jeff the Lead TA
 
 interests:
 - wildfire
