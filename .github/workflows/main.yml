@@ -38,6 +38,6 @@ jobs:
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
           HUGO_VERSION: 'latest'
-          TARGET_REPO: tesla-cu/website/docs/
+          TARGET_REPO: tesla-cu/website/
           TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           CNAME: tesla-cu.org
