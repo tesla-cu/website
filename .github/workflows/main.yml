@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -21,6 +21,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Git checkout
         uses: actions/checkout@v2
+        with:
+          submodules: true
 
       # Runs a single command using the runners shell
       - name: Setup hugo
@@ -31,3 +33,11 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build
         run: hugo --minify
+
+      - name: Hugo Deploy GitHub Pages
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          HUGO_VERSION: 'latest'
+          TARGET_REPO: tesla-cu/website/docs/
+          TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          CNAME: tesla-cu.org
