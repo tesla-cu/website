@@ -34,10 +34,7 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Hugo Deploy GitHub Pages
-        uses: benmatselby/hugo-deploy-gh-pages@master
-        env:
-          HUGO_VERSION: 'latest'
-          TARGET_REPO: tesla-cu/website/
-          TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-          CNAME: tesla-cu.org
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.DEPLOY_TOKEN }}
