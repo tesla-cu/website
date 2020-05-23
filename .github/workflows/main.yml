@@ -38,3 +38,6 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.DEPLOY_TOKEN }}
+          cname: tesla-cu.org
+          branch: master
+          repo: tesla-cu/website/docs/  
