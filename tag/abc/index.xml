@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ABC | TESLa@CU</title><link>tesla-cu.github.io/tag/abc/</link><atom:link href="tesla-cu.github.io/tag/abc/index.xml" rel="self" type="application/rss+xml"/><description>ABC</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©</copyright><image><url>/tesla-cu.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>ABC</title><link>tesla-cu.github.io/tag/abc/</link></image><item><title>Turbulence modeling</title><link>tesla-cu.github.io/project/turbulence_modeling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>tesla-cu.github.io/project/turbulence_modeling/</guid><description>&lt;h2 id="turbulence-model-development-using-approximate-bayesian-computation">Turbulence model development using Approximate Bayesian Computation&lt;/h2>
+&lt;p>Real-world turbulent flows are challenging to simulate due to the high computational cost of resolving all their relevant spatial and temporal scales. There are two common approaches to reduce the cost of such simulations:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>
+&lt;a href="https://en.wikipedia.org/wiki/Large_eddy_simulation" target="_blank" rel="noopener">Large-Eddy Simulations (LES)&lt;/a>, which directly resolve turbulence on large scales and use subgrid-scale (SGS) models to represent small-scale physics&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>
+&lt;a href="https://en.wikipedia.org/wiki/Reynolds-averaged_Navier%E2%80%93Stokes_equations" target="_blank" rel="noopener">Reynolds averaged Navier-Stokes (RANS)&lt;/a> approaches, which resolve only averaged quantities and model turbulent fluctuations&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>However, there is no universally accurate turbulence model in either of these approaches. Besides that, all models rely on empirical coefficients that we must calibrate for different flows and geometries.&lt;/p>
+&lt;p>We suggest using the
+&lt;a href="https://en.wikipedia.org/wiki/Approximate_Bayesian_computation" target="_blank" rel="noopener">Approximate Bayesian Computation (ABC)&lt;/a> methods, also known as likelihood-free methods. ABC is a data-driven approach, which uses experimental or higher fidelity data to approximate the probability distribution of model parameters. As a result, we can choose model parameters and quantify their uncertainty based on (or even sample from) this estimated probability distribution.&lt;/p>
+&lt;p>ABC is based on the Bayesian approach but does not require knowing the analytical expression for a likelihood function. The primary advantages of ABC are its lower cost relative to full Bayesian methods and its flexibility in parameter estimation for complex models, e.g., turbulence models, which consist of partial differential equations.&lt;/p>
+&lt;p>We created a framework called
+&lt;a href="https://github.com/olgadoronina/ABC_MCMC" target="_blank" rel="noopener">TurbABC&lt;/a> for turbulent model parameters estimation. TurbABC combines ABC with Markov chain Monte Carlo (MCMC) sampling, an adaptive proposal, and calibration steps to accelerate the parameter estimation process. We demonstrate the efficiency and effectiveness of TurbABC by estimating parameters of:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>nonlinear SGS closures using reference data from direct numerical simulations of homogeneous isotropic turbulence&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>nonequilibrium anisotropy RANS closure in homogeneous turbulent flow with rapidly changing strain tensor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>RANS model parameters estimation in inhomogeneous turbulent flow (axisymmetric transonic bump)&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
