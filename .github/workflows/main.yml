@@ -28,4 +28,4 @@ jobs:
           cname: teslacu.org
           # branch: gh-pages is the default behavior
           # repo: current repo is the default behavior
-          args: -t academic --gc --minify --cleanDestinationDir
+          args: -gc --minify --cleanDestinationDir
