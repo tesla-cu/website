@@ -39,5 +39,6 @@ jobs:
         with:
           githubToken: ${{ secrets.DEPLOY_TOKEN }}
           cname: teslacu.org
-          branch: hg-pages
+          branch: gh-pages
           repo: tesla-cu/website 
+          args: -t academic 
