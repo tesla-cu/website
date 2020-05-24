@@ -40,4 +40,4 @@ jobs:
           githubToken: ${{ secrets.DEPLOY_TOKEN }}
           cname: teslacu.org
           branch: hg-pages
-          repo: tesla-cu/website/ 
+          repo: tesla-cu/website 
