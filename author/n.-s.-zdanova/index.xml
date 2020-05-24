@@ -1,29 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>N. S. Zdanova | TESLa@CU</title>
-    <link>tesla-cu.github.io/author/n.-s.-zdanova/</link>
-      <atom:link href="tesla-cu.github.io/author/n.-s.-zdanova/index.xml" rel="self" type="application/rss+xml" />
-    <description>N. S. Zdanova</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©</copyright><lastBuildDate>Fri, 01 Mar 2013 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/tesla-cu.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>N. S. Zdanova</title>
-      <link>tesla-cu.github.io/author/n.-s.-zdanova/</link>
-    </image>
-    
-    <item>
-      <title>Numerical simulation of acoustic waves scattering by isolated vortex structures</title>
-      <link>tesla-cu.github.io/author/numerical-simulation-of-acoustic-waves-scattering-by-isolated-vortex-structures/</link>
-      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>tesla-cu.github.io/author/numerical-simulation-of-acoustic-waves-scattering-by-isolated-vortex-structures/</guid>
-      <description>&lt;p&gt;The problem of sound scattering by an isolated vortex  is of interest in itself and the basis for understanding the interaction between acoustic waves and a vortex flow, including the process of sound generation by turbulence.&lt;/p&gt;
-&lt;p&gt;In order to solve this problem we use the linearized Euler equations in the nonuniform average field, taking into account isoentropic medium. For numerical simulation, we also use a scheme based on the quasi-one-dimensional reconstruction of the 5th order of accuracy. Calculations are performed using the parallel research code NOISEtte (KIAM RAS).&lt;/p&gt;
-&lt;p&gt;We give the calculational results of the plane acoustic wave scattering by isoentropic Gaussian-core vortex of a constant velocity circulation and demonstrate the convergence of solutions to the benchmark solution. Unlike the other authors  results, not only Cartesian meshes, but quasi-uniform unstructured triangular meshes are also used. It is found that in both cases the results are almost the identical for the same number of nodes.&lt;/p&gt;
-&lt;p&gt;Further, we consider the problem of the cylindrical point source acoustic wave scattering by the Rankine vortex. We carry out the calculations on unstructured meshes and compare the results of different approaches to the problem: a finite-volume approach (NOISEtte), a finite element approach (Actran DGM) and a finite-difference Cabaret scheme.&lt;/p&gt;
-&lt;p&gt;In particular, the results confirm that the software system NOISEtte and the used method can be successfully applied to the numerical simulation of interaction between acoustic waves and vortex structures.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>N. S. Zdanova | TESLa@CU</title><link>tesla-cu.github.io/author/n.-s.-zdanova/</link><atom:link href="tesla-cu.github.io/author/n.-s.-zdanova/index.xml" rel="self" type="application/rss+xml"/><description>N. S. Zdanova</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©</copyright><lastBuildDate>Fri, 01 Mar 2013 00:00:00 +0000</lastBuildDate><image><url>/tesla-cu.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>N. S. Zdanova</title><link>tesla-cu.github.io/author/n.-s.-zdanova/</link></image><item><title>Numerical simulation of acoustic waves scattering by isolated vortex structures</title><link>tesla-cu.github.io/author/numerical-simulation-of-acoustic-waves-scattering-by-isolated-vortex-structures/</link><pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate><guid>tesla-cu.github.io/author/numerical-simulation-of-acoustic-waves-scattering-by-isolated-vortex-structures/</guid><description>&lt;p>The problem of sound scattering by an isolated vortex is of interest in itself and the basis for understanding the interaction between acoustic waves and a vortex flow, including the process of sound generation by turbulence.&lt;/p>
+&lt;p>In order to solve this problem we use the linearized Euler equations in the nonuniform average field, taking into account isoentropic medium. For numerical simulation, we also use a scheme based on the quasi-one-dimensional reconstruction of the 5th order of accuracy. Calculations are performed using the parallel research code NOISEtte (KIAM RAS).&lt;/p>
+&lt;p>We give the calculational results of the plane acoustic wave scattering by isoentropic Gaussian-core vortex of a constant velocity circulation and demonstrate the convergence of solutions to the benchmark solution. Unlike the other authors results, not only Cartesian meshes, but quasi-uniform unstructured triangular meshes are also used. It is found that in both cases the results are almost the identical for the same number of nodes.&lt;/p>
+&lt;p>Further, we consider the problem of the cylindrical point source acoustic wave scattering by the Rankine vortex. We carry out the calculations on unstructured meshes and compare the results of different approaches to the problem: a finite-volume approach (NOISEtte), a finite element approach (Actran DGM) and a finite-difference Cabaret scheme.&lt;/p>
+&lt;p>In particular, the results confirm that the software system NOISEtte and the used method can be successfully applied to the numerical simulation of interaction between acoustic waves and vortex structures.&lt;/p></description></item></channel></rss>
