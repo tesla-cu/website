@@ -26,6 +26,7 @@ jobs:
         with:
           githubToken: ${{ secrets.DEPLOY_TOKEN }}
           cname: teslacu.org
+          hugoVersion: extended_0.70.0
           # branch: gh-pages is the default behavior
           # repo: current repo is the default behavior
           args: --minify 
