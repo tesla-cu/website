@@ -12,33 +12,20 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build-deploy:
     runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
+
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Git checkout
-        uses: actions/checkout@v2
+      - name: Checkout Repo
+        uses: actions/checkout@master
         with:
           submodules: true
-
-      # Runs a single command using the runners shell
-      - name: Setup hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-
-      # Runs a set of commands using the runners shell
-      - name: Build
-        run: hugo --minify
 
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.DEPLOY_TOKEN }}
           cname: teslacu.org
-          branch: gh-pages
-          repo: tesla-cu/website 
-          args: -t academic 
+          # branch: gh-pages is the default behavior
+          # repo: current repo is the default behavior
+          args: -t academic --gc --minify --cleanDestinationDir
