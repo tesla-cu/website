@@ -25,9 +25,9 @@ interests:
 
 education:
   courses:
-  - course: Degree
-    institution: Michigan
-    year: 1918
+  - course: PhD
+    institution: University of Michigan
+    year: 2009
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -50,7 +50,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "michael.a.meehan@colorado.edu"
+email: "peh@colorado.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
