@@ -61,11 +61,3 @@ email: "caelan.lapointen@colorado.edu"
 user_groups:
 - Grad Students
 ---
-
-Mike is a grad student.
-
-Yo.
-
-Yo.
-
-Yo.
