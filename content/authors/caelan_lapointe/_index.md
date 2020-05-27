@@ -13,7 +13,7 @@ role: PhD student
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations:
 - name: University of Colorado, Boulder
-  url:
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio:  Caelan’s research is motivated by complex fire phenomena with a focus on industrial and environmental applications.
