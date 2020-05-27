@@ -12,7 +12,7 @@ role: PhD student
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations:
-- name: University of Colorado, Boulder
+- name: University of Colorado Boulder
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -57,7 +57,4 @@ social:
 - icon: cv
   icon_pack: ai
   link: /files/authors_cv/caelan_lapointe_cv.pdf
-
-user_groups:
-- Researchers
 ---
