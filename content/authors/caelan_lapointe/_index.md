@@ -35,8 +35,8 @@ user_groups:
 education:
   courses:
     - course: BS in Mechanical Engineering
-    institution: Union College
-    year: 2015
+      institution: Union College
+      year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -46,19 +46,18 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:caelan.lapointe@colorado.edu"
-
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=tJ8tMo4AAAAJ&hl=en
-
 - icon: github
   icon_pack: fab
   link: https://github.com/clapointe2011
-
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
   link: /files/authors_cv/caelan_lapointe_cv.pdf
 
+user_groups:
+- Researchers
 ---
