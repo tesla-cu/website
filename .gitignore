@@ -1,2 +1,8 @@
+# IDE specific
 /.idea/
-/docs/
+
+# Hugo
+/public/
+
+# Mac
+.DS_store
