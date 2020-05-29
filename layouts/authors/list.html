@@ -2,14 +2,6 @@
 
 {{/* Author profile page. */}}
 
-{{/* If an account has not been created for this user, just display their name as the title. */}}
-{{ if not .File }}
-<div class="universal-wrapper pt-3">
-  <h1>{{ .Title }}</h1>
-</div>
-{{ end }}
-
-
 <section id="profile-page" class="pt-5">
   <div class="container">
     {{/* Show the About widget if an account exists for this user. */}}
@@ -18,7 +10,6 @@
       {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
       {{ $params := dict "root" $ "page" . "author" $username }}
       {{ partial $widget $params }}
-    {{ end }}
 
     {{ $username := (path.Base (path.Split .Path).Dir) }}
     {{ $software := where (where site.RegularPages "Type" "software") ".Params.authors" "intersect" (slice $username) }}
@@ -193,6 +184,28 @@
           </div>
         {{ end }}
         {{ .Scratch.Delete "has_conf" }}
+    {{ end }}
+
+    {{ else }}
+    {{/* If an account has not been created for this user, just display their name as the title. */}}
+
+    <div class="universal-wrapper pt-3">
+
+      <script>
+        var full_name = {{ .Title }};
+        var names = full_name.split(" ");
+        var first_name = names[0];
+        var last_name = names[1];
+        var concat_name = first_name.concat("+", last_name);
+        var gs_search = "https://scholar.google.com/scholar?q=";
+        var google_scholar = full_name.link(gs_search.concat(concat_name));
+        document.write("<h1>" + {{ .Title }} + "</h1>");
+        document.write("<p>Google Scholar: " + google_scholar + "</p>");
+      </script>
+      <p type="text" id="search" name="search"></p>
+      <p id='search'></p>
+    </div>
+
     {{ end }}
   </div>
 </section>
