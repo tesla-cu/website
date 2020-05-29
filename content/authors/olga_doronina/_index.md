@@ -25,7 +25,8 @@ email: "olga.doronina@colorado.edu"
 interests:
 - Turbulence modeling
 - Machine learning
-- Statistical analysis
+- Data analysis
+- Statistics
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -76,4 +77,19 @@ social:
   link: /files/authors_cv/olga_doronina_cv.pdf
 
 ---
-Olga graduated from the Moscow Institute of Physics and Technology (MIPT) in 2012 with a B.S. in Applied Mathematics and Physics. She then continued her study and worked on her masters thesis at the Computational Aeroacoustic Laboratory in the Keldysh Institute of Applied Mathematics (RAS). Her thesis was on numerically simulating a Rankine vortex and measuring the acoustical radiation to determine how well different numerical schemes perform. She graduated with a Masters degree in 2014 and continued working at the same laboratory on dynamical mesh adaptation for unstructured meshes (moving meshes). She joined TESLa in Fall of 2016. Currently she is working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
+ I'm currently working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach. 
+ I'm really interested in Data Analysis, Bayesian statistics, and Machine Learning and how they can be used to 
+ improve turbulence simulations.  
+ 
+ I graduated from the Moscow Institute of Physics and Technology (MIPT) in 2012 with a B.S. in Applied 
+ Mathematics and Physics. During my research practice in Aeroacoustic Laboratory in the Keldysh Institute of 
+ Applied Mathematics (RAS) I studied the problem of linear acoustics scattering by an isolated vortex. 
+ I numerically simulated a acoustic wave scattering by Gaussian-core vortex and Rankine vortex using linear Euler 
+ equations and measured the acoustical radiation in order to compare results to brenchmark solution and different numerical 
+ 
+ then continued her study and worked on her masters thesis at the Computational 
+ Aeroacoustic Laboratory in the Keldysh Institute of Applied Mathematics (RAS). Her thesis was on numerically 
+ simulating a Rankine vortex and measuring the acoustical radiation to determine how well different numerical 
+ schemes perform. She graduated with a Masters degree in 2014 and continued working at the same laboratory 
+ on dynamical mesh adaptation for unstructured meshes (moving meshes). She joined TESLa in Fall of 2016. 
+ Currently she is working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
