@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Contact"
-subtitle = "If you are interested in working with TESLa or in learning more about our research, please contact usubtitles"
+subtitle = "If you are interested in working with TESLa or in learning more about our research, please contact us"
 
 # Automatically link email and phone?
 autolink = true

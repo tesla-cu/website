@@ -9,6 +9,8 @@ authors:
 # Role/position
 role: PhD student
 
+# Is this the primary user of the site?
+superuser: false
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations:

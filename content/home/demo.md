@@ -2,18 +2,34 @@
 # A Demo section created with the Blank widget.
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
-
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "demo"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Turbulence and Energy Research Laboratory (TESLa)"
-subtitle = "Put lab description here. "
+title = "**Turbulence and Energy Systems Laboratory (TESLa)**"
+#subtitle = "Mechanical Engineering, University of Colorado, Boulder"
+
+about = """Turbulence and Energy Systems Laboratory is the research lab in the
+         Department of Mechanical Engineering at the University of Colorado,
+         Boulder, led by Prof. Peter Hamlington. We study turbulence, combustion, 
+         renewable energy systems, and geophysical flows."""
+         
+motivation = """The accurate prediction of turbulent flows using numerical simulations is the 
+                fundamental challenge. Such simulations are critical for the design of efficient 
+                propulsion systems, optimization of energy output and turbine lifespan in large-scale 
+                wind farms, and reliable forecasting of the climate and weather."""
+                
+approach = """We use a range of simulation approaches to enable more accurate and reliable 
+              large-scale simulations of propulsion, energy, and climate/weather problems. 
+              DNS and LES are carried out to
+              understand fundamental turbulent flow physics and insights from these
+              studies are used to develop physics-based closures for LES and RANS simulations."""
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+   columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
