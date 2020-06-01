@@ -9,6 +9,7 @@ authors:
 # Role/position
 role: PhD student
 
+superuser: false
 # Organizations/Affiliations
 organizations:
 - name: University of Colorado Boulder
