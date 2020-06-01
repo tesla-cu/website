@@ -1,0 +1,38 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<div class="row">
+    {{ if eq $columns "1" }}
+    <div class="col-lg-12 text-center">
+      {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<h2>{{ . | markdownify | emojify }}</h2>{{ end }}
+    </div>
+    <div class="col-lg-4 text-justify">
+        <h4 class="text-center">About</h4>
+        {{ $st.Params.about }}
+        <p class="text-center font-weight-bold"><a href="#people"> Meet the team </a> </p>
+    </div>
+    <div class="col-lg-4 text-justify">
+        <h4 class="text-center">Motivation</h4>
+        {{ $st.Params.motivation }}
+    </div>
+    <div class="col-lg-4 text-justify">
+        <h4 class="text-center">Approach</h4>
+        {{ $st.Params.approach }}
+    </div>
+    {{ else }}
+    <div class="col-12 col-lg-4 section-heading">
+        {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+        {{ with $st.Params.subtitle }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+    </div>
+    <div class="col-12 col-lg-4 text-justify">
+        <h4 class="text-center">About</h4>
+        {{ $st.Params.about }}
+        <p class="text-center font-weight-bold"><a href="#people"> Meet the team </a> </p>
+    </div>
+    <div class="col-12 col-lg-4 text-justify">
+        <h4 class="text-center">Motivation</h4>
+        {{ $st.Params.motivation }}
+    </div>
+    {{ end }}
+</div>
