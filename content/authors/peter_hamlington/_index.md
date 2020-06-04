@@ -14,7 +14,6 @@ role: Associate Professor
 role: Vogel Faculty Fellow
 role: Associate Department Chair
 
-
 # Organizations/Affiliations
 organizations:
 - name: University of Colorado Boulder
