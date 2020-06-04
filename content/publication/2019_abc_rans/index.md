@@ -3,7 +3,9 @@ title: Turbulence Model Development Using Markov Chain Monte Carlo Approximate B
 
 # Date first published.
 date: "2019-01-06"
-doi: "https://doi.org/10.2514/6.2019-1883"
+
+#doi: "https://doi.org/10.2514/6.2019-1883"
+
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors: 
   - olga_doronina
@@ -32,7 +34,7 @@ abstract: "Approximate Bayesian computation (ABC) is used in this study to estim
 abstract_short: ""
 
 projects:
-    - "turbulence_modeling"
+  - turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link
@@ -51,8 +53,9 @@ projects:
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom:[{name = "Custom Link", url = "http://example.org"}]
 
-#tags:
-#- Source Themes
+tags:
+ - ABC
+ - RANS
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
