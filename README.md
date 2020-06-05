@@ -17,7 +17,7 @@ on Ubuntu since standard `sudo apt-get` installs a depreciated version.
 
 Once `git` and `hugo` are installed: 
 ```bash
-$ git clone git@github.com:tesla-cu/website.git
+$ git clone --recursive git@github.com:tesla-cu/website.git
 $ cd website
 $ hugo server
 ```
