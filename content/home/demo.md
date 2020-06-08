@@ -10,22 +10,16 @@ weight = 10  # Order that this section will appear.
 title = "**Turbulence and Energy Systems Laboratory (TESLa)**"
 #subtitle = "Mechanical Engineering, University of Colorado, Boulder"
 
-about = """Turbulence and Energy Systems Laboratory is the research lab in the
-         Department of Mechanical Engineering at the University of Colorado,
-         Boulder, led by Prof. Peter Hamlington. We study turbulence, combustion, 
-         renewable energy systems, and geophysical flows."""
-         
-motivation = """The accurate prediction of turbulent flows using numerical simulations is the 
-                fundamental challenge. Such simulations are critical for the design of efficient 
-                propulsion systems, optimization of energy output and turbine lifespan in large-scale 
-                wind farms, and reliable forecasting of the climate and weather."""
-                
-approach = """We use a range of simulation approaches to enable more accurate and reliable 
-              large-scale simulations of propulsion, energy, and climate/weather problems. 
-              DNS and LES are carried out to
-              understand fundamental turbulent flow physics and insights from these
-              studies are used to develop physics-based closures for LES and RANS simulations."""
+about = """The Turbulence and Energy Systems Laboratory is a research group in the
+           Department of Mechanical Engineering at the University of Colorado, Boulder, led by Professor Peter Hamlington focusing on turbulence, combustion,
+           renewable energy systems, and geophysical flows."""
 
+motivation = """Fundamental understanding and accurate prediction of turbulent flows is critical to
+                developing next-generation propulsion systems, optimizing of industrial systems,
+                predicting turbine lifespan in wind farms, and forecasting climate and weather."""
+
+approach = """We use a wide range of numerical approaches including direct numerical simulations to
+              develop physics-based models, adaptive mesh refinement to reduce CPU cost, approximate Bayesian computation to improve prediction, uncertainty quantification to estimate parameters, and much more!"""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -46,7 +40,7 @@ approach = """We use a range of simulation approaches to enable more accurate an
 
   # Background image.
   image = "headers/turbulent_flames.png"  # Name of image in `static/img/`.
-  image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
   image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
