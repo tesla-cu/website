@@ -27,6 +27,7 @@
   {{ $archive_page = site.GetPage (printf "publication_types/%s" $st.Params.content.filters.publication_type2) }}
   {{ $query2 = $query2 | intersect $archive_page.Pages }}
 {{ end }}
+{{ $archive_page := site.GetPage "Section" $items_type }}
 {{ $query := or $query1 $query2}}
 
 {{ $count := len $query }}
