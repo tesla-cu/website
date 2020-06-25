@@ -4,7 +4,6 @@ title: Canard–wing interference effects on the flight characteristics of a tra
 # Date first published.
 date: "2017-10-01"
 doi: "https://doi.org/10.1016/j.ast.2017.06.024"
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
   - Mehdi Ghoreyshi
   - ryan_darragh
@@ -32,7 +31,7 @@ abstract: "Effects of canard–wing interference on the flight characteristics o
 abstract_short: ""
 
 projects:
-  - ""
+  - turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link

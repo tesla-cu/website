@@ -32,7 +32,7 @@ abstract: "Lagrangian particles can be used either to analyze different complex 
 abstract_short: ""
 
 projects:
-	- "turbulent_combustion"
+  - turbulent_combustion
 
 # Links (optional).
 #- name: Custom Link

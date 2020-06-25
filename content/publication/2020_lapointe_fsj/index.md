@@ -1,10 +1,8 @@
 ---
-title: "Efficient simulation of turbulent diffusion flames in OpenFOAM using adaptive mesh refinement"
+title: Efficient simulation of turbulent diffusion flames in OpenFOAM using adaptive mesh refinement
 
-# Date first published.
 date: "2019-10-28"
 doi: "https://doi.org/10.1016/j.firesaf.2019.102934"
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
   - caelan_lapointe
   - nick_wimer
@@ -34,7 +32,7 @@ abstract: "We address the challenge of resolving wide spatial scale ranges in fi
 abstract_short: ""
 
 projects:
-- wildland_fire
+  - wildland_fire
 
 # Links (optional).
 #- name: Custom Link

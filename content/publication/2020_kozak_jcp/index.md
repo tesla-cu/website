@@ -1,10 +1,8 @@
 ---
-title: "WENO interpolation for Lagrangian particles in highly compressible flow regimes"
+title: WENO interpolation for Lagrangian particles in highly compressible flow regimes
 
-# Date first published.
 date: "2019-10-28"
 doi: "https://doi.org/10.1016/j.jcp.2019.109054"
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
   - Y. Kozak
   - S. S. Dammati
@@ -32,7 +30,7 @@ abstract: "Lagrangian particles can be used either to analyze different complex 
 abstract_short: ""
 
 projects:
-- turbulent_combustion
+  - turbulent_combustion
 
 # Links (optional).
 #- name: Custom Link

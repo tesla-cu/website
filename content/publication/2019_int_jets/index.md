@@ -1,10 +1,7 @@
 ---
 title: Identifying Complex Dynamics of Interacting Turbulent Jets through Modal Decompositions
 
-# Date first published.
 date: "2019-06-01"
-
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
   - michael_meehan
   - nick_wimer
@@ -32,8 +29,8 @@ abstract: ""
 abstract_short: ""
 
 projects:
-- turbulence
-- fundamental_physics
+  - turbulence
+  - fundamental_physics
 
 # Links (optional).
 #- name: Custom Link

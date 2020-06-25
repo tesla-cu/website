@@ -1,12 +1,7 @@
 ---
-title: "Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation"
-
-# Date first published.
+title: Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation
 date: "2019-01-06"
-
-#doi: "https://doi.org/10.2514/6.2019-1883"
-
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+doi: "https://doi.org/10.2514/6.2019-1883"
 authors: 
   - olga_doronina
   - colin_towery

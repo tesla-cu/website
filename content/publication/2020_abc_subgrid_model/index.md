@@ -5,9 +5,9 @@ title: Parameter Estimation for Subgrid-Scale Models Using Markov Chain Monte Ca
 date: "2020-05-26"
 
 authors:
-    - olga_doronina
-    - colin_towery
-    - peter_hamlington
+  - olga_doronina
+  - colin_towery
+  - peter_hamlington
 
 # Publication type.
 # Legend:
@@ -29,7 +29,7 @@ abstract: "We use approximate Bayesian computation (ABC) combined with an “imp
 abstract_short: ""
 
 projects:
-- turbulence_modeling
+  - turbulence_modeling
 
 
 # Links (optional).

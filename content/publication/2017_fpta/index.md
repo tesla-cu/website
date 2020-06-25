@@ -4,7 +4,6 @@ title: Lagrangian Analysis of Vorticity Dynamics in Turbulent Premixed Flames
 # Date first published.
 date: "2017-06-02"
 doi: "https://doi.org/10.2514/6.2017-3466"
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
   - ryan_darragh
   - colin_towery
