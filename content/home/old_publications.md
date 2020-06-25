@@ -2,10 +2,10 @@
 # A Recent Publications section created with the Pages widget.
 # This section displays recent blog posts from `content/publication/`.
 
-widget = "pagesV2"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "publications"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 52  # Order that this section will appear.
+active = false  # Activate this widget? true/false
+weight = 51  # Order that this section will appear.
 
 title = "Recent Publications"
 subtitle = ""
@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "publication"
 
   # Choose how much pages you would like to display (0 = all pages)
-  count = 4
+  count = 2
 
   # Choose how many pages you would like to offset by
   offset = 0
@@ -24,9 +24,20 @@ subtitle = ""
   order = "desc"
 
   # Filter posts by a taxonomy term.
-  [content.filters]
-    publication_type1 = "1"
-    publication_type2 = "2"
+  #[content.filters]
+  #  tag = ""
+  #  category = ""
+  #  publication_type = "1"
+  #  author = ""
+  #  exclude_featured = false
+
+  [[content.filter_button]]
+    name = "Peer-reviewed Journal"
+    tag = "turbulent_combustion"
+
+  [[content.filter_button]]
+    name = "Conference Proceedings"
+    tag = "2"
 
 [design]
   # Toggle between the various page layout types.
