@@ -1,5 +1,5 @@
 ---
-title: Identifying Complex Dynamics of Interacting Turbulent Jets through Modal Decompositions
+title: "Identifying Complex Dynamics of Interacting Turbulent Jets through Modal Decompositions"
 
 date: "2019-06-01"
 authors:

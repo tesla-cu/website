@@ -1,5 +1,5 @@
 ---
-title: Canard–wing interference effects on the flight characteristics of a transonic passenger aircraft
+title: "Canard–wing interference effects on the flight characteristics of a transonic passenger aircraft"
 
 # Date first published.
 date: "2017-10-01"

@@ -1,5 +1,5 @@
 ---
-title: Lagrangian Analysis of Vorticity Dynamics in Turbulent Premixed Flames
+title: "Lagrangian Analysis of Vorticity Dynamics in Turbulent Premixed Flames"
 
 # Date first published.
 date: "2017-06-02"

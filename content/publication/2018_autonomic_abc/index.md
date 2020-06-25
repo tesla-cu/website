@@ -1,5 +1,5 @@
 ---
-title: Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation
+title: "Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation"
 
 # Date first published.
 date: "2018-01-07"

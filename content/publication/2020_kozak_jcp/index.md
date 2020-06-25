@@ -1,5 +1,5 @@
 ---
-title: WENO interpolation for Lagrangian particles in highly compressible flow regimes
+title: "WENO interpolation for Lagrangian particles in highly compressible flow regimes"
 
 date: "2019-10-28"
 doi: "https://doi.org/10.1016/j.jcp.2019.109054"

@@ -1,5 +1,5 @@
 ---
-title: Nick's Dissertation
+title: "Nick's Dissertation"
 
 date: "2019-06-01"
 authors:

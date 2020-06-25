@@ -1,5 +1,5 @@
 ---
-title: Efficient simulation of turbulent diffusion flames in OpenFOAM using adaptive mesh refinement
+title: "Efficient simulation of turbulent diffusion flames in OpenFOAM using adaptive mesh refinement"
 
 date: "2019-10-28"
 doi: "https://doi.org/10.1016/j.firesaf.2019.102934"

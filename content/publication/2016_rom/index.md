@@ -1,5 +1,5 @@
 ---
-title: Evaluation of Reduced-Order Models for Predictions of Separated and Vortical Flows
+title: "Evaluation of Reduced-Order Models for Predictions of Separated and Vortical Flows"
 
 # Date first published.
 date: "2016-06-10"
