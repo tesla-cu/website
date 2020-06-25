@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 120  # Order that this section will appear.
 
-title = "Rocky Mountain Fluid Mechanics Symposium (RMFM)"
+title = "Seminars"
 subtitle = ""
 
 [design]
@@ -50,4 +50,6 @@ subtitle = ""
  css_class = ""
 +++
 
-Brief RMFM description. The TESLa team helps out. See website for details
+Rocky Mountain Fluid Mechanics Research Symposium
+
+Boulder Thermal Fluid Sciences Seminar Series
