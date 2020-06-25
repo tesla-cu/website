@@ -6,7 +6,7 @@ light = false
 
 # Primary
 # primary = "hsl(339, 90%, 68%)"
-primary = "hsl(21, 99%, 45%)"
+primary = "hsl(26, 97%, 60%)"
 
 # Menu
 menu_primary = "rgb(20, 22, 34)"
