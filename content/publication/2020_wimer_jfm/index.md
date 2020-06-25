@@ -1,6 +1,6 @@
 ---
 title: "Scaling of the puffing Strouhal number for buoyant jets and plumes"
-date: "2020"
+date: "2020-01-01"
 doi: "https://doi.org/10.1017/jfm.2020.271"
 authors:
   - nick_wimer

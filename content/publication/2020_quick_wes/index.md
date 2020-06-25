@@ -1,8 +1,6 @@
 ---
 title: "Wake steering optimization under uncertainty"
-
-# Date first published.
-date: "2020"
+date: "2020-01-01"
 doi: "https://doi.org/10.5194/wes-5-413-2020"
 authors:
   - julian_quick

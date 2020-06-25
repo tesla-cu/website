@@ -1,7 +1,6 @@
 ---
 title: "WENO interpolation for Lagrangian particles in highly compressible flow regimes"
-
-date: "2020"
+date: "2020-01-01"
 doi: "https://doi.org/10.1016/j.jcp.2019.109054"
 authors:
   - Y. Kozak

@@ -1,7 +1,6 @@
 ---
 title: "Canard–wing interference effects on the flight characteristics of a transonic passenger aircraft"
-
-date: "2017"
+date: "2017-01-01"
 doi: "https://doi.org/10.1016/j.ast.2017.06.024"
 authors:
   - Mehdi Ghoreyshi

@@ -1,7 +1,6 @@
 ---
 title: "Identifying Complex Dynamics of Interacting Turbulent Jets through Modal Decompositions"
-
-date: "2019"
+date: "2019-01-01"
 authors:
   - michael_meehan
   - nick_wimer

@@ -1,7 +1,6 @@
 ---
 title: "Evaluation of Reduced-Order Models for Predictions of Separated and Vortical Flows"
-
-date: "2016"
+date: "2016-01-01"
 doi: "https://doi.org/10.2514/6.2016-4325"
 authors:
   - ryan_darragh

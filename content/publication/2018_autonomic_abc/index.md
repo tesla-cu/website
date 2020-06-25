@@ -1,8 +1,6 @@
 ---
 title: "Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation"
-
-# Date first published.
-date: "2018"
+date: "2018-01-01"
 doi: "https://doi.org/10.2514/6.2018-0594"
 authors:
   - olga_doronina

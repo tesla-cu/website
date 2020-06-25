@@ -1,8 +1,6 @@
 ---
 title: "Detonation initiation by compressible turbulence thermodynamic fluctuations"
-
-# Date first published.
-date: "2020"
+date: "2020-01-01"
 doi: "https://doi.org/10.1016/j.combustflame.2019.11.025"
 authors:
   - colin_towery

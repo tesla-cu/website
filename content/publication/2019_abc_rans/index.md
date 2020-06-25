@@ -1,7 +1,6 @@
 ---
 title: "Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation"
-
-date: "2019"
+date: "2019-01-01"
 doi: "https://doi.org/10.2514/6.2019-1883"
 authors: 
   - olga_doronina
