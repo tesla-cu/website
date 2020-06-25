@@ -1,5 +1,5 @@
 ---
-title: Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation
+title: "Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation"
 
 # Date first published.
 date: "2019-01-06"
@@ -34,7 +34,7 @@ abstract: "Approximate Bayesian computation (ABC) is used in this study to estim
 abstract_short: ""
 
 projects:
-- turbulence_modeling
+  - turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link

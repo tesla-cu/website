@@ -4,7 +4,6 @@ title: Evaluation of Reduced-Order Models for Predictions of Separated and Vorti
 # Date first published.
 date: "2016-06-10"
 doi: "https://doi.org/10.2514/6.2016-4325"
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
   - ryan_darragh
   - peter_hamlington
@@ -24,14 +23,14 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated version.
 publication: "34th AIAA Applied Aerodynamics Conference"
-publication_short: "AIAA Aviation 2016"
+publication_short: "34th AIAA Applied Aerodynamics Conference"
 
 # Abstract and optional shortened version.
 abstract: ""
 abstract_short: ""
 
 projects:
-    - ""
+  - turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link

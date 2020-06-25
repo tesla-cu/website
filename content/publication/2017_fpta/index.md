@@ -31,7 +31,7 @@ abstract: "Turbulent combustion is a multi-scale and multi-physics problem depen
 abstract_short: ""
 
 projects:
-    - "turbulent_combustion"
+  - turbulent_combustion
 
 # Links (optional).
 #- name: Custom Link

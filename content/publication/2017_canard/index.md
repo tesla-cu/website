@@ -32,7 +32,7 @@ abstract: "Effects of canard–wing interference on the flight characteristics o
 abstract_short: ""
 
 projects:
-    - ""
+  - ""
 
 # Links (optional).
 #- name: Custom Link
