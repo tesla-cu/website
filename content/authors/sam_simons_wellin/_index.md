@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Sam’s research to date has been focused on developing fast algorithms to perform proper orthogonal decomposition (POD) on simulation data that uses block-structured adaptive mesh refinement (AMR). This work will be critical in the efficient computation of POD to understand coherent flow structures within larger scale problems, and in the implementation of POD within iterative techniques such as optimization. Current research projects involve the modeling and numerical optimization of industrial materials processing systems in the effort to achieve higher rates of productivity and greater system effectiveness. This work utilizes reduced order 3D LES simulations with AMR coupled with non-gradient based optimization routines. Sam is currently funded through gift support from the 3M corporation.
+bio: Sam is a PhD student in the Paul M. Rady Department of Mechanical Engineering and his research to date has been focused on developing fast algorithms to perform proper orthogonal decomposition (POD) on simulation data that uses block-structured adaptive mesh refinement (AMR).
 
 
 interests:
