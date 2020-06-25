@@ -1,6 +1,6 @@
 ---
 title: Wind energy
-summary: 
+summary: Optimization and control of wind plants using high-fidelity simulations
 tags:
 - Optimization
 - UQ 

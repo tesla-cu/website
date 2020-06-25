@@ -1,6 +1,6 @@
 ---
 title: Ocean biogeochemistry
-summary: 
+summary: Reduced-order modeling for high-fidelity simulations of the upper ocean
 tags:
 - POM
 

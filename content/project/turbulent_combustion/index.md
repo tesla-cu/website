@@ -1,6 +1,6 @@
 ---
 title: High-speed combustion
-summary: 
+summary: Physics-based studies of high-speed turbulent premixed combustion
 tags:
 - DNS
 - Turbulence
