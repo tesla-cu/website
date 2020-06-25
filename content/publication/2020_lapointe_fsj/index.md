@@ -1,6 +1,6 @@
 ---
 title: "Efficient simulation of turbulent diffusion flames in OpenFOAM using adaptive mesh refinement"
-year: "2020-*-*"
+date: "2020-*-*"
 doi: "https://doi.org/10.1016/j.firesaf.2019.102934"
 authors:
   - caelan_lapointe
