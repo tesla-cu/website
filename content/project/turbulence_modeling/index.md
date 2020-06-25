@@ -1,6 +1,6 @@
 ---
 title: Turbulence modeling
-summary: Turbulence model development using Approximate Bayesian Computation.
+summary: SUMMARY
 tags:
 - ABC
 - LES
