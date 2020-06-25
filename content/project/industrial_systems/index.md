@@ -1,6 +1,6 @@
 ---
 title: Industrial systems
-summary: 
+summary: Modeling and optimization of real-world engineering and industrial systems
 tags:
 - LES
 - RANS
