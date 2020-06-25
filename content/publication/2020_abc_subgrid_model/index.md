@@ -25,24 +25,11 @@ publication: "arXiv"
 publication_short: "arXiv"
 
 # Abstract and optional shortened version.
-abstract: "We use approximate Bayesian computation (ABC) combined with an “improved” Markov
-           chain Monte Carlo (IMCMC) method to estimate posterior distributions of model parameters in subgrid-scale (SGS) closures for large eddy simulations (LES) of turbulent flows. The
-           ABC-IMCMC approach avoids the need to directly compute a likelihood function during the
-           parameter estimation, enabling a substantial speed-up and greater flexibility as compared
-           to full Bayesian approaches. The method also naturally provides uncertainties in parameter
-           estimates, avoiding the artificial certainty implied by many optimization methods for determining model parameters. In this study, we outline details of the present ABC-IMCMC
-           approach, including the use of an adaptive proposal and a calibration step to accelerate the
-           parameter estimation process. We demonstrate the approach by estimating parameters in
-           two nonlinear SGS closures using reference data from direct numerical simulations of homogeneous isotropic turbulence. We show that the resulting parameter values give excellent
-           agreement with reference probability density functions of the SGS stress and kinetic energy
-           production rate in a priori tests, while also providing stable solutions in forward LES (i.e.,
-           a posteriori tests) for homogeneous isotropic turbulence. The ABC-IMCMC method is thus
-           shown to be an effective and efficient approach for estimating unknown parameters, including
-           their uncertainties, in SGS closure models for LES of turbulent flows."
+abstract: "We use approximate Bayesian computation (ABC) combined with an “improved” Markov chain Monte Carlo (IMCMC) method to estimate posterior distributions of model parameters in subgrid-scale (SGS) closures for large eddy simulations (LES) of turbulent flows. The ABC-IMCMC approach avoids the need to directly compute a likelihood function during the parameter estimation, enabling a substantial speed-up and greater flexibility as compared to full Bayesian approaches. The method also naturally provides uncertainties in parameter estimates, avoiding the artificial certainty implied by many optimization methods for determining model parameters. In this study, we outline details of the present ABC-IMCMC approach, including the use of an adaptive proposal and a calibration step to accelerate the parameter estimation process. We demonstrate the approach by estimating parameters in two nonlinear SGS closures using reference data from direct numerical simulations of homogeneous isotropic turbulence. We show that the resulting parameter values give excellent agreement with reference probability density functions of the SGS stress and kinetic energy production rate in a priori tests, while also providing stable solutions in forward LES (i.e., a posteriori tests) for homogeneous isotropic turbulence. The ABC-IMCMC method is thus shown to be an effective and efficient approach for estimating unknown parameters, including their uncertainties, in SGS closure models for LES of turbulent flows."
 abstract_short: ""
 
 projects:
-- turbulence_modeling
+	- "turbulence_modeling"
 
 
 # Links (optional).
