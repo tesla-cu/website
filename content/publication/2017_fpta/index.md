@@ -1,8 +1,7 @@
 ---
 title: "Lagrangian Analysis of Vorticity Dynamics in Turbulent Premixed Flames"
 
-# Date first published.
-date: "2017-06-02"
+date: "2017"
 doi: "https://doi.org/10.2514/6.2017-3466"
 authors:
   - ryan_darragh

@@ -2,7 +2,7 @@
 
 title: "Lagrangian analysis of high-speed turbulent premixed reacting flows: Thermochemical trajectories in hydrogen–air flames"
 
-date: "2017-12-01"
+date: "2017"
 doi: "https://doi.org/10.1016/j.combustflame.2017.08.001"
 authors:
   - peter_hamlington

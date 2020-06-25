@@ -1,7 +1,7 @@
 ---
 title: "Nick's Dissertation"
 
-date: "2019-06-01"
+date: "2019"
 authors:
   - nick_wimer
 

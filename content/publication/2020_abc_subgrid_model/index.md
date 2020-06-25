@@ -1,9 +1,7 @@
 ---
 title: "Parameter Estimation for Subgrid-Scale Models Using Markov Chain Monte Carlo Approximate Bayesian Computation"
 
-# Date first published.
-date: "2020-05-26"
-
+date: "2020"
 authors:
   - olga_doronina
   - colin_towery
