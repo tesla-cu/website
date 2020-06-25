@@ -1,6 +1,6 @@
 ---
 title: Fire dynamics
-# summary:
+summary: 
 tags:
 - Turbulence
 
