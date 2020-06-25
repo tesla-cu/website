@@ -2,8 +2,8 @@
   "name": "TESLa@CU",
   "short_name": "TESLa@CU",
   "lang": "en-us",
-  "theme_color": "hsl(339, 90%, 68%)",
-  "background_color": "hsl(339, 90%, 68%)",
+  "theme_color": "hsl(21, 99%, 45%)",
+  "background_color": "hsl(21, 99%, 45%)",
   "icons": [{
     "src": "/images/icon_hu60bb029947ff14bd97c2fafb98779c9f_124002_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
