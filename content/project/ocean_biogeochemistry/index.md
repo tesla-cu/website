@@ -1,6 +1,6 @@
 ---
 title: Ocean biogeochemistry
-# summary: SUMMARY
+summary:
 tags:
 - POM
 

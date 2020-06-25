@@ -1,6 +1,6 @@
 ---
 title: Industrial systems
-# summary: SUMMARY
+summary:
 tags:
 - LES
 - RANS

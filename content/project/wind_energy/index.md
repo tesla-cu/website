@@ -1,6 +1,6 @@
 ---
 title: Wind energy
-summary: SUMMARY
+summary:
 tags:
 - Optimization
 - UQ 

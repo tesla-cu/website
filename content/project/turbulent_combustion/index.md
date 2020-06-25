@@ -1,6 +1,6 @@
 ---
 title: High-speed combustion
-summary: SUMMARY
+summary:
 tags:
 - DNS
 - Turbulence

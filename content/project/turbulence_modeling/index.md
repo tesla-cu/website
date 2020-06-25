@@ -1,6 +1,6 @@
 ---
 title: Turbulent flows
-summary: SUMMARY
+summary:
 tags:
 - ABC
 - LES
