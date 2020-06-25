@@ -32,7 +32,7 @@ abstract: "A Lagrangian analysis approach is used to examine the effects of high
 abstract_short: ""
 
 projects:
-	- "turbulent_combustion"
+- turbulent_combustion
 
 # Links (optional).
 #- name: Custom Link
