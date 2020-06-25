@@ -1,16 +1,17 @@
 ---
-title: "Lagrangian analysis of high-speed turbulent premixed reacting flows: Thermochemical trajectories in hydrogen–air flames"
-
-# Date first published.
-date: "2019-10-28"
-doi: "https://doi.org/10.1016/j.jcp.2019.109054"
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+title: "Scaling of the puffing Strouhal number for buoyant jets and plumes"
+date: "2020"
+doi: "https://doi.org/10.1017/jfm.2020.271"
 authors:
-  - Y. Kozak
-  - S. S. Dammati
-  - L. G. Bravo 
-  -  peter_hamlington
-  - Alexei Y. Poludnenko
+  - nick_wimer
+  - caelan_lapointe
+  - jason_christopher
+  - sid_nigam
+  - Torrey R. S. Hayden
+  - Ani Updahye
+  - Mark Strobel
+  - Gregory B. Rieker
+  - peter_hamlington
 
 # Publication type.
 # Legend:
@@ -24,15 +25,17 @@ authors:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated version.
-publication: "Journal of Computational Physics"
-publication_short: "Journal of Computational Physics"
+publication: "Journal of Fluid Mechanics"
+publication_short: "Journal of Fluid Mechanics"
 
 # Abstract and optional shortened version.
-abstract: "Lagrangian particles can be used either to analyze different complex flows, as massless tracers, or to model multiphase flows, as particles with mass. As particles can have arbitrary positions within the computational domain, interpolation of different flow quantities from the Eulerian grid is essential. Low-order centered interpolation schemes generally do not provide a sufficient level of accuracy for many flow configurations of interest. Thus, typically, high-order centered interpolation schemes are utilized. The current study demonstrates that for highly compressible non-reacting and reacting flow regimes, in which discontinuities in the flow field, e.g., shock waves arise, centered interpolation schemes tend to smear the shock and high order schemes also produce numerical oscillations. It is shown that this problem can be remedied by using Weighted- Essentially-Non-Oscillatory (WENO) interpolation schemes. Extensive numerical tests are performed in order to demonstrate this, comparing the performance of WENO-3 and WENO-5 interpolation schemes with a variety of centered interpolation schemes. The first test case involves specially designed steady state two-dimensional vortex flows. For a smooth flow, WENO schemes provide comparable accuracy to other high-order centered schemes. For flow fields with discontinuities, WENO-3 and WENO-5 interpolation schemes can decrease the interpolation error by more than two and three orders of magnitude, respectively, in comparison with centered schemes. Solution accuracy is further studied with a normal shock wave test. It is demonstrated that centered schemes tend to smear the shock, whereas, WENO schemes capture it in a much sharper manner. Moreover, high-order centered schemes tend to oscillate in the vicinity of the discontinuity leading to non- physical results, such as negative absolute pressure values. The same trends are retained for an unsteady three-dimensional spherical blast wave, where the shock is smeared across several grid cells, which is typical for shock-capturing flow solvers. Finally, the benefits of WENO schemes for the Lagrangian-particle tracking analysis of highly compressible reactive flows are explored by comparing various Lagrangian particle trajectories and joint probability density functions (PDFs) for a two-dimensional cellular detonation. The results indicate that high-order centered schemes lead to unphysical results, whereas WENO schemes can provide high-order interpolation that is free of severe numerical oscillations and non-physical artifacts, which is critical for the proper analysis of the flow."
+abstract: "
+Prior research has shown that buoyant jets and plumes ‘puff’ at a frequency that depends on the balance of momentum and buoyancy fluxes at the inlet, as parametrized by the Richardson number. Experiments have revealed the existence of scaling relations between the Strouhal number of the puffing and the inlet Richardson number, but geometry-specific relations are required when the characteristic length is taken to be the diameter (for round inlets) or width (for planar inlets). Similar to earlier studies of rectangular buoyant jets and plumes, in the present study we use the hydraulic radius of the inlet as the characteristic length to obtain a single Strouhal–Richardson scaling relation for a variety of inlet geometries over Richardson numbers that span three orders of magnitude. In particular, we use adaptive mesh numerical simulations to compute puffing Strouhal numbers for circular, rectangular (with three different aspect ratios), triangular and annular high-temperature buoyant jets and plumes over a range of Richardson numbers. We then combine these results with prior experimental data for round, planar and rectangular buoyant jets and plumes to propose a new scaling relation that describes puffing Strouhal numbers for various inlet shapes and for hydraulic Richardson numbers spanning over four orders of magnitude. This empirically motivated scaling relation is also shown to be in good agreement with prior results from global linear stability analyses."
 abstract_short: ""
 
 projects:
-  - turbulent_combustion
+  - wildland_fire
+  - turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link
