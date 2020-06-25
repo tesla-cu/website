@@ -1,5 +1,5 @@
 ---
-title: "Lagrangian analysis of high-speed turbulent premixed reacting flows: Thermochemical trajectories in hydrogen–air flames"
+title: "WENO interpolation for Lagrangian particles in highly compressible flow regimes"
 
 # Date first published.
 date: "2019-10-28"
@@ -32,7 +32,7 @@ abstract: "Lagrangian particles can be used either to analyze different complex 
 abstract_short: ""
 
 projects:
-	- "turbulent_combustion"
+- turbulent_combustion
 
 # Links (optional).
 #- name: Custom Link

@@ -34,7 +34,7 @@ abstract: "We address the challenge of resolving wide spatial scale ranges in fi
 abstract_short: ""
 
 projects:
-	- "wildland_fire"
+- wildland_fire
 
 # Links (optional).
 #- name: Custom Link

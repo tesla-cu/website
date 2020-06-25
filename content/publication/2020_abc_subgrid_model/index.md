@@ -29,7 +29,7 @@ abstract: "We use approximate Bayesian computation (ABC) combined with an “imp
 abstract_short: ""
 
 projects:
-	- "turbulence_modeling"
+- turbulence_modeling
 
 
 # Links (optional).

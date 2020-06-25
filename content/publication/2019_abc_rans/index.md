@@ -34,7 +34,7 @@ abstract: "Approximate Bayesian computation (ABC) is used in this study to estim
 abstract_short: ""
 
 projects:
-  - turbulence_modeling
+- turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link
