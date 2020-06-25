@@ -1,7 +1,6 @@
 ---
 title: Lagrangian analysis of high-speed turbulent premixed reacting flows: Thermochemical trajectories in hydrogen–air flames
 
-# Date first published.
 date: "2017-12-01"
 doi: "https://doi.org/10.1016/j.combustflame.2017.08.001"
 authors:
@@ -32,7 +31,7 @@ abstract: "A Lagrangian analysis approach is used to examine the effects of high
 abstract_short: ""
 
 projects:
-  - turbulent_combustion
+	- "turbulent_combustion"
 
 # Links (optional).
 #- name: Custom Link
