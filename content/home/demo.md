@@ -8,18 +8,13 @@ active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "**Turbulence and Energy Systems Laboratory (TESLa)**"
-#subtitle = "Mechanical Engineering, University of Colorado, Boulder"
+subtitle = "Paul M. Rady Department of Mechanical Engineering, University of Colorado, Boulder"
 
-about = """The Turbulence and Energy Systems Laboratory is a research group in the
-           Department of Mechanical Engineering at the University of Colorado, Boulder, led by Professor Peter Hamlington focusing on turbulence, combustion,
-           renewable energy systems, and geophysical flows."""
+# about = """The Turbulence and Energy Systems Laboratory is a research group in the Department of Mechanical Engineering at the University of Colorado, Boulder, #led by Professor Peter Hamlington focusing on turbulence, combustion, renewable energy systems, and geophysical flows."""
 
-motivation = """Fundamental understanding and accurate prediction of turbulent flows is critical to
-                developing next-generation propulsion systems, optimizing of industrial systems,
-                predicting turbine lifespan in wind farms, and forecasting climate and weather."""
+# motivation = """Fundamental understanding and accurate prediction of turbulent flows is #critical to developing next-generation propulsion systems, optimizing of industrial systems, predicting turbine lifespan in wind farms, and forecasting climate and weather."""
 
-approach = """We use a wide range of numerical approaches including direct numerical simulations to
-              develop physics-based models, adaptive mesh refinement to reduce CPU cost, approximate Bayesian computation to improve prediction, uncertainty quantification to estimate parameters, and much more!"""
+# approach = """We use a wide range of numerical approaches including direct numerical simulations to develop physics-based models, adaptive mesh refinement to reduce CPU cost, approximate Bayesian computation to improve prediction, uncertainty quantification to estimate parameters, and much more!"""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
