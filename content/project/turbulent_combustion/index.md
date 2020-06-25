@@ -1,5 +1,5 @@
 ---
-title: Turbulent combustion
+title: High-speed combustion
 summary: SUMMARY
 tags:
 - DNS
