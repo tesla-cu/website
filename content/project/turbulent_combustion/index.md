@@ -32,11 +32,11 @@ url_code: "https://github.com/olgadoronina/ABC_MCMC"
 # slides: example
 
 authors:
-  - mike_meehan
+  - michael_meehan
   - ryan_darragh
   - colin_towery
   - sam_whitman
-  - jennifer_miklasweski
+  - jennifer_miklaszewski
   - peter_hamlington
 ---
 

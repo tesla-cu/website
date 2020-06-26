@@ -19,7 +19,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Short bio here.
 
 #interests:
 
