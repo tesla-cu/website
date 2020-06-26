@@ -35,6 +35,8 @@ url_code: "https://github.com/olgadoronina/ABC_MCMC"
 
 authors:
     - olga_doronina
+    - julian_quick
+    - peter_hamlington
 
 
 collaborators:

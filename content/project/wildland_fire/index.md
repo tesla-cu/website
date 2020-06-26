@@ -33,6 +33,8 @@ links:
 authors:
 - caelan_lapointe
 - jeff_glusman
+- prakriti_sardana
+- peter_hamlington
 
 funding:
 - short_name: AFOSR

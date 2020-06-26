@@ -31,15 +31,13 @@ url_code: "https://github.com/olgadoronina/ABC_MCMC"
 #   Otherwise, set `slides = ""`.
 # slides: example
 
-participants:
-  - name: Mike Meehan
-    username: mike_meehan
-  - name: Ryan Darragh
-    username: ryan_darragh
-  - name: Colin Towery
-    username: colin_towery
-  - name: Sam Simons-Wellin
-    username: sam_simons_wellin
+authors:
+  - mike_meehan
+  - ryan_darragh
+  - colin_towery
+  - sam_whitman
+  - jennifer_miklasweski
+  - peter_hamlington
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.

@@ -35,6 +35,7 @@ links:
 authors:
   - sam_simons_wellin
   - caelan_lapointe
+  - peter_hamlington
 
 ---
 
