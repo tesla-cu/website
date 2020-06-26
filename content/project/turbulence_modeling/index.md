@@ -40,12 +40,13 @@ authors:
 
 
 collaborators:
-    - "Collaborator 1"
-    - "Collaborator 1"
+    - "Scott Murman"
+    - "Ryan King"
+    - "Werner J.A. Dahm"
 
 funding:
-    - "source 1"
-    - "source 2"
+    - "NASA"
+    - "AFOSR"
 
 ---
 
