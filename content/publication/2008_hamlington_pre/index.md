@@ -1,9 +1,11 @@
 ---
-title: "Title"
+title: "Local and nonlocal strain rate fields and vorticity alignment in turbulent flows"
 date: "2008-01-01"
-doi: ""
+doi: "https://doi.org/10.1103/PhysRevE.77.026303"
 authors:
   - peter_hamlington
+  - Joerg Schumacher
+  - Werner J.A. Dahm
 
 # Publication type.
 # Legend:
@@ -17,11 +19,11 @@ authors:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated version.
-publication: "Journal"
-publication_short: "Journal"
+publication: "Physical Review E"
+publication_short: "Physical Review E"
 
 # Abstract and optional shortened version.
-abstract: "Abstract"
+abstract: "Local and nonlocal contributions to the total strain rate tensor $S_{ij}$ at any point $\textbf{x}$ in a flow are formulated from an expansion of the vorticity field in a local spherical neighborhood of radius R centered on $\textbf{x}$. The resulting exact expression allows the nonlocal 􏰁background􏰂 strain rate tensor $S^B_{ij}(\textbf{x})$􏰂 to be obtained from $S_{ij}(\textbf{x})$􏰂. In  turbulent flows, where the vorticity naturally concentrates into relatively compact structures, this allows the local alignment of vorticity with the most extensional principal axis of the background strain rate tensor to be evaluated. In the vicinity of any vortical structure, the required radius $R$ and corresponding order $n$ to which the expansion must be carried are determined by the viscous length scale $\lambda_\nu$􏰑􏰎. We demonstrate the convergence to the background strain rate field with increasing $R$ and $n$ for an equilibrium Burgers vortex, and show that this resolves the anomalous alignment of vorticity with the intermediate eigenvector of the total strain rate tensor. We then evaluate the background strain field $S^B_{ij}(\textbf{x})$􏰂 in direct numerical simulations of homogeneous isotropic turbulence where, even for the limited $R$ and $n$ corresponding to the truncated series expansion, the results show an increase in the expected equilibrium alignment of vorticity with the most extensional principal axis of the background strain rate tensor."
 abstract_short: ""
 
 projects:

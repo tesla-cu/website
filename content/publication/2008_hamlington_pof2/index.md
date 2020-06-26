@@ -1,9 +1,10 @@
 ---
-title: "Title"
+title: "Reynolds stress closure for nonequilibrium effects in turbulent flows"
 date: "2008-01-01"
-doi: ""
+doi: "https://doi.org/10.1063/1.3006023"
 authors:
   - peter_hamlington
+  - Werner J.A. Dahm
 
 # Publication type.
 # Legend:
@@ -17,14 +18,15 @@ authors:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated version.
-publication: "Journal"
-publication_short: "Journal"
+publication: "Physics of Fluids"
+publication_short: "Physics of Fluids"
 
 # Abstract and optional shortened version.
-abstract: "Abstract"
+abstract: "From consideration of turbulence anisotropy dynamics due to spatial or temporal variations in the mean strain rate, a new Reynolds stress closure for nonequilibrium effects in turbulent flows has been developed. This closure, formally derived from the Reynolds stress anisotropy transport equation, results in an effective strain rate tensor that accounts for the strain rate history to which the turbulence has been subjected. In contrast to prior nonequilibrium models that have sought to address nonequilibrium effects via changes in the eddy viscosity, the present approach accounts for nonequilibrium effects in the fundamental relation between the anisotropy tensor and the strain rate tensor. The time-local form of the nonequilibrium closure can be readily implemented in place of the classical equilibrium Boussinesq closure on which most existing computational frameworks are currently based. This new closure is applied here to four substantially different classes of nonequilibrium test problems. Results show dramatically improved agreement with experimental and computational data, without the need to vary any model parameters, when compared with the standard equilibrium closure and with various prior nonequilibrium closures."
 abstract_short: ""
 
 projects:
+  - turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link
