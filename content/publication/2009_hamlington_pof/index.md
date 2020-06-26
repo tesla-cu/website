@@ -1,9 +1,10 @@
 ---
-title: "Title"
-date: "2008-01-01"
-doi: ""
+title: "Frequency response of periodically sheared homogeneous turbulence"
+date: "2009-01-01"
+doi: "https://doi.org/10.1063/1.3140003"
 authors:
   - peter_hamlington
+  - Werner J.A. Dahm
 
 # Publication type.
 # Legend:
@@ -17,11 +18,11 @@ authors:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated version.
-publication: "Journal"
-publication_short: "Journal"
+publication: "Physics of Fluids"
+publication_short: "Physics of Fluids"
 
 # Abstract and optional shortened version.
-abstract: "Abstract"
+abstract: "A detailed parametric study is presented for the dynamics of initially isotropic homogeneous turbulence subjected to periodic shear with magnitude $S$ and frequency $\omega$􏰉. The study is based on a quasianalytical solution to the anisotropy transport equation, which is shown to provide results for the shear anisotropy in this flow that agree well with direct numerical simulation 􏰁DNS􏰂, and for some key aspects of the dynamics agree better than do the most widely used second-order moment closures. The present analytical approach allows a more detailed parametric study than is practical via DNS, and provides direct insights into the parametric origins of the resulting dynamics. The long-time limit form of the shear anisotropy provides an analytical expression for the phase lag. The general solution also provides simple scalings in the full equilibrium limit as well as in the quasiequilibrium and saturated nonequilibrium regimes. The transition to the saturated nonequilibrium regime is shown to occur over a narrow range of 􏰉$\omega$ around a critical frequency $\omega_\mathrm{cr}$, for which an analytical expression is also obtained. The fundamental change in the dynamics of the turbulence kinetic energy $k(t)$􏰂 and the turbulence relaxation time scale $\Lambda(t)$ as $\omega$ increases beyond $\omega_\mathrm{cr}$ is additionally addressed."
 abstract_short: ""
 
 projects:
