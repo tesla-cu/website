@@ -1,6 +1,6 @@
 ---
 title: "Effects of Turbulent Advection on Thermochemical Trajectories in Premixed Flames"
-date: -01-01
+date: 2016-01-01
 publishDate: 2020-06-27T15:52:06.548905Z
 authors: ["peter_hamlington", "ryan_darragh", "Alexei Y Poludnenko"]
 publication_types: ["1"]
