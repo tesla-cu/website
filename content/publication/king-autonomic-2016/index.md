@@ -2,7 +2,7 @@
 title: "Autonomic closure for turbulence simulations"
 date: 2016-03-01
 publishDate: 2020-06-27T15:52:06.512939Z
-authors: ["Ryan N. King", "Peter E. Hamlington", "Werner J. A. Dahm"]
+authors: ["ryan_king", "peter_hamlington", "Werner Dahm"]
 publication_types: ["2"]
 abstract: ""
 featured: false

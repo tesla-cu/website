@@ -2,7 +2,7 @@
 title: "Adjoint Optimization of wind Farm Layouts for Systems Engineering Analysis"
 date: 2016-01-01
 publishDate: 2020-06-27T15:52:06.544591Z
-authors: ["Ryan King", "Peter Hamlington", "Katherine Dykes", "Peter Graf"]
+authors: ["ryan_king", "peter_hamlington", "Katherine Dykes", "Peter Graf"]
 publication_types: ["1"]
 abstract: ""
 featured: false

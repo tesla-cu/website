@@ -2,7 +2,7 @@
 title: "Effects of Background Stratification on the Compressible Rayleigh Taylor Instability"
 date: 2017-06-01
 publishDate: 2020-06-27T15:52:06.559126Z
-authors: ["Scott Wieland", "Scott Reckinger", "Peter E. Hamlington", "Daniel Livescu"]
+authors: ["scott_wieland", "Scott Reckinger", "peter_hamlington", "Daniel Livescu"]
 publication_types: ["1"]
 abstract: ""
 featured: false
