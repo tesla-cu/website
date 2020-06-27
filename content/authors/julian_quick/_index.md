@@ -16,7 +16,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I want my work to contribute towards a sustainable society, where there is enough clean air, food, and water, and a high quality of life, for everybody, forever. Currently I am a PhD student developing optimization and uncertainty quantification techniques to support the next generation of wind power plants. When I'm not at work, I like to bicycle, play music, and cook. 
+bio: julian is a PhD student developing optimization and uncertainty quantification techniques to support the next generation of wind power plants. 
 
 interests:
 - Wind Energy
