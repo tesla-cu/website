@@ -15,7 +15,7 @@
     {{ $software := where (where site.RegularPages "Type" "software") ".Params.authors" "intersect" (slice $username) }}
     {{ $count := len $software }}
     {{ if ge $count 1 }}
-    <ul>
+    <!-- <ul>
       <div class="row">
     <div class="article-widget content-widget-hr">
       <h3>{{ i18n "software" | default "Software" }}</h3>
@@ -30,7 +30,7 @@
       {{ end }}
     </div>
     </div>
-    </ul>
+    </ul> -->
   {{ end }}
   </div>
 
