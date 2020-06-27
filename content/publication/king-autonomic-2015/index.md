@@ -9,5 +9,7 @@ featured: false
 publication: "*53rd AIAA Aerospace Sciences Meeting*"
 url_pdf: "http://arc.aiaa.org/doi/10.2514/6.2015-1285"
 doi: "10.2514/6.2015-1285"
+projects:
+  - turbulence_modeling
 ---
 

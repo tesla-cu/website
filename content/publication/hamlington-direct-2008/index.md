@@ -9,5 +9,7 @@ featured: false
 publication: "*Physics of Fluids*"
 url_pdf: "http://aip.scitation.org/doi/10.1063/1.3021055"
 doi: "10.1063/1.3021055"
+projects:
+  - turbulence_modeling
 ---
 

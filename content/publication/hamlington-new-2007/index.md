@@ -9,5 +9,7 @@ featured: false
 publication: "*43rd AIAA/ASME/SAE/ASEE Joint Propulsion Conference &amp; Exhibit*"
 url_pdf: "http://arc.aiaa.org/doi/abs/10.2514/6.2007-5573"
 doi: "10.2514/6.2007-5573"
+projects:
+  - turbulence_modeling
 ---
 

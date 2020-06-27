@@ -9,5 +9,7 @@ featured: false
 publication: "*Physics of Fluids*"
 url_pdf: "http://aip.scitation.org/doi/10.1063/1.4729615"
 doi: "10.1063/1.4729615"
+projects:
+  - turbulent_combustion
 ---
 

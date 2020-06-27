@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Physical Oceanography*"
 url_pdf: "https://journals.ametsoc.org/jpo/article/44/9/2249/45108/LangmuirSubmesoscale-Interactions-Descriptive"
 doi: "10.1175/JPO-D-13-0139.1"
+projects:
+  - ocean_biogeochemistry
 ---
 

@@ -9,5 +9,7 @@ featured: false
 publication: "*23rd AIAA Computational Fluid Dynamics Conference*"
 url_pdf: "https://arc.aiaa.org/doi/10.2514/6.2017-4115"
 doi: "10.2514/6.2017-4115"
+projects:
+  - industrial_systems
 ---
 

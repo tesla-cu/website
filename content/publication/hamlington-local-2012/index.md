@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Fluid Mechanics*"
 url_pdf: "https://www.cambridge.org/core/product/identifier/S002211201200170X/type/journal_article"
 doi: "10.1017/jfm.2012.170"
+projects:
+  - turbulence_modeling
 ---
 

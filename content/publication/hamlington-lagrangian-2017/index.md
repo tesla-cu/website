@@ -9,5 +9,7 @@ featured: false
 publication: "*Combustion and Flame*"
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0010218017302948"
 doi: "10.1016/j.combustflame.2017.08.001"
+projects:
+  - turbulent_combustion
 ---
 

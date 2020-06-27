@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Fluid Mechanics*"
 url_pdf: "https://www.cambridge.org/core/product/identifier/S0022112018003713/type/journal_article"
 doi: "10.1017/jfm.2018.371"
+projects:
+  - turbulent_combustion
 ---
 

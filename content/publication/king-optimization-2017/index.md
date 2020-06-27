@@ -9,5 +9,7 @@ featured: false
 publication: "*Wind Energy Science*"
 url_pdf: "https://wes.copernicus.org/articles/2/115/2017/"
 doi: "10.5194/wes-2-115-2017"
+projects:
+  - wind_energy
 ---
 

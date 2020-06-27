@@ -9,5 +9,7 @@ featured: false
 publication: "*49th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition*"
 url_pdf: "http://arc.aiaa.org/doi/10.2514/6.2011-113"
 doi: "10.2514/6.2011-113"
+projects:
+  - turbulent_combustion
 ---
 

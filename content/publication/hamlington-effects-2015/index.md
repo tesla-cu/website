@@ -9,5 +9,7 @@ featured: false
 publication: "*Geophysical Research Letters*"
 url_pdf: "http://doi.wiley.com/10.1002/2014GL062370"
 doi: "10.1002/2014GL062370"
+projects:
+  - wind_energy
 ---
 

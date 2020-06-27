@@ -9,5 +9,8 @@ featured: false
 publication: "*47th AIAA Fluid Dynamics Conference*"
 url_pdf: "https://arc.aiaa.org/doi/10.2514/6.2017-4423"
 doi: "10.2514/6.2017-4423"
+projects:
+  - wildland_fire
+  - industrial_systems
 ---
 

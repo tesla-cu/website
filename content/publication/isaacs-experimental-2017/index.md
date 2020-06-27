@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Electronic Packaging*"
 url_pdf: "https://asmedigitalcollection.asme.org/electronicpackaging/article/doi/10.1115/1.4036406/372899/Experimental-Development-and-Computational"
 doi: "10.1115/1.4036406"
+projects:
+  - industrial_systems
 ---
 

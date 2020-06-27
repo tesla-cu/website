@@ -7,5 +7,7 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: ""
+projects:
+  - industrial_systems
 ---
 

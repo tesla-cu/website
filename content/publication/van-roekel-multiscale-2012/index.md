@@ -9,5 +9,7 @@ featured: false
 publication: "*Proceedings of the 1st Conference of the Extreme Science and Engineering Discovery Environment on Bridging from the eXtreme to the campus and beyond - XSEDE '12*"
 url_pdf: "http://dl.acm.org/citation.cfm?doid=2335755.2335816"
 doi: "10.1145/2335755.2335816"
+projects:
+  - ocean_biogeochemistry
 ---
 

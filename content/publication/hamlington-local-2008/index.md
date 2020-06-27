@@ -9,5 +9,7 @@ featured: false
 publication: "*Physical Review E*"
 url_pdf: "https://link.aps.org/doi/10.1103/PhysRevE.77.026303"
 doi: "10.1103/PhysRevE.77.026303"
+projects:
+  - turbulence_modeling
 ---
 

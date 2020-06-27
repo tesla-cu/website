@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Advances in Modeling Earth Systems*"
 url_pdf: "https://onlinelibrary.wiley.com/doi/abs/10.1029/2018MS001486"
 doi: "10.1029/2018MS001486"
+projects:
+  - ocean_biogeochemistry
 ---
 

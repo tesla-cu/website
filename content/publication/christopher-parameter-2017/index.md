@@ -9,5 +9,7 @@ featured: false
 publication: "*55th AIAA Aerospace Sciences Meeting*"
 url_pdf: "http://arc.aiaa.org/doi/10.2514/6.2017-0531"
 doi: "10.2514/6.2017-0531"
+projects:
+  - industrial_systems
 ---
 

@@ -9,5 +9,8 @@ featured: false
 publication: "*Journal of Fluid Mechanics*"
 url_pdf: "https://www.cambridge.org/core/product/identifier/S0022112020002712/type/journal_article"
 doi: "10.1017/jfm.2020.271"
+projects:
+  - wildland_fire
+  - industrial_systems
 ---
 

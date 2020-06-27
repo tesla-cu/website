@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Renewable and Sustainable Energy*"
 url_pdf: "http://aip.scitation.org/doi/10.1063/1.4936287"
 doi: "10.1063/1.4936287"
+projects:
+  - wind_energy
 ---
 

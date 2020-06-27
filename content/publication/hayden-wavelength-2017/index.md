@@ -9,5 +9,7 @@ featured: false
 publication: "*Light, Energy and the Environment*"
 url_pdf: "https://www.osapublishing.org/abstract.cfm?URI=EE-2017-ETh2A.4"
 doi: "10.1364/EE.2017.ETh2A.4"
+projects:
+  - industrial_systems
 ---
 

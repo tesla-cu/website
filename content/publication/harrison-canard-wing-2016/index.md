@@ -9,5 +9,7 @@ featured: false
 publication: "*34th AIAA Applied Aerodynamics Conference*"
 url_pdf: "http://arc.aiaa.org/doi/10.2514/6.2016-4179"
 doi: "10.2514/6.2016-4179"
+projects:
+  - turbulence_modeling
 ---
 

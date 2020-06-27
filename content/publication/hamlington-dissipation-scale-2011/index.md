@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Physics: Conference Series*"
 url_pdf: "https://iopscience.iop.org/article/10.1088/1742-6596/318/4/042019"
 doi: "10.1088/1742-6596/318/4/042019"
+projects:
+  - turbulence_modeling
 ---
 

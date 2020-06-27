@@ -24,8 +24,8 @@ abstract: ""
 abstract_short: ""
 
 projects:
-  - turbulence
-  - fundamental_physics
+  - wildland_fire
+  - industrial_systems
 
 # Links (optional).
 #- name: Custom Link

@@ -9,5 +9,7 @@ featured: false
 publication: "*Flow, Turbulence and Combustion*"
 url_pdf: "http://link.springer.com/10.1007/s10494-014-9535-7"
 doi: "10.1007/s10494-014-9535-7"
+projects:
+  - turbulence_modeling
 ---
 

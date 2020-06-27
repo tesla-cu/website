@@ -9,5 +9,7 @@ featured: false
 publication: "*Renewable Energy*"
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0960148114007939"
 doi: "10.1016/j.renene.2014.11.063"
+projects:
+  - wind_energy
 ---
 

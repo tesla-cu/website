@@ -9,5 +9,7 @@ featured: false
 publication: "*Proceedings of the Combustion Institute*"
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S1540748916300050"
 doi: "10.1016/j.proci.2016.05.005"
+projects:
+  - turbulent_combustion
 ---
 

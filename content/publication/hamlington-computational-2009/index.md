@@ -9,5 +9,7 @@ featured: false
 publication: "*47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition*"
 url_pdf: "http://arc.aiaa.org/doi/10.2514/6.2009-1323"
 doi: "10.2514/6.2009-1323"
+projects:
+  - turbulence_modeling
 ---
 

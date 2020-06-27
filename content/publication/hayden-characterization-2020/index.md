@@ -9,5 +9,7 @@ featured: false
 publication: "*Combustion Science and Technology*"
 url_pdf: "https://www.tandfonline.com/doi/full/10.1080/00102202.2019.1604518"
 doi: "10.1080/00102202.2019.1604518"
+projects:
+  - industrial_systems
 ---
 

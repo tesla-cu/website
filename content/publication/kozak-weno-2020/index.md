@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Computational Physics*"
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0021999119307594"
 doi: "10.1016/j.jcp.2019.109054"
+projects:
+  - turbulent_combustion
 ---
 

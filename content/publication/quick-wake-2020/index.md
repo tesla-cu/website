@@ -9,5 +9,7 @@ featured: false
 publication: "*Wind Energy Science*"
 url_pdf: "https://wes.copernicus.org/articles/5/413/2020/"
 doi: "10.5194/wes-5-413-2020"
+projects:
+  - wind_energy
 ---
 

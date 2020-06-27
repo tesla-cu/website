@@ -9,5 +9,7 @@ featured: false
 publication: "*Physical Review Fluids*"
 url_pdf: "https://link.aps.org/doi/10.1103/PhysRevFluids.3.104602"
 doi: "10.1103/PhysRevFluids.3.104602"
+projects:
+  - industrial_systems
 ---
 

@@ -9,5 +9,7 @@ featured: false
 publication: "*39th AIAA Fluid Dynamics Conference*"
 url_pdf: "http://arc.aiaa.org/doi/10.2514/6.2009-4162"
 doi: "10.2514/6.2009-4162"
+projects:
+  - turbulence_modeling
 ---
 

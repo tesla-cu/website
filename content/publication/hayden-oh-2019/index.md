@@ -9,5 +9,7 @@ featured: false
 publication: "*Applied Physics B*"
 url_pdf: "http://link.springer.com/10.1007/s00340-019-7341-6"
 doi: "10.1007/s00340-019-7341-6"
+projects:
+  - industrial_systems
 ---
 

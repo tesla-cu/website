@@ -9,5 +9,7 @@ featured: false
 publication: "*34th Wind Energy Symposium*"
 url_pdf: "http://arc.aiaa.org/doi/10.2514/6.2016-2199"
 doi: "10.2514/6.2016-2199"
+projects:
+  - wind_energy
 ---
 

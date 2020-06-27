@@ -9,5 +9,7 @@ featured: false
 publication: "*Journal of Geophysical Research: Oceans*"
 url_pdf: "https://onlinelibrary.wiley.com/doi/abs/10.1002/2015JC011089"
 doi: "10.1002/2015JC011089"
+projects:
+  - ocean_biogeochemistry
 ---
 

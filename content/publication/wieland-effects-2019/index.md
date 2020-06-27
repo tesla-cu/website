@@ -9,5 +9,7 @@ featured: false
 publication: "*Physical Review Fluids*"
 url_pdf: "https://link.aps.org/doi/10.1103/PhysRevFluids.4.093905"
 doi: "10.1103/PhysRevFluids.4.093905"
+projects:
+  - turbulence_modeling
 ---
 
