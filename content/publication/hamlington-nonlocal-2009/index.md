@@ -2,7 +2,7 @@
 title: "Nonlocal form of the rapid pressure-strain correlation in turbulent flows"
 date: 2009-10-01
 publishDate: 2020-06-27T15:52:06.507554Z
-authors: ["Peter E. Hamlington", "Werner J. A. Dahm"]
+authors: ["peter_hamlington", "Werner J. A. Dahm"]
 publication_types: ["2"]
 abstract: ""
 featured: false

@@ -2,7 +2,7 @@
 title: "Reynolds stress closure for nonequilibrium effects in turbulent flows"
 date: 2008-11-01
 publishDate: 2020-06-27T15:52:06.506205Z
-authors: ["Peter E. Hamlington", "Werner J. A. Dahm"]
+authors: ["peter_hamlington", "Werner J. A. Dahm"]
 publication_types: ["2"]
 abstract: ""
 featured: false

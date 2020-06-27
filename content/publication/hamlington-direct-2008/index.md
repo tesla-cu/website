@@ -2,7 +2,7 @@
 title: "Direct assessment of vorticity alignment with local and nonlocal strain rates in turbulent flows"
 date: 2008-11-01
 publishDate: 2020-06-27T15:52:06.505271Z
-authors: ["Peter E. Hamlington", "Jörg Schumacher", "Werner J. A. Dahm"]
+authors: ["peter_hamlington", "Jörg Schumacher", "Werner J. A. Dahm"]
 publication_types: ["2"]
 abstract: ""
 featured: false

@@ -2,7 +2,7 @@
 title: "Intermittency in premixed turbulent reacting flows"
 date: 2012-07-01
 publishDate: 2020-06-27T15:52:06.509619Z
-authors: ["Peter E. Hamlington", "Alexei Y. Poludnenko", "Elaine S. Oran"]
+authors: ["peter_hamlington", "Alexei Y. Poludnenko", "Elaine S. Oran"]
 publication_types: ["2"]
 abstract: ""
 featured: false

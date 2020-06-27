@@ -2,7 +2,7 @@
 title: "Computational Validation of New Reynolds Stress Closure for Nonequilibrium Effects in Turbulent Flows"
 date: 2009-01-01
 publishDate: 2020-06-27T15:52:06.531017Z
-authors: ["Peter Hamlington", "Werner Dahm"]
+authors: ["peter_hamlington", "Werner Dahm"]
 publication_types: ["1"]
 abstract: ""
 featured: false

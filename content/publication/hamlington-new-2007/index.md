@@ -2,7 +2,7 @@
 title: "A New Physically-Based Fully-Realizable Nonequilibrium Reynolds Stress Closure for Turbulence RANS Modeling"
 date: 2007-07-01
 publishDate: 2020-06-27T15:52:06.530314Z
-authors: ["Peter Hamlington", "Werner Dahm"]
+authors: ["peter_hamlington", "Werner Dahm"]
 publication_types: ["1"]
 abstract: ""
 featured: false
