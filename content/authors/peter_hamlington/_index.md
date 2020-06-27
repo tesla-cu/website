@@ -21,7 +21,10 @@ organizations:
 bio: Peter is an associate professor in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and the principal investigator of the Turbulence and Energy Systems Laboratory.
 
 interests:
-- STUFF
+- turbulent flows
+- combustion
+- computational fluid dynamics
+- outer loops
 
 education:
   courses:

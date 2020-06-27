@@ -1,7 +1,7 @@
 ---
-title: "Title"
-date: "2008-01-01"
-doi: ""
+title: "Nonlocal form of the rapid pressure-strain correlation in turbulent flows"
+date: "2009-01-01"
+doi: "https://doi.org/10.1103/PhysRevE.80.046311"
 authors:
   - peter_hamlington
 
@@ -17,14 +17,15 @@ authors:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated version.
-publication: "Journal"
-publication_short: "Journal"
+publication: "Physical Review E"
+publication_short: "Physical Review E"
 
 # Abstract and optional shortened version.
-abstract: "Abstract"
+abstract: "A new fundamentally based formulation of nonlocal effects in the rapid pressure-strain correlation in tur- bulent flows has been obtained. The resulting explicit form for the rapid pressure-strain correlation accounts for nonlocal effects produced by spatial variations in the mean-flow velocity gradients and is derived through Taylor expansion of the mean velocity gradients appearing in the exact integral relation for the rapid pressure-strain correlation. The integrals in the resulting series expansion are solved for high- and low-Reynolds number forms of the longitudinal correlation function, and the resulting nonlocal rapid pressure-strain correlation is expressed as an infinite series in terms of Laplacians of the mean strain rate tensor. This formulation is used to obtain a nonlocal transport equation for the turbulence anisotropy that is expected to provide improved predictions of the anisotropy in strongly inhomogeneous flows."
 abstract_short: ""
 
 projects:
+  - turbulence_modeling
 
 # Links (optional).
 #- name: Custom Link
