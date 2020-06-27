@@ -1,6 +1,6 @@
 ---
 title: "A Chemical Kinetic Model Reduction and Pyrolysis Model for Wildland Fire Direct Numerical Simulation"
-date: -01-01
+date: 2017-01-01
 publishDate: 2020-06-27T15:52:06.562208Z
 authors: ["jeff_glusman", "Amanda Makoweicki", "nick_wimer", "Kyle Niemeyer", "Greg Rieker", "peter_hamlington", "John Daily"]
 publication_types: ["1"]

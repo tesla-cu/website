@@ -1,6 +1,6 @@
 ---
 title: "Lagrangian Analysis of Enstrophy in Turbulent Premixed Flames"
-date: -01-01
+date: 2017-01-01
 publishDate: 2020-06-27T15:52:06.548130Z
 authors: ["ryan_darragh", "colin_towery", "Alexei Y Poludnenko", "peter_hamlington"]
 publication_types: ["1"]
