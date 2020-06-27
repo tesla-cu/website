@@ -2,7 +2,7 @@
 title: "Parameter Estimation for a Turbulent Buoyant Jet with Rotating Cylinder Using Approximate Bayesian Computation"
 date: 2017-06-01
 publishDate: 2020-06-27T15:52:06.546427Z
-authors: ["Jason D. Christopher", "Caelan Lapointe", "Nicholas T. Wimer", "Torrey R. Hayden", "Ian Grooms", "Gregory B. Rieker", "Peter E. Hamlington"]
+authors: ["jason_christopher", "caelan_lapointe", "nick_wimer", "Torrey R. Hayden", "Ian Grooms", "Gregory B. Rieker", "peter_hamlington"]
 publication_types: ["1"]
 abstract: ""
 featured: false

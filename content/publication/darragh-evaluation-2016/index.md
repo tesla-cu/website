@@ -2,7 +2,7 @@
 title: "Evaluation of Reduced-Order Models for Predictions of Separated and Vortical Flows"
 date: 2016-06-01
 publishDate: 2020-06-27T15:52:06.541247Z
-authors: ["Ryan A. Darragh", "Peter E. Hamlington", "Mehdi Ghoreyshi", "Andrew J. Lofthouse"]
+authors: ["ryan_darragh", "peter_hamlington", "Mehdi Ghoreyshi", "Andrew J. Lofthouse"]
 publication_types: ["1"]
 abstract: ""
 featured: false

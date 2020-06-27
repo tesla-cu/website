@@ -2,7 +2,7 @@
 title: "Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation"
 date: 2018-01-01
 publishDate: 2020-06-27T15:52:06.561413Z
-authors: ["Olga Doronina", ", Jason Christopher", "Colin A. Z. Towery", "Peter Hamlington", "Werner J. A. Dahm"]
+authors: ["olga_doronina", ", jason_christopher", "colin_towery", "peter_hamlington", "Werner J. A. Dahm"]
 publication_types: ["1"]
 abstract: ""
 featured: false
