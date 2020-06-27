@@ -39,7 +39,7 @@ subtitle = "Paul M. Rady Department of Mechanical Engineering, University of Col
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["80px", "0", "80px", "0"]
+  padding = ["75px", "0", "75px", "0"]
 
 [advanced]
  # Custom CSS.
