@@ -38,7 +38,7 @@ user_groups:
 # List qualifications (such as academic degrees)
 education:
   courses:
-  - course: Phd in Mechanical Engineering
+  - course: PhD in Mechanical Engineering
     institution: University of Colorado, Boulder
     year: 2020
   - course: MS in Mechanical Engineering

@@ -16,7 +16,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in wind energy systems uncertainty quantification and optimization.
+bio: Julian is a PhD student developing optimization and uncertainty quantification techniques to support the next generation of wind power plants. 
 
 interests:
 - Wind Energy

@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: "Sr. Thermal Engineer"
+role: Sr. Thermal Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,7 @@ bio: Steven’s research interests included computational modeling and
      optimization of two-phase thermal management devices
 
 
-interests: []
+interests: 
 
 
 education:
@@ -45,6 +45,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:steven.isaacs@roccor.com'  
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/steven-isaacs-19123a24/
 # - icon: google-scholar
 #   icon_pack: ai
 #   link: https://scholar.google.com/citations?hl=en&authuser=1&user=KI1FZOcAAAAJ

@@ -10,10 +10,12 @@ authors:
 superuser: false
 
 # Role/position
-role: 
+role: Senior Scientist
 
 # Organizations/Affiliations
 organizations:
+- name: National Renewable Energy Lab
+  url: https://www.nrel.gov/
 
 
 # Short bio (displayed in user profile at end of posts)
@@ -22,20 +24,23 @@ bio:
 #interests:
 
 
-#education:
-#  courses:
-#  - course: BS in Mechanical Engineering
-#    institution: The Pennsylvania State University
-#    year: 2017
+education:
+  courses:
+  - course: PdD in Mechanical Engineering
+    institution: University of Colorado, Boulder
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: 'mailto:michael.a.meehan@colorado.edu'  # For a direct email link, use "mailto:mime5507@colorado.edu".
+social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ryannicholasking/
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:Ryan.King@nrel.gov'  
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.com/citations?authuser=1&user=Owl_WsQAAAAJ
