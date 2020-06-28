@@ -10,11 +10,12 @@ authors:
 superuser: false
 
 # Role/position
-role: 
+role: Senior Researcher
 
 # Organizations/Affiliations
 organizations:
-
+- name: U.S. Air Force Academy
+  URL: https://www.usafa.af.mil/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -32,7 +33,10 @@ bio:
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
+social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/adam-j-ab334611b/
 #- icon: envelope
 #  icon_pack: fas
 #  link: 'mailto:michael.a.meehan@colorado.edu'  # For a direct email link, use "mailto:mime5507@colorado.edu".
