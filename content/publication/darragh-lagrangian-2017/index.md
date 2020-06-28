@@ -2,7 +2,7 @@
 title: "Lagrangian Analysis of Vorticity Dynamics in Turbulent Premixed Flames"
 date: 2017-06-01
 publishDate: 2020-06-27T15:52:06.547337Z
-authors: ["ryan_darragh", "colin_towery", "peter_hamlington", "Alexei Poludnenko"]
+authors: ["ryan_darragh", "colin_towery", "peter_hamlington", "alexei_poludnenko"]
 publication_types: ["1"]
 abstract: ""
 featured: false

@@ -2,7 +2,7 @@
 title: "The form and orientation of Langmuir cells for misaligned winds and waves"
 date: 2012-05-01
 publishDate: 2020-06-27T15:52:06.510070Z
-authors: ["Luke Van Roekel", "Baylor Fox-Kemper", "Peter Sullivan", "peter_hamlington", "Sean Haney"]
+authors: ["Luke Van Roekel", "baylor_foxkemper", "Peter Sullivan", "peter_hamlington", "Sean Haney"]
 publication_types: ["2"]
 abstract: ""
 featured: false

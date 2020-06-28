@@ -2,7 +2,7 @@
 title: "Wavelength Modulation Spectroscopy of OH Radical in an Industrial Flame"
 date: 2017-01-01
 publishDate: 2020-06-27T15:52:06.550645Z
-authors: ["Torrey R.S. Hayden", "nick_wimer", "caelan_lapointe", "jason_christopher", "sid_nigam", "peter_hamlington", "Greg B. Rieker"]
+authors: ["Torrey Hayden", "nick_wimer", "caelan_lapointe", "jason_christopher", "sid_nigam", "peter_hamlington", "greg_rieker"]
 publication_types: ["1"]
 abstract: ""
 featured: false
