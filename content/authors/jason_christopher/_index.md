@@ -10,11 +10,12 @@ authors:
 superuser: false
 
 # Role/position
-role: 
+role: Branch Chief & Test Director
 
 # Organizations/Affiliations
-organizations:
-
+organizations: 
+- name: U.S. Air Force
+  url: https://www.airforce.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,17 +23,20 @@ bio:
 #interests:
 
 
-#education:
-#  courses:
-#  - course: BS in Mechanical Engineering
-#    institution: The Pennsylvania State University
-#    year: 2017
+education:
+  courses:
+  - course: PdD in Mechanical Engineering
+    institution: University of Colorado, Boulder
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
+social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/jason-christopher-b116a2b9/
 #- icon: envelope
 #  icon_pack: fas
 #  link: 'mailto:michael.a.meehan@colorado.edu'  # For a direct email link, use "mailto:mime5507@colorado.edu".

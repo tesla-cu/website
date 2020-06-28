@@ -10,11 +10,13 @@ authors:
 superuser: false
 
 # Role/position
-role: 
+role: Postdoctoral Researcher
+  
 
 # Organizations/Affiliations
 organizations:
-
+- name: GATs Inc.
+  url: http://www.gats-inc.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,16 +25,20 @@ bio:
 
 
 #education:
-#  courses:
-#  - course: BS in Mechanical Engineering
-#    institution: The Pennsylvania State University
-#    year: 2017
+education:
+  courses:
+  - course: PdD in Mechanical Engineering
+    institution: University of Colorado, Boulder
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
+social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/scott-wieland-58b4ab2b/
 #- icon: envelope
 #  icon_pack: fas
 #  link: 'mailto:michael.a.meehan@colorado.edu'  # For a direct email link, use "mailto:mime5507@colorado.edu".
