@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Software"
-  url = "software/"
+  url = "#software"
   weight = 45
 
 #[[main]]
