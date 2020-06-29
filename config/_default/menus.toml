@@ -18,10 +18,10 @@
   url = "publication/"
   weight = 40
 
-# [[main]]
-#   name = "Software"
-#   url = "software/"
-#   weight = 45
+[[main]]
+  name = "Software"
+  url = "software/"
+  weight = 45
 
 #[[main]]
 #  name = "Posts"
