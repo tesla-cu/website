@@ -1,5 +1,6 @@
 +++
-title = "OpenFOAM"
+title = "wildFireFoam"
+summary = "OpenFOAM solver for biomass diffusion flames using adaptive mesh refinement"
 
 # Date first published.
 date = "2020-01-01"
