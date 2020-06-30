@@ -4,29 +4,40 @@ title: Owen Brown
 
 # Username (this should match the folder name)
 authors:
-#- nick_wimer
+ - owen_brown
 
+# Role/position
+role: Aeronautical Engineer
+organizations:
+- name: Northrop Grumman
+  url: https://www.northropgrumman.com/
+  
 # Is this the primary user of the site?
 superuser: false
 
 # Short bio (displayed in user profile at end of posts)
-bio: Caelan’s research is motivated by complex fire phenomena with a focus on industrial and environmental applications.
-
+bio: 
 interests:
 #- OpenSource CFD
 #- Combustion Modeling
 
 education:
-#  courses:
-#  - course: BS in Mechanical Engineering
-#    institution: Union College
-#    year: 2015
+  courses:
+  - course: MS in Mechanical Engineering
+    institution: University of Colorasdo, Boulder
+    year: 2019
+  - course: BS in Mechanical Engineering
+    institution: University of Colorasdo, Boulder
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/owengbrown/
 #- icon: envelope
 #  icon_pack: fas
 #  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -54,11 +65,3 @@ user_groups:
 - Alumni
 
 ---
-
-Mike is a grad student.
-
-Yo.
-
-Yo.
-
-Yo.

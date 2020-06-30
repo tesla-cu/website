@@ -9,5 +9,7 @@ featured: false
 publication: "*Physica D: Nonlinear Phenomena*"
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0167278911001618"
 doi: "10.1016/j.physd.2011.06.012"
+projects:
+  - turbulence_modeling
 ---
 

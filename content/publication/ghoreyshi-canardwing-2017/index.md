@@ -9,5 +9,7 @@ featured: false
 publication: "*Aerospace Science and Technology*"
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S1270963817304066"
 doi: "10.1016/j.ast.2017.06.024"
+projects:
+  - turbulence_modeling
 ---
 

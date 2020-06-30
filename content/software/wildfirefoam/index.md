@@ -1,5 +1,6 @@
 +++
-title = "OpenFOAM"
+title = "wildFireFoam"
+summary = "OpenFOAM solver for biomass diffusion flames using adaptive mesh refinement"
 
 # Date first published.
 date = "2020-01-01"
@@ -21,7 +22,7 @@ selected = false
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["turbulence_modeling"]
+projects = ["openfoam"]
 
 # Links (optional).
 url_pdf = ""

@@ -9,5 +9,7 @@ featured: false
 publication: "*AIAA Scitech 2019 Forum*"
 url_pdf: "https://arc.aiaa.org/doi/10.2514/6.2019-1883"
 doi: "10.2514/6.2019-1883"
+projects:
+  - turbulence_modeling
 ---
 

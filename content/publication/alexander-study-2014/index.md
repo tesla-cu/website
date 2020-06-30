@@ -9,5 +9,7 @@ featured: false
 publication: "*Volume 9B: Ocean Renewable Energy*"
 url_pdf: "https://asmedigitalcollection.asme.org/OMAE/proceedings/OMAE2014/45547/San%20Francisco,%20California,%20USA/279004"
 doi: "10.1115/OMAE2014-24527"
+projects:
+  - wind_energy
 ---
 
