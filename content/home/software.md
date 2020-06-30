@@ -1,40 +1,30 @@
 +++
-# A Recent Publications section created with the Pages widget.
-# This section displays recent blog posts from `content/publication/`.
-
-widget = "pagesV2"  # See https://sourcethemes.com/academic/docs/page-builder/
+# A Projects section created with the Portfolio widget.
+widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 52  # Order that this section will appear.
+weight = 25  # Order that this section will appear.
 
-title = "Publications"
+title = "Software"
 subtitle = ""
 
 [content]
-  # Page type to display. E.g. post, talk, or publication.
-  page_type = "publication"
-
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 10
-
-  # Choose how many pages you would like to offset by
-  offset = 0
-
-  # Page order. Descending (desc) or ascending (asc) date.
-  order = "desc"
-
-  # Filter posts by a taxonomy term.
-  [content.filters]
-    publication_type1 = "1"
-    publication_type2 = "2"
+  # Page type to display. E.g. project.
+  page_type = "software"
 
 [design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
+
   # Toggle between the various page layout types.
   #   1 = List
   #   2 = Compact
   #   3 = Card
-  #   4 = Citation (publication only)
-  view = 4
+  #   5 = Showcase
+  view = 3
+
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows = false
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -59,7 +49,6 @@ subtitle = ""
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["25px", "0", "25px", "0"]
-
 
 [advanced]
  # Custom CSS.
