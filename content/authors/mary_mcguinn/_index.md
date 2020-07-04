@@ -21,23 +21,29 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
-#interests:
+interests:
+- physical and biogeochemical oceanography
+- computational fluid dynamics
+- environmental fluid mechanics
 
-
-#education:
-#  courses:
-#  - course: BS in Mechanical Engineering
-#    institution: The Pennsylvania State University
-#    year: 2017
+education:
+  courses:
+  - course: MEng in Environmental Engineering
+    institution: Cornell University
+    year: 2020
+  - course: BS in Mathematics and Economics
+    institution: University of Pittsburgh
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: 'mailto:michael.a.meehan@colorado.edu'  # For a direct email link, use "mailto:mime5507@colorado.edu".
+social:
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:mary.mcguinn@colorado.edu'  
+  # For a direct email link, use "mailto:mime5507@colorado.edu".
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.com/citations?authuser=1&user=Owl_WsQAAAAJ
