@@ -1,6 +1,6 @@
 +++
 title = "spectralLES"
-summary = "Spectral large eddy simulation solver written in Python"
+summary = "Spectral solver in Python for large eddy simulations of turbulent flows "
 
 # Date first published.
 date = "2020-01-01"

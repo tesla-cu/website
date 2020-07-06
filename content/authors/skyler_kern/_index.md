@@ -25,9 +25,9 @@ email: "skyler.kern@colorado.edu"
 
 # List (academic) interests or hobbies
 interests:
-- Geophysical Fluid Dynamics
-- Biogeochemical Oceanography
-- Computational Fluid Dynamics
+- Geophysical fluid dynamics
+- Biogeochemical oceanography
+- Computational fluid dynamics
 - Turbulence
 
 education:

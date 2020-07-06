@@ -11,5 +11,9 @@ url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0379711219303807"
 doi: "10.1016/j.firesaf.2019.102934"
 projects:
   - wildland_fire
+  
+software:
+  - diffusionfirefoam
+  - wildfirefoam
 ---
 

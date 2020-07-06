@@ -22,9 +22,9 @@ organizations:
 bio: 
 
 interests:
-- physical and biogeochemical oceanography
-- computational fluid dynamics
-- environmental fluid mechanics
+- Physical and biogeochemical oceanography
+- Computational fluid dynamics
+- Environmental fluid mechanics
 
 education:
   courses:
