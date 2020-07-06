@@ -41,7 +41,7 @@ org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 # TODO: put more discription here
-description = "Turbulence and Energy Research Laboratory"
+description = "Turbulence and Energy Systems Laboratory"
 
 ############################
 ## Site Features
@@ -134,6 +134,7 @@ address_format = "en-us"
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu = {align = "r", show_logo = true}
+logo = "logo.png"
 
 # Show estimated reading time for posts? (true/false)
 reading_time = false
