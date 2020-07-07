@@ -80,7 +80,7 @@ social:
 
 ---
  I'm currently working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach. 
- I'm really interested in Data Analysis, Bayesian statistics, and Machine Learning and how they can be used to 
+ I'm really interested in Data Analysis, Bayesian statistics, Machine Learning and how they can be used to 
  improve turbulence simulations.  
  
  I graduated from the Moscow Institute of Physics and Technology (MIPT) in 2012 with a B.S. in Applied 
