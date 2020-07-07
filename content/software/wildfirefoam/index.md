@@ -52,12 +52,4 @@ image = ""
 caption = ""
 
 +++
-STUFF
-
-STUFF
-
-STUFFFFFFF
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+wildFireFoam is an extension of fireFoam, an OpenFOAM solver for "...fires and turbulent diffusion flames with reacting particle clouds, surface film and pyrolysis modelling." It retains all functionality originally included in fireFoam for efficient simulation of complex fire phenomena. Similar to diffusionFireFoam, it also incorporates  adaptive mesh refinement (AMR) to increase simualtion efficiency without sacrificing accuracy by updating the computational mesh at runtime and adding resolution only in regions of interest (e.g. where reactions are occuring). It has been designed specifically to reduce computational cost of fire spread and suppression simulations for use in outer-loop processes (e.g. optimization and uncertainty quantification).

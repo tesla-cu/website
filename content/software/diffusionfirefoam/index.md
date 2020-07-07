@@ -27,7 +27,7 @@ projects = ["wildland_fire"]
 # Links (optional).
 url_pdf = ""
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/clapointe2011/public"
 url_dataset = ""
 url_project = ""
 url_slides = ""
@@ -52,12 +52,5 @@ image = ""
 caption = ""
 
 +++
-STUFF
 
-STUFF
-
-STUFFFFFFF
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+diffusionFireFoam is an extension of fireFoam, an OpenFOAM solver for "...fires and turbulent diffusion flames with reacting particle clouds, surface film and pyrolysis modelling." It is a stripped-down version of fireFoam designed specifically for simulation of turbulent diffusion flames and  employs adaptive mesh refinement (AMR) to increase simualtion efficiency without sacrificing accuracy by updating the computational mesh at runtime and adding resolution only in regions of interest (e.g. where reactions are occuring). The solver has been shown to accurately reproduce results from static (i.e. time-invariant) simulaitons as well as experimental data.
