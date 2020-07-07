@@ -38,16 +38,13 @@ user_groups:
 # List qualifications (such as academic degrees)
 education:
   courses:
-  - course: PhD in Mechanical Engineering
+  - course: M.S./Ph.D. in Mechanical Engineering
     institution: University of Colorado, Boulder
     year: 2020
-  - course: MS in Mechanical Engineering
-    institution: University of Colorado, Boulder
-    year: 2019
-  - course: MS in Applied Mathematics and Physics
+  - course: M.S. in Applied Mathematics and Physics
     institution: Moscow Institute of Physics and Technology
     year: 2014
-  - course: BS in Applied Mathematics and Physics
+  - course: B.S. in Applied Mathematics and Physics
     institution: Moscow Institute of Physics and Technology
     year: 2012
 
@@ -79,19 +76,18 @@ social:
   link: /files/authors_cv/olga_doronina_cv.pdf
 
 ---
- I'm currently working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach. 
- I'm really interested in Data Analysis, Bayesian statistics, Machine Learning and how they can be used to 
- improve turbulence simulations.  
+I'm currently working on a data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach. 
+I'm really interested in Data Analysis, Bayesian statistics, Machine Learning and how they can be used to 
+improve turbulence simulations.   
+
+Before joining TESLa I worked on dynamical mesh adaptation algorithms for unstructured meshes 
+(moving meshes) in the Computational Aeroacoustic Laboratory (CAA lab) at the Keldysh Institute of Applied Mathematics (RAS).
+
+I received my B.S. and M.S in Applied Mathematics and Physics from the Moscow Institute of Physics and Technology 
+(MIPT, Phystech). During my thesis research practice in the CAA lab I studied the problem of acoustic scattering 
+by an isolated vortex and sound radiation by a perturbed Rankine vortex. 
+
+My current research is funded by a NASA grant.
+
  
- I graduated from the Moscow Institute of Physics and Technology (MIPT) in 2012 with a B.S. in Applied 
- Mathematics and Physics. During my research practice in Aeroacoustic Laboratory in the Keldysh Institute of 
- Applied Mathematics (RAS) I studied the problem of linear acoustics scattering by an isolated vortex. 
- I numerically simulated a acoustic wave scattering by Gaussian-core vortex and Rankine vortex using linear Euler 
- equations and measured the acoustical radiation in order to compare results to brenchmark solution and different numerical 
- 
- then continued her study and worked on her masters thesis at the Computational 
- Aeroacoustic Laboratory in the Keldysh Institute of Applied Mathematics (RAS). Her thesis was on numerically 
- simulating a Rankine vortex and measuring the acoustical radiation to determine how well different numerical 
- schemes perform. She graduated with a Masters degree in 2014 and continued working at the same laboratory 
- on dynamical mesh adaptation for unstructured meshes (moving meshes). She joined TESLa in Fall of 2016. 
- Currently she is working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
+
