@@ -19,8 +19,8 @@ organizations:
 bio: Julian is a PhD student developing optimization and uncertainty quantification techniques to support the next generation of wind power plants. 
 
 interests:
-- Wind Energy
-- Uncertainty Quantification
+- Wind energy
+- Uncertainty quantification
 - Optimization
 
 # Social/Academic Networking

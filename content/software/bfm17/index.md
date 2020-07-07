@@ -1,6 +1,6 @@
 +++
 title = "BFM17"
-summary = "Reduced order biogeochemical flux model with 17 state variables"
+summary = "Reduced order upper ocean biogeochemical flux model with 17 state variables"
 
 # Date first published.
 date = "2020-01-01"

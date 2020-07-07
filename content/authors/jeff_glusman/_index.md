@@ -21,10 +21,10 @@ organizations:
 bio: Jeff works on the modeling of pyrolysis and reduced chemical kinetics being integrated into the OpenFOAM framework.
 
 interests:
-- wildland fire
-- pyrolysis modeling
-- chemical mechanism reduction
-- engineering education
+- Wildland fire
+- Pyrolysis modeling
+- Chemical mechanism reduction
+- Engineering education
 
 education:
   courses:

@@ -19,7 +19,7 @@ organizations:
 bio: My research interests include computational fluid dynamics as applied to combustion and propulsion systems. 
 
 interests:
-- Computational Fluid Dynamics
+- Computational fluid dynamics
 - Combustion
 - Propulsion
 

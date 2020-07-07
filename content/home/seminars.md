@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 120  # Order that this section will appear.
 
-title = "Seminars"
+title = "Community"
 subtitle = ""
 
 [design]
@@ -50,6 +50,6 @@ subtitle = ""
  css_class = ""
 +++
 
-Rocky Mountain Fluid Mechanics Research Symposium
+[Rocky Mountain Fluid Mechanics Research Symposium](http://rockymountainfluids.org)
 
-Boulder Thermal Fluid Sciences Seminar Series
+[Boulder Thermal Fluid Sciences Seminar Series](http://boulderfluidsseminar.org)

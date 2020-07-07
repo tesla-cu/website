@@ -25,7 +25,7 @@ email: "caelan.lapointe@colorado.edu"
 # List (academic) interests or hobbies
 interests:
 - OpenFOAM
-- Efficient Simulation/Optimization
+- Efficient simulation/optimization
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

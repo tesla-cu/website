@@ -21,9 +21,9 @@ bio: Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mat
 interests:
 - Turbulence
 - Combustion
-- Lagrangian Analysis
+- Lagrangian analysis
 - Dispersion
-- Data Analysis
+- Data analysis
 - Science Policy
 
 education:
