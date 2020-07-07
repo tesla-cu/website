@@ -25,10 +25,11 @@ selected = false
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 
+projects = ["turbulence_modeling"]
 # Links (optional).
 url_pdf = ""
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/olgadoronina/turbABC"
 url_dataset = ""
 url_project = ""
 url_slides = ""
@@ -53,12 +54,12 @@ image = ""
 caption = ""
 
 +++
-STUFF
+Approximate Bayesian Computation (ABC) is a data-driven approach, which uses experimental or higher fidelity data to 
+approximate the probability distribution of model parameters. ABC is based on the Bayesian approach but does not 
+require knowing the analytical expression for a likelihood function. The primary advantages of ABC are its lower 
+cost relative to full Bayesian methods and its flexibility in parameter estimation for complex models, e.g., 
+turbulence models, which consist of partial differential equations.
 
-STUFF
-
-STUFFFFFFF
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+[`turbABC`](https://github.com/olgadoronina/turbABC) combines ABC with Markov chain Monte Carlo (ABC-MCMC) sampling, an adaptive proposal, and calibration 
+steps to accelerate the parameter estimation process. It is extremely flexible and applicable to a 
+large suite of problems.
