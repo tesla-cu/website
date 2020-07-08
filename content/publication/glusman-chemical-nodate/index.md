@@ -1,0 +1,13 @@
+---
+title: "A Chemical Kinetic Model Reduction and Pyrolysis Model for Wildland Fire Direct Numerical Simulation"
+date: 2017-01-01
+publishDate: 2020-06-27T15:52:06.562208Z
+authors: ["jeff_glusman", "Amanda Makoweicki", "nick_wimer", "kyle_niemeyer", "greg_rieker", "peter_hamlington", "john_daily"]
+publication_types: ["1"]
+abstract: "A chemical kinetic model for the gas-phase combustion of biomass is under development for use in a direct numerical simulation (DNS) of wildland ﬁre. Due to the computational constraints of a DNS, a reduction in the number of reactions and species of the combustion model is required. An existing pyrolysis model was used as the initial conditions for the combustion process. The detailed kinetic model for the gas-phase combustion consists of 137 species and 4533 reactions and the pyrolysis model consists of 40 species and 24 reactions; both developed by the Chemical Reaction Engineering and Chemical Kinetics (CRECK) group. The reduced kinetic model developed by directed relation graph with error propagation and sensitivity analysis (DRGEPSA) matches the laminar ﬂame speeds and ignition delays predicted by the detailed model within 10%, while only containing approximately 30% of the species and less than 10% of the reactions. The products of pyrolysis are highly dependent on temperature, making the process somewhat complex, therefore the reduction must be validated over a wide range of conditions. A highly reduced and robust chemical model was developed in combination with an existing pyrolysis model for use in a DNS of wildland ﬁre."
+featured: false
+publication: ""
+projects:
+  - wildland_fire
+---
+

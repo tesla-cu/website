@@ -1,0 +1,15 @@
+---
+title: "WENO interpolation for Lagrangian particles in highly compressible flow regimes"
+date: 2020-02-01
+publishDate: 2020-06-27T15:52:06.525749Z
+authors: ["Yoram Kozak", "Sandeep Dammati", "Luis Bravo", "peter_hamlington", "alexei_poludnenko"]
+publication_types: ["2"]
+abstract: "Lagrangian particles can be used either to analyze different complex ﬂows, as massless tracers, or to model multiphase ﬂows, as particles with mass. As particles can have arbitrary positions within the computational domain, interpolation of different ﬂow quantities from the Eulerian grid is essential. Low-order centered interpolation schemes generally do not provide a suﬃcient level of accuracy for many ﬂow conﬁgurations of interest. Thus, typically, high-order centered interpolation schemes are utilized. The current study demonstrates that for highly compressible non-reacting and reacting ﬂow regimes, in which discontinuities in the ﬂow ﬁeld, e.g., shock waves arise, centered interpolation schemes tend to smear the shock and high order schemes also produce numerical oscillations. It is shown that this problem can be remedied by using WeightedEssentially-Non-Oscillatory (WENO) interpolation schemes. Extensive numerical tests are performed in order to demonstrate this, comparing the performance of WENO-3 and WENO-5 interpolation schemes with a variety of centered interpolation schemes. The ﬁrst test case involves specially designed steady state two-dimensional vortex ﬂows. For a smooth ﬂow, WENO schemes provide comparable accuracy to other high-order centered schemes. For ﬂow ﬁelds with discontinuities, WENO-3 and WENO-5 interpolation schemes can decrease the interpolation error by more than two and three orders of magnitude, respectively, in comparison with centered schemes. Solution accuracy is further studied with a normal shock wave test. It is demonstrated that centered schemes tend to smear the shock, whereas, WENO schemes capture it in a much sharper manner. Moreover, high-order centered schemes tend to oscillate in the vicinity of the discontinuity leading to nonphysical results, such as negative absolute pressure values. The same trends are retained for an unsteady three-dimensional spherical blast wave, where the shock is smeared across several grid cells, which is typical for shock-capturing ﬂow solvers. Finally, the beneﬁts of WENO schemes for the Lagrangian-particle tracking analysis of highly compressible reactive ﬂows are explored by comparing various Lagrangian particle trajectories and joint probability density functions (PDFs) for a two-dimensional cellular detonation. The results indicate that high-order centered schemes lead to unphysical results, whereas WENO schemes can provide high-order interpolation that is free of severe numerical oscillations and non-physical artifacts, which is critical for the proper analysis of the ﬂow."
+featured: false
+publication: "*Journal of Computational Physics*"
+url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0021999119307594"
+doi: "10.1016/j.jcp.2019.109054"
+projects:
+  - turbulent_combustion
+---
+

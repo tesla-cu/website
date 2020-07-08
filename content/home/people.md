@@ -3,14 +3,14 @@
 # This section displays people from `content/authors/` which belong to the `user_groups` below.
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = false  # This file represents a page section.
+headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 # title = "People"
 # subtitle = "… who are doing the work"
 
-title = "Meet the team"
+title = "People"
 # subtitle = ""
 
 [content]
@@ -45,6 +45,10 @@ title = "Meet the team"
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
+  
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["25px", "0", "25px", "0"]  
 
 [advanced]
  # Custom CSS.

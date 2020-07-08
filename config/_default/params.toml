@@ -41,7 +41,7 @@ org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 # TODO: put more discription here
-description = "Turbulence and Energy Research Laboratory"
+description = "Turbulence and Energy Systems Laboratory"
 
 ############################
 ## Site Features
@@ -78,35 +78,31 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
+email = "peter.hamplington@colorado.edu"
+phone = "303-492-0555"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+address = {street = "427 UCB, 1111 Engineering Dr", city = "Boulder", region = "CO", postcode = "80309", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+coordinates = {latitude = "40.007617", longitude = "-105.263679"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+directions = "TESLa is located in the Mechanical Engineering wing of the Engineering Center at the University of Colorado, Boulder. Peter Hamlington can be found in office ECME 222 and the student office is ECME 217."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "twitter", icon_pack = "fab", name = "TESLa CU", link = "https://twitter.com/tesla_cu"},
   ]
 
 ############################
@@ -117,7 +113,7 @@ contact_links = [
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+twitter = "tesla_cu"
 
 ############################
 ## Regional Settings
@@ -138,6 +134,7 @@ address_format = "en-us"
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu = {align = "r", show_logo = true}
+logo = "logo.png"
 
 # Show estimated reading time for posts? (true/false)
 reading_time = false

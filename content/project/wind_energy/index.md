@@ -1,6 +1,6 @@
 ---
 title: Wind energy
-summary: SUMMARY
+summary: Optimization and control of wind plants using high-fidelity simulations
 tags:
 - Optimization
 - UQ 
@@ -32,10 +32,10 @@ links:
 #   Otherwise, set `slides = ""`.
 # slides: example
 
-participants:
-  - name: Julian Quick
-    username:  julian_quick
+authors:
+  - julian_quick
+  - peter_hamlington
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Using adjoint optimization and three-dimensional Reynolds-averaged Navier Stokes (RANS) simulations, we developed a new gradient-based approach for optimally siting wind turbines within utility-scale wind plants. By solving the adjoint equations of the flow model, the gradients needed for optimization were found at a cost that was independent of the number of control variables, thereby permitting optimization of large wind plants with many turbine locations. Moreover, compared to the common approach of superimposing prescribed wake deficits onto linearized flow models, the computational efficiency of the adjoint approach allowed the use of higher-fidelity RANS flow models that can capture nonlinear turbulent flow physics within a wind plant. The RANS flow model was implemented in the Python finite element package FEniCS and the derivation of the adjoint equations was automated within the dolfin-adjoint framework. Layout optimization was demonstrated for complex wind roses, including a full annual energy production (AEP) layout optimization over 36 inflow directions and 5 windspeed bins.
 

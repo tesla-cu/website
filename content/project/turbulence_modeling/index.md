@@ -1,6 +1,6 @@
 ---
-title: Turbulence modeling
-summary: Turbulence model development using Approximate Bayesian Computation.
+title: Turbulent flows
+summary: Studies of turbulence physics for model development and calibration
 tags:
 - ABC
 - LES
@@ -13,7 +13,7 @@ tags:
 external_link: ""
 
 image:
-    caption: Photo by rawpixel on Unsplash
+    caption: 
     focal_point: Smart
 
 links:
@@ -21,7 +21,7 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-url_code: "https://github.com/olgadoronina/ABC_MCMC"
+url_code: "https://github.com/olgadoronina/turbABC"
 #url_pdf: ""
 #url_slides: ""
 #url_video: ""
@@ -35,14 +35,18 @@ url_code: "https://github.com/olgadoronina/ABC_MCMC"
 
 authors:
     - olga_doronina
+    - julian_quick
+    - peter_hamlington
+
 
 collaborators:
-    - "Collaborator 1"
-    - "Collaborator 1"
+    - "Scott Murman"
+    - "Ryan King"
+    - "Werner J.A. Dahm"
 
 funding:
-    - "source 1"
-    - "source 2"
+    - "NASA"
+    - "AFOSR"
 
 ---
 
@@ -60,7 +64,7 @@ We suggest using the [Approximate Bayesian Computation (ABC)](https://en.wikiped
 
 ABC is based on the Bayesian approach but does not require knowing the analytical expression for a likelihood function. The primary advantages of ABC are its lower cost relative to full Bayesian methods and its flexibility in parameter estimation for complex models, e.g., turbulence models, which consist of partial differential equations.
 
-We created a framework called [TurbABC](https://github.com/olgadoronina/ABC_MCMC) for turbulent model parameters estimation.  TurbABC combines ABC with Markov chain Monte Carlo (MCMC) sampling, an adaptive proposal, and calibration steps to accelerate the parameter estimation process. We demonstrate the efficiency and effectiveness of TurbABC by estimating parameters of:
+We created a framework called [turbABC](https://github.com/olgadoronina/turbABC) for turbulent model parameters estimation.  TurbABC combines ABC with Markov chain Monte Carlo (MCMC) sampling, an adaptive proposal, and calibration steps to accelerate the parameter estimation process. We demonstrate the efficiency and effectiveness of TurbABC by estimating parameters of:
 
 - nonlinear SGS closures using reference data from direct numerical simulations of homogeneous isotropic turbulence
 

@@ -21,9 +21,9 @@ organizations:
 bio: Mike is a graduate student using computation fluid dynamics to understand fundamental physics in turbulent combustion problems.
 
 interests:
-- Computational Fluid Dynamics
-- Adaptive Mesh Refinement
-- Modal Decompositions
+- Computational fluid dynamics
+- Adaptive mesh refinement
+- Modal decompositions
 
 education:
   courses:

@@ -4,10 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 53  # Order that this section will appear.
 
-title = "Recent Dissertations"
+title = "Dissertations"
 subtitle = ""
 
 [content]
@@ -58,6 +58,10 @@ subtitle = ""
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["25px", "0", "25px", "0"]
 
 [advanced]
  # Custom CSS.

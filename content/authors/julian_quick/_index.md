@@ -9,17 +9,18 @@ authors:
 # Role/position
 role: PhD student
 
+superuser: false
 # Organizations/Affiliations
 organizations:
 - name: University of Colorado Boulder
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in wind energy systems uncertainty quantification and optimization.
+bio: Julian is a PhD student developing optimization and uncertainty quantification techniques to support the next generation of wind power plants. 
 
 interests:
-- Wind Energy
-- Uncertainty Quantification
+- Wind energy
+- Uncertainty quantification
 - Optimization
 
 # Social/Academic Networking

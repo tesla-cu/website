@@ -1,0 +1,13 @@
+---
+title: "Experimental Development and Computational Optimization of Flat Heat Pipes for CubeSat Applications"
+date: 2016-01-01
+publishDate: 2020-06-27T15:52:06.543775Z
+authors: ["steven_isaacs", "Diego A Arias", peter_hamlington", "Derek Hengeveld"]
+publication_types: ["1"]
+abstract: "Due to the compact and modular nature of CubeSats, thermal management has become a major bottleneck in system design and performance. In this study, we outline the development, initial testing, and modeling of a ﬂat, conformable, lightweight, and efﬁcient two-phase heat strap called FlexCool, currently being developed at Roccor1. Using acetone as the working ﬂuid, the heat strap has an average effective thermal conductivity of 2,149 W/m-K, which is approximately four times greater than the thermal conductivity of pure copper. Moreover, the heat strap has a total thickness of only 0.86 mm and is able to withstand internal vapor pressures as high as 930 kPa, demonstrating the suitability of the heat strap for orbital environments where pressure differences can be large. A reduced-order, closed-form theoretical model has been developed in order to predict the maximum heat load achieved by the heat strap for different design and operating parameters. The model is validated using experimental measurements and is used here in combination with a genetic algorithm to optimize the design of the heat strap with respect to maximizing heat transport capability."
+featured: false
+publication: ""
+projects:
+  - industrial_systems
+---
+

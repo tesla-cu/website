@@ -9,24 +9,33 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
+# Role/position
+role: Postdoctoral Researcher
+organizations:
+- name: National Renewable Energy Lab
+  url: https://www.nrel.gov/
+
 # Short bio (displayed in user profile at end of posts)
-bio: NICK IS ALUMNI
+bio: 
 
 interests:
 #- OpenSource CFD
 #- Combustion Modeling
 
 education:
-#  courses:
-#  - course: BS in Mechanical Engineering
-#    institution: Union College
-#    year: 2015
+  courses:
+  - course: PdD in Mechanical Engineering
+    institution: University of Colorado, Boulder
+    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/nwimer/
 #- icon: envelope
 #  icon_pack: fas
 #  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -54,11 +63,3 @@ user_groups:
 - Alumni
 
 ---
-
-Mike is a grad student.
-
-Yo.
-
-Yo.
-
-Yo.

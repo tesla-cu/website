@@ -9,6 +9,7 @@ authors:
 # Role/position
 role: PhD student
 
+superuser: false
 # Organizations/Affiliations
 organizations:
 - name: University of Colorado Boulder
@@ -20,7 +21,9 @@ bio: Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mat
 interests:
 - Turbulence
 - Combustion
+- Lagrangian analysis
 - Dispersion
+- Data analysis
 - Science Policy
 
 education:
@@ -40,14 +43,17 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&authuser=1&user=KI1FZOcAAAAJ
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ryan-darragh/
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Researchers
 ---

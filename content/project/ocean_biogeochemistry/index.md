@@ -1,6 +1,6 @@
 ---
-title: Ocean biogeochemestry
-summary: SUMMARY
+title: Ocean biogeochemistry
+summary: Reduced-order modeling for high-fidelity simulations of the upper ocean
 tags:
 - POM
 
@@ -10,7 +10,7 @@ tags:
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption:
   focal_point: Smart
 
 links:
@@ -30,7 +30,12 @@ links:
 #   Otherwise, set `slides = ""`.
 # slides: example
 
+authors:
+  - skyler_kern
+  - mary_mcguinn
+  - peter_hamlington
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Ocean tracers such as carbon dioxide, nutrients, plankton, and oil advect, diffuse, and react primarily in the oceanic mixed layer where air-sea gas exchange occurs and light is plentiful for photosynthesis. There can be substantial heterogeneity in the spatial distributions of these tracers due to turbulent stirring, particularly in the submesoscale range where partly geostrophic fronts and eddies and small-scale three-dimensional turbulence are simultaneously active. We have used LES to understand the respective impacts of small-scale and submesoscale motions on tracer transport. Tracer properties have been characterized using spatial fields and statistics, multiscale fluxes, and spectra, and we detailed how tracer mixing depends on air-sea tracer flux rate, tracer release depth, and flow regime. Although vertical fluxes of buoyancy by submesoscale eddies were shown to compete with mixing by Langmuir turbulence, vertical fluxes of tracers were often dominated by Langmuir turbulence, particularly for tracers released near the mixed-layer base or that dissolve rapidly through the surface, even in regions with pronounced submesoscale activity.
 
