@@ -13,7 +13,7 @@ tags:
 external_link: ""
 
 image:
-    caption: 
+    caption:
     focal_point: Smart
 
 links:
@@ -21,7 +21,7 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-url_code: "https://github.com/olgadoronina/turbABC"
+# url_code: "https://github.com/olgadoronina/turbABC"
 #url_pdf: ""
 #url_slides: ""
 #url_video: ""
