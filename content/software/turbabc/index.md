@@ -27,7 +27,7 @@ selected = false
 
 projects = ["turbulence_modeling"]
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://arxiv.org/abs/2005.13993"
 url_preprint = ""
 url_code = "https://github.com/olgadoronina/turbABC"
 url_dataset = ""

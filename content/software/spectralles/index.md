@@ -1,6 +1,6 @@
 +++
 title = "spectralLES"
-summary = "A pure-Python pseudo-spectral large eddy simulation solver for model testing and development"
+summary = "Pure-Python pseudospectral large eddy simulation solver for model testing and development"
 
 # Date first published.
 date = "2017-08-29"
