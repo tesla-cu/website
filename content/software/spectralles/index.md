@@ -1,16 +1,16 @@
 +++
 title = "spectralLES"
-summary = "Spectral solver in Python for large eddy simulations of turbulent flows "
+summary = "A pure-Python pseudo-spectral large eddy simulation solver for model testing and development"
 
 # Date first published.
-date = "2020-01-01"
+date = "2017-08-29"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["colin_towery", "peter_hamlington"]
+authors = ["colin_towery", "olga_doronina", "peter_hamlington"]
 
 # Abstract and optional shortened version.
-abstract = ""
-abstract_short = ""
+abstract = "`SpectralLES` is a pure-Python pseudospectral large eddy simulation solver for educational instruction and model development based upon the spectralDNS3D_short CFD simulation code written by Mikael Mortensen. (<github.com/spectralDNS/spectralDNS/blob/master/spectralDNS3D_short.py>)"
+abstract_short = "A pure-Python pseudo-spectral large eddy simulation solver for model testing and development"
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -22,18 +22,18 @@ selected = false
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["openfoam"]
+projects = ["turbulence_modeling"]
 
 # Links (optional).
-url_pdf = ""
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
+# url_pdf = ""
+# url_preprint = ""
+url_code = "https://github.com/phamlington/teslapy/tree/master/spectralLES"
+# url_dataset = ""
+# url_project = ""
+# url_slides = ""
+# url_video = ""
+# url_poster = ""
+# url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -52,12 +52,4 @@ image = ""
 caption = ""
 
 +++
-STUFF
-
-STUFF
-
-STUFFFFFFF
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+`SpectralLES` is a pure-Python pseudospectral large eddy simulation solver for educational instruction and model development based upon the [`spectralDNS3D_short`](https://github.com/spectralDNS/spectralDNS/blob/master/spectralDNS3D_short.py) CFD simulation code written by Mikael Mortensen.

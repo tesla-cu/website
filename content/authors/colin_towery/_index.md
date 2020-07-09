@@ -15,42 +15,64 @@ role: Research associate
 # Organizations/Affiliations
 organizations:
 - name: University of Colorado Boulder
-  url: ""
+  url: "https://www.colorado.edu/mechanical/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Colin is a research associate in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and also a former student in the Turbulence and Energy Systems Laboratory, earning his PhD in May 2018.
 
-#interests:
+interests:
+- Variable-density turbulence theory and modeling
+- Dimensional analysis of multi-physics interactions
+- High performance computing (HPC)
+- Free and open-source (FOSS) scientific software development
 
-
-#education:
-#  courses:
-#  - course: BS in Mechanical Engineering
-#    institution: The Pennsylvania State University
-#    year: 2017
+education:
+  courses:
+  - course: Ph.D., Mechanical Engineering
+    institution: University of Colorado Boulder
+    year: 2018
+  - course: M.S., Mechanical Engineering
+    institution: University of Colorado Boulder
+    year: 2018
+  - course: B.S., Mechanical Engineering
+    institution: Washington University in St. Louis
+    year: 2010
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: 'mailto:michael.a.meehan@colorado.edu'  # For a direct email link, use "mailto:mime5507@colorado.edu".
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?authuser=1&user=Owl_WsQAAAAJ
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/mameehan5
+social:
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:colin.towery@colorado.edu'
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Colin_Towery
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=EOi0q0YAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/ctowery
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/colinaztowery/
+# - icon: orcid
+#   icon_pack: ai
+#   link: https://orcid.org/0000-0002-1090-7939
+# - icon: arxiv
+#   icon_pack: ai
+#   link: https://arxiv.org/search/physics?searchtype=author&query=Towery%2C+C+A+Z
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-#- icon: cv
-#  icon_pack: ai
-#  link: files/authors_cv/michael_meehan_cv.pdf
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+- icon: cv
+  icon_pack: ai
+  link: files/authors_cv/colin_towery_cv.pdf
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Researchers
 ---
+Colin is a research associate in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and also a former student in the Turbulence and Energy Systems Laboratory, earning his PhD in May 2018.
