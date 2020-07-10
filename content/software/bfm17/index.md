@@ -23,6 +23,7 @@ selected = false
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 projects = ["ocean_biogeochemistry"]
+software = ["bfm17"]
 
 # Links (optional).
 url_pdf = ""
@@ -59,4 +60,4 @@ The Biogeochemical Flux Model (BFM) is a computational model of biological and c
 
 BFM has been coupled to a one-dimensional version of the Princeton Ocean Model (POM1D). POM1D is used to simulate a column of water through time. It can be run in prognostic mode or diagnostic mode. Prognostic mode simulates all of the dynamics of a water column, while diagnostic mode can be used to force the physics with prescribed temperature and salinity profiles.
 
-The code, available at the git repository linked above, has both BFM56 and BFM17 run options with POM1D. The code has been set up to model phytoplankton bloom dynamics at the Sargasso Sea. POM1D is being run in diagnostic mode using data from the Bermuda Atlantic Time-series and the Bermuda Testbed Mooring to prescribe temperature, salinity, and boundary conditions. BFM56 and BFM17 have been shown in previous work to produce comparable results. 
+The code, available at the git repository linked above, has both BFM56 and BFM17 run options with POM1D. The code has been set up to model phytoplankton bloom dynamics at the Sargasso Sea. POM1D is being run in diagnostic mode using data from the Bermuda Atlantic Time-series and the Bermuda Testbed Mooring to prescribe temperature, salinity, and boundary conditions. BFM56 and BFM17 have been shown in previous work to produce comparable results.
