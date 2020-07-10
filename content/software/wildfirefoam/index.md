@@ -23,6 +23,7 @@ selected = false
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 projects = ["wildland_fire"]
+software = ["wildfirefoam"]
 
 # Links (optional).
 url_pdf = ""
