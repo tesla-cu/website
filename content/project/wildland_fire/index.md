@@ -37,9 +37,9 @@ authors:
 - peter_hamlington
 
 funding:
-- short_name: AFOSR
-  full_name: Air Force Office of Scientific Research
-  link: https://www.wpafb.af.mil/afrl/afosr/
+    - name: AFOSR
+      url: https://www.wpafb.af.mil/afrl/afosr/
+
 
 
 ---
