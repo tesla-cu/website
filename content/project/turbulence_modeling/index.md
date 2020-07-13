@@ -45,9 +45,10 @@ collaborators:
     - "Werner J.A. Dahm"
 
 funding:
-    - "NASA"
-    - "AFOSR"
-
+    - name: NASA
+      url: https://www.nasa.gov/
+    - name: AFOSR
+      url: https://www.wpafb.af.mil/afrl/afosr/
 ---
 
 ## Turbulence model development using Approximate Bayesian Computation

@@ -19,7 +19,7 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-url_code: "https://github.com/olgadoronina/ABC_MCMC"
+# url_code: ""
 #url_pdf: ""
 #url_slides: ""
 #url_video: ""
