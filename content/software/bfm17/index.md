@@ -27,7 +27,7 @@ software = ["bfm17"]
 
 # Links (optional).
 url_pdf = ""
-url_preprint = ""
+url_preprint = "https://gmd.copernicus.org/preprints/gmd-2020-134/"
 url_code = "https://github.com/marco-zavatarelli/BFM17-56"
 url_dataset = "http://doi.org/10.5281/zenodo.3840562"
 url_project = ""
