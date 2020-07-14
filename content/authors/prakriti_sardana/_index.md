@@ -16,7 +16,7 @@ organizations:
   url: "https://www.colorado.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Prakriti is a graduate student using computational fluid dynamics to study buoyant non-reacting and reacting plumes and is a part of the SERDP Wildfire Project. Her research interests include computational fluid dynamics as applied to studying fire dynamics and combustion systems. 
+bio: Prakriti is a graduate student using computational fluid dynamics to study buoyant non-reacting and reacting plumes. Her research interests include computational fluid dynamics as applied to studying fire dynamics and combustion systems. 
 
 interests:
 - Computational fluid dynamics
@@ -55,10 +55,5 @@ social:
   icon_pack: ai
   link: /files/authors_cv/prakriti_sardana_cv.pdf
   
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
- - Researchers
 ---
-
 Prakriti is a graduate student using computational fluid dynamics to study buoyant non-reacting and reacting plumes and is a part of the SERDP Wildfire Project. Her research interests include computational fluid dynamics as applied to studying fire dynamics and combustion systems. Prakriti's research focuses on highly buoyancy driven flows with applications to studying fire dynamics. The main idea is using adaptive mesh refinement (or AMR) to help reduce computational cost when dealing with complex, turbulent flows with large separation of temporal and spatial scales. 
