@@ -68,12 +68,18 @@ social:
 - icon: researchgate
   icon_pack: fab
   link: https://www.researchgate.net/profile/Olga_Doronina
+  
+- icon: address-card
+  icon_pack: far
+  link: https://olgadoronina.github.io/
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
   link: /files/authors_cv/olga_doronina_cv.pdf
+  
+
 
 ---
 I'm currently working on a data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach. 
