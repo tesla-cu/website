@@ -23,8 +23,8 @@ publication = "Mathematical Models and Computer Simulations"
 publication_short = "Matem. Mod."
 
 # Abstract and optional shortened version.
-abstract = "The paper is devoted to the development of integrated technology for numerical simulation of aerodynamics of moving bodies prescribed by the immersed boundaries method on unstructured meshes. The dynamic mesh adaptation is used to improve the accuracy. The mesh adaptation method in use is built on the base of nodes-redistribution techniques. Its implementation implies the solution of additional differential equation governing the mesh movement. The method allows to keep a topology of the initial mesh and does not increase significantly the computational costs. The technology is developed for 2D formulations and verified on model problems."
-abstract_short = ""
+abstract = "We developed a framework for numerical simulation of the aerodynamics of moving bodies prescribed by the immersed boundaries on unstructured meshes. To improve the accuracy of simulations, we use the dynamic mesh adaptation based on node-redistribution techniques. Its implementation implies the solution of additional differential equation governing the mesh movement. This method allows us to keep a topology of the initial mesh and does not significantly increase the computational costs. The technology is developed for 2D formulations and verified on model problems."
+abstract_short = "We developed a framework for numerical simulation of the aerodynamics of moving bodies prescribed by the immersed boundaries on unstructured meshes. To improve the accuracy of simulations, we use the dynamic mesh adaptation based on node-redistribution techniques. Its implementation implies the solution of additional differential equation governing the mesh movement. This method allows us to keep a topology of the initial mesh and does not significantly increase the computational costs. The technology is developed for 2D formulations and verified on model problems."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -40,7 +40,7 @@ url_video = ""
 url_poster = ""
 url_source = ""
 
-links = [ {name = "Webpage", url= "http://mi.mathnet.ru/eng/mm3968"}]
+#links = [ {name = "Webpage", url= "http://mi.mathnet.ru/eng/mm3968"}]
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
@@ -49,4 +49,3 @@ caption = ""
 
 +++
 
-The paper is devoted to the development of integrated technology for numerical simulation of aerodynamics of moving bodies prescribed by the immersed boundaries method on unstructured meshes. The dynamic mesh adaptation is used to improve the accuracy. The mesh adaptation method in use is built on the base of nodes-redistribution techniques. Its implementation implies the solution of additional differential equation governing the mesh movement. The method allows to keep a topology of the initial mesh and does not increase significantly the computational costs. The technology is developed for 2D formulations and verified on model problems.
