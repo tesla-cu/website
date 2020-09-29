@@ -7,13 +7,13 @@ authors:
 - ryan_darragh
 
 # Role/position
-role: PhD student
+role: Researcher
 
 superuser: false
 # Organizations/Affiliations
 organizations:
-- name: University of Colorado Boulder
-  url: ""
+- name: Johns Hopkins University Applied Physics Laboratory
+  url: "https://www.jhuapl.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mathematics and a concentration in Scientific Computing. As an undergrad he conducted computational physics research in astrophysics and cosmology. He started his Ph.D. studying reduced order models and then switched to studying turbulence-flame interactions in high-speed combusting flows. Ryan received a National Defense Science & Engineering Graduate Fellowship (NDSEG) in 2016.
@@ -28,10 +28,13 @@ interests:
 
 education:
   courses:
+  - course: Ph.D., Aerospace Engineering
+    institution: University of Colorado Boulder
+    year: 2020
   - course: B.A. in Physics and Mathematics
     institution: Kenyon College
-    year: 2010
-
+    year: 2014
+    
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -55,7 +58,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Alumni
 ---
 
 Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mathematics and a concentration in Scientific Computing. As an undergrad he conducted computational physics research in astrophysics and cosmology. He started his Ph.D. studying reduced order models and then switched to studying turbulence-flame interactions in high-speed combusting flows. Ryan received a National Defense Science & Engineering Graduate Fellowship (NDSEG) in 2016.

@@ -7,7 +7,7 @@ authors:
 - olga_doronina
 
 # Role/position
-role: PhD student
+role: Research Assistant
 
 # Is this the primary user of the site?
 superuser: false
@@ -93,7 +93,6 @@ I received my B.S. and M.S in Applied Mathematics and Physics from the Moscow In
 (MIPT, Phystech). During my thesis research practice in the CAA lab I studied the problem of acoustic scattering 
 by an isolated vortex and sound radiation by a perturbed Rankine vortex. 
 
-My current research is funded by a NASA grant.
 
  
 
