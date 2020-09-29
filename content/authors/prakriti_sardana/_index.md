@@ -14,11 +14,6 @@ superuser: false
 organizations:
 - name: University of Colorado Boulder
   url: "https://www.colorado.edu/"
-  
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Researcher
 
 # Short bio (displayed in user profile at end of posts)
 bio: Prakriti is a graduate student using computational fluid dynamics to study buoyant non-reacting and reacting plumes. Her research interests include computational fluid dynamics as applied to studying fire dynamics and combustion systems. 
@@ -27,6 +22,12 @@ interests:
 - Computational fluid dynamics
 - Combustion
 - Adaptive mesh refinement
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+- Researchers
+
 
 education:
   courses:

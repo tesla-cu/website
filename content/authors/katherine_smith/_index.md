@@ -22,7 +22,7 @@ interests:
 
 education:
   courses:
-  - course: PdD in Mechanical Engineering
+  - course: Ph.D., Mechanical Engineering
     institution: University of Colorado, Boulder
     year: 2017
 
