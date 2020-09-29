@@ -28,7 +28,6 @@ interests:
 user_groups:
 - Researchers
 
-
 education:
   courses:
   - course: PhD in Mechanical Engineering
