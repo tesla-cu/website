@@ -18,7 +18,7 @@ organizations:
   url: "https://www.colorado.edu/mechanical/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Colin is a research associate in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and also a former student in the Turbulence and Energy Systems Laboratory, earning his PhD in May 2018.
+bio: Colin was a research associate in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and also a former student in the Turbulence and Energy Systems Laboratory, earning his PhD in May 2018.
 
 interests:
 - Variable-density turbulence theory and modeling
@@ -73,6 +73,6 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Alumni
 ---
-Colin is a research associate in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and also a former student in the Turbulence and Energy Systems Laboratory, earning his PhD in May 2018.
+Colin was a research associate in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and also a former student in the Turbulence and Energy Systems Laboratory, earning his PhD in May 2018.
