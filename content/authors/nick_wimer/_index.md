@@ -24,7 +24,7 @@ interests:
 
 education:
   courses:
-  - course: Ph.D.,Mechanical Engineering
+  - course: PdD in Mechanical Engineering
     institution: University of Colorado, Boulder
     year: 2019
 

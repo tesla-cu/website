@@ -25,10 +25,10 @@ interests:
 
 education:
   courses:
-  - course: M.S. in Mechanical Engineering
+  - course: M.S. in Mechanical Engineeringe
     institution: University of Colorado, Boulder
     year: 2018
-  - course: "B.S. in Mechanical Engineering, Dual Major International Affairs (Minor: Applied Mathematics)"
+  - course: B.S. in Mechanical Engineering, Dual Major International Affairs (Minor':' Applied Mathematics)
     institution: University of New Hampshire
     year: 2016
 

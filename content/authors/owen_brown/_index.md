@@ -23,11 +23,11 @@ interests:
 
 education:
   courses:
-  - course: M.S. in Mechanical Engineering
-    institution: University of Colorado, Boulder
+  - course: MS in Mechanical Engineering
+    institution: University of Colorasdo, Boulder
     year: 2019
-  - course: B.S. in Mechanical Engineering
-    institution: University of Colorado, Boulder
+  - course: BS in Mechanical Engineering
+    institution: University of Colorasdo, Boulder
     year: 2018
 
 # Social/Academic Networking
