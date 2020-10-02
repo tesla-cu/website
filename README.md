@@ -15,13 +15,13 @@ dpkg -i hugo_0.58.2_Linux-64bit.deb
 ```
 on Ubuntu since standard `sudo apt-get` installs a depreciated version.
 
-Once `git` & `hugo` are installed: 
+Once `git` and `hugo` are installed: 
 ```bash
 $ git clone --recursive git@github.com:tesla-cu/website.git
 $ cd website
 $ hugo server
 ```
-Open [http://localhost:1313/](http://localhost:1313/) and your website should be  appear.
+Open [http://localhost:1313/](http://localhost:1313/) and your website should appear.
 
 ## Contributing: 
 We follow the convention of forking the repository, modifying your source code, then submitting a pull request where other members of the lab can inspect your new content. Check [Configuring your Github account](https://github.com/tesla-cu/website/wiki/Configuring-your-Github-account) wiki page to help you with this procedure.
