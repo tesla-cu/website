@@ -37,12 +37,9 @@ social:
 - icon: cv
   icon_pack: ai
   link: files/authors_cv/julian_quick_cv.pdf
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=dLbhAXQAAAAJ
 
 
 # Organizational groups that you belong to (for People widget)
