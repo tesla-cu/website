@@ -7,15 +7,15 @@ authors:
 - olga_doronina
 
 # Role/position
-role: PhD student
+role: Postdoctoral Researcher
 
 # Is this the primary user of the site?
 superuser: false
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations:
-- name: University of Colorado, Boulder
-  url:
+- name: National Reneable Energy Lab
+  url: https://www.nrel.gov/
 
 # Short bio (displayed in user profile at end of posts)
 bio:  Working on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
@@ -33,7 +33,7 @@ interests:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Alumni
 
 # List qualifications (such as academic degrees)
 education:
@@ -61,13 +61,9 @@ social:
   icon_pack: ai
   link: https://scholar.google.com/citations?user=LAyA19QAAAAJ&hl=en&authuser=1
 
-- icon: github
+- icon: linkedin
   icon_pack: fab
-  link: https://github.com/olgadoronina
-
-- icon: researchgate
-  icon_pack: fab
-  link: https://www.researchgate.net/profile/Olga_Doronina
+  link: https://www.linkedin.com/in/olga-doronina/
   
 - icon: address-card
   icon_pack: far
@@ -75,15 +71,13 @@ social:
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-- icon: cv
-  icon_pack: ai
-  link: /files/authors_cv/olga_doronina_cv.pdf
+
   
 
 
 ---
-I'm currently working on a data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach. 
-I'm really interested in Data Analysis, Bayesian statistics, Machine Learning and how they can be used to 
+In TESla lab I was working on a data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach. 
+I'm interested in Data Analysis, Bayesian statistics, Machine Learning and how they can be used to 
 improve turbulence simulations.   
 
 Before joining TESLa I worked on dynamical mesh adaptation algorithms for unstructured meshes 
@@ -93,7 +87,6 @@ I received my B.S. and M.S in Applied Mathematics and Physics from the Moscow In
 (MIPT, Phystech). During my thesis research practice in the CAA lab I studied the problem of acoustic scattering 
 by an isolated vortex and sound radiation by a perturbed Rankine vortex. 
 
-My current research is funded by a NASA grant.
 
  
 
