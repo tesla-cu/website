@@ -7,16 +7,15 @@ authors:
 - ryan_darragh
 
 # Role/position
-role: PhD student
+role: Computational Physicist
 
 superuser: false
 # Organizations/Affiliations
 organizations:
-- name: University of Colorado Boulder
-  url: ""
+- name: JHU/APL
+  url: "https://www.jhuapl.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mathematics and a concentration in Scientific Computing. As an undergrad he conducted computational physics research in astrophysics and cosmology. He started his Ph.D. studying reduced order models and then switched to studying turbulence-flame interactions in high-speed combusting flows. Ryan received a National Defense Science & Engineering Graduate Fellowship (NDSEG) in 2016.
 
 interests:
 - Turbulence
@@ -28,9 +27,12 @@ interests:
 
 education:
   courses:
+  - course: Ph.D. in Aerospace Engineering Sciences
+    institution: University of Colorado, Boulder
+    year: 2020
   - course: B.A. in Physics and Mathematics
     institution: Kenyon College
-    year: 2010
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -55,7 +57,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Alumni
 ---
 
-Ryan graduated from Kenyon College in 2014 with a degree in Physics and Mathematics and a concentration in Scientific Computing. As an undergrad he conducted computational physics research in astrophysics and cosmology. He started his Ph.D. studying reduced order models and then switched to studying turbulence-flame interactions in high-speed combusting flows. Ryan received a National Defense Science & Engineering Graduate Fellowship (NDSEG) in 2016.
+Ryan graduated from the University of Colorado, Boulder in 2020 with a Ph.D. in Aerospace Engineering Sciences. As a member of TESLa he studied the interactions between turbulence and chemistry in highly turbulent flames using Lagrangian analysis.
