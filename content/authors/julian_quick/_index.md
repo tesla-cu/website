@@ -34,9 +34,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/kilojoules
-- icon: cv
-  icon_pack: ai
-  link: files/authors_cv/julian_quick_cv.pdf
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&user=dLbhAXQAAAAJ
