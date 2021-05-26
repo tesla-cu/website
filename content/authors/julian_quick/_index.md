@@ -48,4 +48,4 @@ user_groups:
 - Researchers
 ---
 
-Julian is a PhD canidate developing outer loop applications of wind energy systems.
+Julian is a PhD candidate developing outer loop applications of wind energy systems.
