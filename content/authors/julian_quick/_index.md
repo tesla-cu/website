@@ -34,12 +34,12 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/kilojoules
-- icon: cv
-  icon_pack: ai
-  link: files/authors_cv/julian_quick_cv.pdf
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&user=dLbhAXQAAAAJ
+- icon: cv
+  icon_pack: ai
+  link: /files/authors_cv/JQCV.pdf
 
 
 # Organizational groups that you belong to (for People widget)
@@ -48,4 +48,4 @@ user_groups:
 - Researchers
 ---
 
-Julian is a PhD student.
+Julian is a PhD candidate developing outer loop applications of wind energy systems.
