@@ -18,15 +18,19 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: to do
+bio: Tyler is a first-year graduate student currently working with simulations of premixed combustion with adaptive mesh refinement (AMR). While his M.S. at Arizona State University was primarily focused on aerodynamics, Tyler also worked with optimizing a CFD program - this interest led him to TESLa at the University of Colorado. Tyler is interested both in the flow physics governing the behavior of internal combusion processes, however he takes equal interest in the simulation of such behavior, particularly in the optimization of the controlling numerical methods, extension to large-scale computing, and the usage of AMR to drastically reduce the computational burden of simulations.
 
 interests:
 - Propulsion and Combustion
 - Adaptive Mesh Refinement
 - Computational Fluid Dynamics
+- Engineering Education
 
 education:
   courses:
+  - course: MS in Mechanical Engineering
+    institution: Arizona State University
+    year: 2021
   - course: BS in Aerospace Engineering
     institution: Arizona State University
     year: 2020
