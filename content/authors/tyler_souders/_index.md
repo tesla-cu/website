@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Tyler is a first-year graduate student currently working with simulations of premixed combustion with adaptive mesh refinement (AMR). While his M.S. at Arizona State University was primarily focused on aerodynamics, Tyler also worked with optimizing a CFD program - this interest led him to TESLa at the University of Colorado. Tyler is interested both in the flow physics governing the behavior of internal combusion processes, however he takes equal interest in the simulation of such behavior, particularly in the optimization of the controlling numerical methods, extension to large-scale computing, and the usage of AMR to drastically reduce the computational burden of simulations.
+bio: Tyler is a first-year graduate student currently working with simulations of premixed combustion with adaptive mesh refinement (AMR). He is interested both in the flow physics governing the behavior of internal combustion processes and simulations thereof.
 
 interests:
 - Propulsion and Combustion
@@ -31,13 +31,10 @@ education:
   - course: MS in Mechanical Engineering
     institution: Arizona State University
     year: 2021
-  - course: BS in Aerospace Engineering
+  - course: BSE in Aerospace Engineering
     institution: Arizona State University
     year: 2020
-  - course: MS in Mechanical Engineering
-    institution: Arizona State University
-    year: 2021
-
+    
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -63,3 +60,4 @@ social:
 user_groups:
 - Researchers
 ---
+Tyler is a first-year graduate student currently working with simulations of premixed combustion with adaptive mesh refinement (AMR). While his M.S. at Arizona State University was primarily focused on aerodynamics, Tyler also worked with optimizing a CFD program - this interest led him to TESLa at the University of Colorado. Tyler is interested both in the flow physics governing the behavior of internal combustion processes, however he takes equal interest in the simulation of such behavior, particularly in the optimization of the controlling numerical methods, extension to large-scale computing, and the usage of AMR to drastically reduce the computational burden of simulations.
