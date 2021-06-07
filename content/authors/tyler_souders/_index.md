@@ -31,13 +31,10 @@ education:
   - course: MS in Mechanical Engineering
     institution: Arizona State University
     year: 2021
-  - course: BS in Aerospace Engineering
+  - course: BSE in Aerospace Engineering
     institution: Arizona State University
     year: 2020
-  - course: MS in Mechanical Engineering
-    institution: Arizona State University
-    year: 2021
-
+    
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
