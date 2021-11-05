@@ -31,6 +31,7 @@ education:
   - course: BS in Mechanical Engineering
     institution: The Pennsylvania State University
     year: 2017
+    
   - course: MS in Mechanical Engineering
     institution: University of Colorado
     year: 2020
