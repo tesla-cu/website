@@ -46,6 +46,15 @@
         {{ end }}
       {{ end }}
 
+      {{ $items := where (where site.RegularPages "Type" "software") ".Params.projects" "intersect" (slice $project) }}
+      {{ $soft_len := len $items }}
+      {{ if ge $soft_len 1 }}
+        <h2>{{ (i18n "software" | default "Software") }}</h2>
+        {{ range $items }}
+          {{ partial "li_compact" . }}
+        {{ end }}
+      {{ end }}
+
       {{ $items := where (where site.RegularPages "Type" "publication") ".Params.projects" "intersect" (slice $project) }}
       {{ $pubs_len := len $items }}
       {{ if ge $pubs_len 1 }}
