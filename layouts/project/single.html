@@ -24,30 +24,6 @@
           </ul>
         </div>
         {{ end }}
-        {{ if .Params.funding}}
-        <div class="col-lg-6">
-          <h4><strong>Funding sources:</strong></h4>
-          <ul class="view-list-item">
-            {{ range .Params.funding }}
-              {{ $link := .url }}
-              {{ $scheme := (urls.Parse $link).Scheme }}
-              {{ $target := "" }}
-              {{ if not $scheme }}
-                {{ $link = $link | relURL }}
-              {{ else if in (slice "http" "https") $scheme }}
-                {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-              {{ end }}
-              <li>
-                {{if .url}}
-                <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{ .name }}</a>
-                {{else}}
-                <p>{{ .name }}</p>
-                {{end}}
-              </li>
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
       </div>
     </div>
 
