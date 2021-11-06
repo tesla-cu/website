@@ -31,7 +31,7 @@ education:
   - course: BS in Mechanical Engineering
     institution: The Pennsylvania State University
     year: 2017
-    
+
   - course: MS in Mechanical Engineering
     institution: University of Colorado
     year: 2020
@@ -50,11 +50,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/mameehan5
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/authors_cv/michael_meehan_cv.pdf
+  link: author/michael-meehan/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "michael.a.meehan@colorado.edu"
