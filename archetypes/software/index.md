@@ -44,7 +44,4 @@ authors: []
 # Collaborator names (e.g. - John Smith) 
 collaborators: []
 
-# funding sourse
-funding: []
-
 ---

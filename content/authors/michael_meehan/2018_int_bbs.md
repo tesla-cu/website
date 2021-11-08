@@ -20,7 +20,6 @@ publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "Physics of Fluids"
-publication_short = "Phys. Fluids"
 
 # Abstract and optional shortened version.
 abstract = ""
