@@ -54,9 +54,9 @@ social:
   link: https://github.com/jfg5067
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: /files/authors_cv/jeff_glusman_cv.pdf
 
 
 # Organizational groups that you belong to (for People widget)
