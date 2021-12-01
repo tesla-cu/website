@@ -7,7 +7,7 @@ authors:
 - caelan_lapointe
 
 # Role/position
-role: PhD student
+role: PostDoctoral Associate
 
 superuser: false
 # Organizations/Affiliations
@@ -17,7 +17,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Caelan’s research is motivated by complex fire phenomena with a focus on industrial and environmental applications.
+bio:  Caelan’s research is motivated by efficient simulation and optimization of complex fire phenomena with a focus on industrial and environmental applications.
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "caelan.lapointe@colorado.edu"
@@ -26,6 +26,8 @@ email: "caelan.lapointe@colorado.edu"
 interests:
 - OpenFOAM
 - Efficient simulation/optimization
+- Adaptive mesh refinement
+- Wildland fire
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -35,6 +37,9 @@ user_groups:
 # List qualifications (such as academic degrees)
 education:
   courses:
+    - course: PhD in Mechanical Engineering
+      institution: University of Colorado, Boulder
+      year: 2020
     - course: BS in Mechanical Engineering
       institution: Union College
       year: 2015
