@@ -14,7 +14,7 @@ superuser: false
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations:
-- name: National Reneable Energy Lab
+- name: National Renewable Energy Lab
   url: https://www.nrel.gov/
 
 # Short bio (displayed in user profile at end of posts)

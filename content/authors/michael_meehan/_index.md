@@ -36,6 +36,10 @@ education:
     institution: University of Colorado
     year: 2020
 
+  - course: PhD in Mechanical Engineering
+    institution: University of Colorado
+    year: 2022 (expected)
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
