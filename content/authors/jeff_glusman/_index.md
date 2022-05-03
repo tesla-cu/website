@@ -64,8 +64,4 @@ social:
 user_groups:
 - Alumni
 ---
-
-# Jeff's research focuses on making complex chemical kinetics suitable for simulations of the combustion of biomass for wildfire spread predictions. This is performed by beginning with detailed chemistry and using reduction techniques to reduce the number of species and reactions without significant changes to the flame and combustion properties. Additionally, Jeff uses wildFireFoam, a solver developed by a fellow member of TESLa within the OpenFOAM framework, to simulate experiments performed by the Rieker Group. By comparing experiments and simulations, we explore how the errors in predicted flame properties affect the accuracy of predicted flame spread and other properties associated within wildfires. Future work includes the inclusion of soot modeling, volatile organic compounds (VOCs), embers and other particulate modeling to understand how these are transported by fires. Jeff is funded by the Strategic Environmental Research and Development Program (SERDP) under grant W912HQ-16-C-0026 as project number RC-2642. He is co-advised by Dr. John W. Daily.
-
-# Jeff's passion is engineering education, having taught at local community colleges before beginning his Ph.D. and taught Thermodynamics I (MCEN3012) as a graduate part-time instructor twice at CU Boulder. He was awarded the John and Mercedes Peebles Innovation in Education Award, which is an award that recognizes faculty in the college who have shown a unique commitment to students demonstrated through innovations in education. Jeff is the first graduate student to be bestowed this honor. He also was the Lead Graduate Student of Mechanical Engineering for the 2019-2020 academic year. 
-
+Jeff is a former student in the Turbulence and Energy Systems Laboratory, earning his PhD in April 2022.
