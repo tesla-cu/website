@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student
+role: PostDoctoral Associate
 
 # Organizations/Affiliations
 organizations:
@@ -18,10 +18,11 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mike is a graduate student using computation fluid dynamics to understand fundamental physics in turbulent combustion problems.
+bio: Mike is a graduate student using computation fluid dynamics to understand fundamental physics for combustion applications.
 
 interests:
 - Buoyancy-driven flows
+- Turbulent combustion
 - Computational fluid dynamics
 - Adaptive mesh refinement
 - Modal decompositions
@@ -38,7 +39,7 @@ education:
 
   - course: PhD in Mechanical Engineering
     institution: University of Colorado
-    year: 2022 (expected)
+    year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -66,4 +67,4 @@ email: "michael.a.meehan@colorado.edu"
 user_groups:
 - Researchers
 ---
-Mike’s research focuses on two main area: highly buoyancy driven flows with applications to industrial burners and large scale fires, and highly turbulent interacting flame configurations with applications to Air Force relevant problems. In both situations, adaptive mesh refinement (AMR) can be used to help reduce computational cost when dealing with the large separation of temporal and spatial scales. A number of advanced analysis techniques using [yt](https://yt-project.org/) to statistically investigate moments, fluxes, kinetic energy, and enstrophy. Additionally, Mike uses modal decompositions, such as proper orthogonal decomposition (POD) and dynamic mode decomposition (DMD), to investigate unsteady dynamics and large-scale structures. Mike was funded by the National Science Foundation Graduate Research Fellowship under Grant No. DGE 1650115.
+Mike’s research focuses on two main area: highly buoyancy driven flows with applications to industrial burners and large scale fires, and  turbulent flame configurations with applications to Air Force relevant problems. In both situations, adaptive mesh refinement (AMR) can be used to help reduce computational cost when dealing with the large separation of temporal and spatial scales. A number of advanced analysis techniques using [yt](https://yt-project.org/) to statistically investigate moments, fluxes, kinetic energy, and enstrophy. Additionally, Mike uses modal decompositions, such as proper orthogonal decomposition (POD) and dynamic mode decomposition (DMD), to investigate unsteady dynamics and large-scale structures. Mike was funded by the National Science Foundation Graduate Research Fellowship under Grant No. DGE 1650115.
