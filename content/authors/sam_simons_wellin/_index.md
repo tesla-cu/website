@@ -41,9 +41,9 @@ social:
  - icon: envelope
    icon_pack: fas
    link: 'mailto:sam.simonswellin@colorado.edu'  # For a direct email link, use "mailto:test@example.org".
- - icon: cv
-   icon_pack: ai
-   link: files/authors_cv/sam_simons_wellin_cv.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: files/authors_cv/sam_simons_wellin_cv.pdf
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
