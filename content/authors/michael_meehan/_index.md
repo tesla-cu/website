@@ -10,15 +10,15 @@ authors:
 superuser: false
 
 # Role/position
-role: PostDoctoral Associate
+role: Postdoctoral Research Associate
 
 # Organizations/Affiliations
 organizations:
-- name: University of Colorado Boulder
-  url: ""
+- name: Sandia National Laboratories
+  url: "https://www.sandia.gov/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mike is a graduate student using computation fluid dynamics to understand fundamental physics for combustion applications.
+bio: Mike is a former research associate in the Paul M. Rady Department of Mechanical Engineering at the University of Colorado Boulder and also a former student in the Turbulence and Energy Systems Laboratory, earned his PhD in May 2022.
 
 interests:
 - Buoyancy-driven flows
@@ -65,6 +65,6 @@ email: "michael.a.meehan@colorado.edu"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
+- Alumni
 ---
-Mike’s research focuses on two main area: highly buoyancy driven flows with applications to industrial burners and large scale fires, and  turbulent flame configurations with applications to Air Force relevant problems. In both situations, adaptive mesh refinement (AMR) can be used to help reduce computational cost when dealing with the large separation of temporal and spatial scales. A number of advanced analysis techniques using [yt](https://yt-project.org/) to statistically investigate moments, fluxes, kinetic energy, and enstrophy. Additionally, Mike uses modal decompositions, such as proper orthogonal decomposition (POD) and dynamic mode decomposition (DMD), to investigate unsteady dynamics and large-scale structures. Mike was funded by the National Science Foundation Graduate Research Fellowship under Grant No. DGE 1650115.
+Mike graduated from the University of Colorado Boulder in May 2022 with a PhD in Mechanical Engineering. As a member of TESLa, Mike focused on two main area: highly buoyancy driven flows with applications to industrial burners and large scale fires, and turbulent flame configurations with applications to Air Force relevant problems. 
