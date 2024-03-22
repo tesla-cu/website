@@ -45,6 +45,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
+# - Researchers
+- Alumni
 ---
 Julian Quick is a PhD candidate developing outer loop applications of computational fluid dynamics for wind energy systems. Modeling wind energy systems is challenging, in part, due to the high dimensionality, large inherent uncertainties, and the need for efficient optimization schemes for planning and control. Juilan's work demonstrates efficient optimization and uncertainty quantification of physical models of wind energy systems. As the wind energy sector matures, Julian anticipate that these (multifidelity) optimization and uncertainty quantification techniques will become more prevalent within the wind energy sector.
