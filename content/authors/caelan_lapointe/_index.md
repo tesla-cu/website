@@ -63,5 +63,5 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: /files/authors_cv/caelan_lapointe_cv.pdf
+  link: /author/caelan-lapointe/cv.pdf
 ---

@@ -24,21 +24,10 @@ where you should replace `[username]` with your username. Open [http://localhost
 
 If you would like to add a new content additional enrichment or help to improve the website design, check out our [Adding new content](https://github.com/tesla-cu/website/wiki/Adding-new-content) and [Modifying the website format](https://github.com/tesla-cu/website/wiki/odifying-the-website-format) pages on the wiki! See [Hugo Academic docs](https://sourcethemes.com/academic/docs/) for a thorough description of all functionality.
 
-## Quick File Location Reference
-Personal information and profile pictures are located under
-```
-content/authors/firstname_lastname
-```
-You can upload your CV to
-```
-static/files/authors_cv/firstname_lastname_cv.pdf
-```
-and can add it to `_index.md` under your personal information as
-```
-- icon: cv
-  icon_pack: ai
-  link: files/authors_cv/firstname_lastname_cv.pdf
-```
+## Adding Yourself
+All of the user-related data is located under `content/authors/firstname_lastname`. To add yourself, make a copy of the existing example user folder (`content/authors/example_user`) and rename it to yourself, following the `firstname_lastname` naming convention.
+
+In the folder, you will find a profile photo (`avatar.jpg`), optional cv document (`cv.pdf`), and a file called `_index.md`, which contains all of your user information. You can edit each of these files (but keep the file name the same) to upload your own information, and then the site should automatically update with your information.
 
 ## Formatting/Content Tips
 There have been cases where people have used webscraping bots to pull phone numbers from our CVs posted on this website - it's recommended to omit that information from the PDF that you upload here.

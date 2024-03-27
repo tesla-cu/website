@@ -39,7 +39,7 @@ social:
   link: https://scholar.google.com/citations?hl=en&user=dLbhAXQAAAAJ
 - icon: cv
   icon_pack: ai
-  link: /files/authors_cv/JQCV.pdf
+  link: author/julian-quick/cv.pdf
 
 
 # Organizational groups that you belong to (for People widget)
