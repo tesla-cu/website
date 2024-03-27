@@ -1,1 +1,18 @@
-// Override this file to add your own SCSS styling.
+// .dark .card .section-subheading a {
+//     color: #666;
+//     border-bottom: solid 1px transparent;
+//   }
+
+.dark a,
+.dark h3.article-title a:hover {
+  color: #fc8c36; }
+
+.dark a:not(.btn):hover,
+.dark a:not(.btn):focus {
+  color: #fc8c36; }
+
+  a,
+  h3.article-title a:hover {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.6s ease; }

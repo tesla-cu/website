@@ -57,12 +57,13 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/authors_cv/skyler_kern_cv.pdf
+  link: author/skyler-kern/cv.pdf
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
+# - Researchers
+- Alumni
 ---
 Climate change is studied using Earth System Models (ESMs), which try to simulate the physical, chemical, biological, and anthropogenic influences on the climate. While these large models are useful in understanding trends, they face a problem. Our current computational capabilities limit the range of spatial and temporal scales that can be resolved. ESMs therefore rely on modeling the small scales using Subgrid Scale Models. Skyler's research focuses on improving our understanding of the biophysical processes that happen at these small scales. A better understanding of what is happening at the SGS level will inform those seeking to improve ESMs.
 

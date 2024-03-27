@@ -23,3 +23,11 @@ $ hugo server
 where you should replace `[username]` with your username. Open [http://localhost:1313/](http://localhost:1313/) and your personal build of the website should appear. Once you are satisfied with your updates, submit a pull request where other members of the lab can inspect and merge your new content. Check [Configuring your Github account](https://github.com/tesla-cu/website/wiki/Configuring-your-Github-account) wiki page to help you with this procedure.
 
 If you would like to add a new content additional enrichment or help to improve the website design, check out our [Adding new content](https://github.com/tesla-cu/website/wiki/Adding-new-content) and [Modifying the website format](https://github.com/tesla-cu/website/wiki/odifying-the-website-format) pages on the wiki! See [Hugo Academic docs](https://sourcethemes.com/academic/docs/) for a thorough description of all functionality.
+
+## Adding Yourself
+All of the user-related data is located under `content/authors/firstname_lastname`. To add yourself, make a copy of the existing example user folder (`content/authors/example_user`) and rename it to yourself, following the `firstname_lastname` naming convention.
+
+In the folder, you will find a profile photo (`avatar.jpg`), optional cv document (`cv.pdf`), and a file called `_index.md`, which contains all of your user information. You can edit each of these files (but keep the file name the same) to upload your own information, and then the site should automatically update with your information.
+
+## Formatting/Content Tips
+There have been cases where people have used webscraping bots to pull phone numbers from our CVs posted on this website - it's recommended to omit that information from the PDF that you upload here.
