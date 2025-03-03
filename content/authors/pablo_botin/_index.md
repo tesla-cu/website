@@ -62,7 +62,8 @@ email: "pabo1849@colorado.edu"
 # Organizational groups that you belong to (for People widget)
 # Options: Researchers, Alumni, Collaborators
 user_groups:
-- Researchers
+# - Researchers
+- Alumni
 ---
    Pablo is an energy engineer specializing in computational fluid dynamics (CFD) within the wind energy sector. He began his PhD research by applying machine learning methods, particularly Approximate Bayesian Computation (ABC) with Monte Carlo Markov Chains (MCMC), to calibrate large eddy simulations (LES). His work later expanded into atmospheric modeling, where he studied the interactions between global wind patterns, continental land masses, and the Coriolis effect for educational and visualization purposes.
 
