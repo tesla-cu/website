@@ -5,8 +5,10 @@ env:
 
 on:
   # Trigger the workflow every time you push to the `main` branch
-  pull_request:
+  push:
     branches: ["master"]
+  # pull_request:
+  #   branches: ["master"]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
