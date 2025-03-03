@@ -1,4 +1,4 @@
-name: Deploy website to GitHub Pages
+name: Build Website
 
 env:
   WC_HUGO_VERSION: '0.123.3'
